@@ -136,6 +136,7 @@ function recipeCard(r) {
   const act = activeMinutes(r); const tot = totalMinutes(r);
   const timeText = act != null && tot != null && act !== tot ? `${act} min active, ${tot} min total` : tot != null ? `${tot} min` : '';
   const allergens = Array.isArray(r.allergens) ? r.allergens : null;
+  const hazards = (S.data?.staples || []).filter((s) => s.prep_hazard && asList(r.staples).includes(s.id));
   return h('details', { class: 'recipe' },
     h('summary', null,
       h('span', { class: 'r-name' }, t(r.name)),
@@ -147,6 +148,7 @@ function recipeCard(r) {
       h('p', { class: 'muted' }, `Serves ${r.serves ?? 2}`, r.serves && r.serves !== 2 ? ' (scale to 2)' : '', '. Needs: ',
         asList(r.needs).map((n) => NEED_LABEL[n] || n).join(', ') || 'one burner', '.'),
       r.soak_hours ? h('p', { class: 'note' }, `Soak ${r.soak_hours} hours first.`) : null,
+      hazards.map((s) => h('p', { class: 'note' }, t(s.prep_hazard), ' ', sourceLink(s.hazard_source_url, 'Safety source'))),
       h('h4', null, 'Ingredients'), h('ul', null, asList(r.ingredients).map((i) => h('li', null, t(i)))),
       h('h4', null, 'Steps'), h('ol', null, asList(r.steps).map((s) => h('li', null, t(s)))),
       allergens && allergens.length ? h('p', { class: 'note' }, 'Contains: ', allergens.join(', ').replace(/_/g, ' '), '.') : null,

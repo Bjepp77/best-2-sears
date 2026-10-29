@@ -1,4 +1,4 @@
-const SHELL_HASH = 'd72e31ad055c';
+const SHELL_HASH = '37a620202418';
 const SHELL_CACHE = `mk-shell-${SHELL_HASH}`;
 const SHELL = ['./', 'index.html', 'app.js', 'logic.js', 'styles.css', 'config.json', 'manifest.webmanifest', 'data/index.json'];
 
