@@ -187,6 +187,7 @@ function viewPicker(code) {
     return nodes;
   }
   nodes.push(...heading('Where are you serving?', S.cfg.hero));
+  nodes.push(flagTicker());
   for (const c of S.index.clusters) {
     nodes.push(h('h2', null, t(c.name)));
     nodes.push(h('ul', { class: 'choices' }, c.countries.map((x) =>
@@ -195,6 +196,60 @@ function viewPicker(code) {
   nodes.push(h('h2', null, 'Somewhere else'));
   nodes.push(h('p', null, h('a', { class: 'btn', href: '#/basics' }, 'My country is not listed')));
   return nodes;
+}
+
+/** Flag ticker (design-system.md section 4). The copy exists only for the seamless loop: aria-hidden and out of
+ *  tab order, but its flags still pick on tap or click, since they fill part of every cycle on screen. */
+function flagTicker() {
+  const countries = S.index.clusters.flatMap((c) => c.countries.map((x) => ({ c, x })));
+  const list = (copy) => h('ul', { class: 'ticker-list', 'aria-label': copy ? null : 'Countries', 'aria-hidden': copy ? 'true' : null },
+    countries.map(({ c, x }, i) => h('li', null, h('button', {
+      class: 'flag-btn', type: 'button', tabindex: !copy && i === 0 ? '0' : '-1',
+      onclick: () => pickCountry(c.id, x.code),
+    }, h('img', { src: `flags/${x.code.toLowerCase()}.svg`, alt: '', width: '64', height: '48' }), h('span', null, t(x.name))))));
+  const ticker = h('div', { class: 'ticker' }, h('div', { class: 'ticker-track' }, list(false), list(true)));
+  const toggle = h('button', { class: 'btn', type: 'button', id: 'ticker-toggle' }, 'Pause flags');
+  const setPaused = (on) => {
+    if (on) ticker.setAttribute('data-paused', ''); else ticker.removeAttribute('data-paused');
+    toggle.textContent = on ? 'Play flags' : 'Pause flags';
+  };
+  toggle.addEventListener('click', () => setPaused(!ticker.hasAttribute('data-paused')));
+  ticker.addEventListener('pointerdown', (e) => { if (e.pointerType === 'touch') setPaused(true); });
+  // The track moves by transform, which scrolling cannot undo. While focus is inside, freeze it as a scroll
+  // offset instead (data-manual drops the animation) so scrollIntoView can reach any flag; resume from there on leave.
+  const track = ticker.firstChild;
+  ticker.addEventListener('focusin', (e) => {
+    if (!ticker.hasAttribute('data-manual')) {
+      const tx = new DOMMatrixReadOnly(getComputedStyle(track).transform.replace('none', 'matrix(1,0,0,1,0,0)')).m41;
+      ticker.setAttribute('data-manual', '');
+      ticker.scrollLeft = -tx;
+    }
+    e.target.scrollIntoView({ block: 'nearest', inline: 'nearest' });
+  });
+  ticker.addEventListener('focusout', (e) => {
+    if (ticker.contains(e.relatedTarget)) return;
+    const half = track.offsetWidth / 2;
+    const dur = parseFloat(getComputedStyle(track).animationDuration) || 60;
+    track.style.animationDelay = `${-((ticker.scrollLeft % half) / half) * dur}s`;
+    ticker.scrollLeft = 0;
+    ticker.removeAttribute('data-manual');
+  });
+  ticker.addEventListener('keydown', (e) => {
+    const btns = [...ticker.querySelectorAll('.ticker-list:not([aria-hidden]) .flag-btn')];
+    const i = btns.indexOf(document.activeElement);
+    if (i < 0) return;
+    let j = null;
+    if (e.key === 'ArrowRight') j = (i + 1) % btns.length;
+    else if (e.key === 'ArrowLeft') j = (i - 1 + btns.length) % btns.length;
+    else if (e.key === 'Home') j = 0;
+    else if (e.key === 'End') j = btns.length - 1;
+    if (j == null) return;
+    e.preventDefault();
+    btns[i].tabIndex = -1; btns[j].tabIndex = 0; btns[j].focus();
+  });
+  return h('section', { class: 'ticker-wrap', 'aria-labelledby': 'ticker-h' },
+    h('h2', { class: 'sr-only', id: 'ticker-h' }, 'Pick by flag'),
+    h('div', { class: 'ticker-bar' }, toggle), ticker);
 }
 
 function viewBasics() {
@@ -458,10 +513,23 @@ function toast(msg, action) {
   if (!action) toastTimer = setTimeout(() => { el.hidden = true; }, 4000);
 }
 
+// ---------- flag palette: data-cc picks a block in palettes.css; no country restores the default ----------
+function applyFlag() {
+  const root = document.documentElement;
+  if (S.place?.country) root.dataset.cc = S.place.country; else delete root.dataset.cc;
+  const css = getComputedStyle(root);
+  for (const mode of ['light', 'dark']) {
+    const v = css.getPropertyValue(`--theme-${mode}`).trim();
+    const meta = document.querySelector(`meta[name="theme-color"][media*="${mode}"]`);
+    if (v && meta) meta.content = v;
+  }
+}
+
 // ---------- router ----------
 let current = [];
 function render(nodes) {
   if (nodes) current = nodes; else { route(); return; }
+  applyFlag();
   const view = $('#view');
   view.replaceChildren(...current.flat(Infinity).filter(Boolean));
   $('#place-link').hidden = !S.place;

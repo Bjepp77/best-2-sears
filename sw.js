@@ -1,6 +1,7 @@
-const SHELL_HASH = '7e87dc3a3d26';
+const SHELL_HASH = '0681afc62cd2';
 const SHELL_CACHE = `mk-shell-${SHELL_HASH}`;
-const SHELL = ['./', 'index.html', 'app.js', 'logic.js', 'styles.css', 'config.json', 'manifest.webmanifest', 'favicon.svg', 'data/index.json'];
+const SHELL = ['./', 'index.html', 'app.js', 'logic.js', 'styles.css', 'palettes.css', 'config.json', 'manifest.webmanifest', 'favicon.svg', 'data/index.json',
+  ...['pe', 'bo', 'ec', 'ph', 'ng', 'gh', 'sl', 'lr', 'mx', 'gt', 'hn', 'sv'].map((c) => `flags/${c}.svg`)];
 
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(SHELL_CACHE).then((c) => c.addAll(SHELL)));

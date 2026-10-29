@@ -8,4 +8,6 @@ An independent project, not affiliated with or endorsed by The Church of Jesus C
 
 Not medical advice. For food allergies, diabetes, special diets or illness, talk to your mission nurse or mission leaders. Prices are rough estimates with the date they were checked, never exact. Every fact links to the source it came from.
 
+Flags in `flags/` are from [flag-icons](https://github.com/lipis/flag-icons) 7.2.3 by Panayiotis Lipiridis, MIT licence (`flags/LICENSE.txt`).
+
 This repository holds the built static site only.

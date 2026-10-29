@@ -11,6 +11,7 @@
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="palettes.css">
 <script type="module" src="app.js"></script>
 </head>
 <body>
@@ -18,10 +19,11 @@
 <header class="top">
   <a class="brand" href="#/home" id="brand">The Best Two Sears</a>
   <nav class="top-nav" aria-label="App">
-    <a href="#/pick" id="place-link" class="chip" hidden>Change area</a>
+    <a href="#/pick" id="place-link" class="chip" hidden><span class="chip-flag" aria-hidden="true"></span>Change area</a>
     <a href="#/about" class="chip">About</a>
   </nav>
 </header>
+<div class="ribbon" aria-hidden="true"></div>
 <main id="view" tabindex="-1">
   <noscript><p class="card">This app needs JavaScript turned on.</p></noscript>
   <p class="loading">Loading...</p>
