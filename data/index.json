@@ -94,9 +94,15 @@
      },
      "regions": [
       {
+       "id": "ph-ncr",
+       "name": {
+        "en": "Metro Manila (NCR)"
+       }
+      },
+      {
        "id": "ph-luzon",
        "name": {
-        "en": "Luzon (including Metro Manila)"
+        "en": "Luzon (outside Metro Manila)"
        }
       },
       {
