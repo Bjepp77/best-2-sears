@@ -8,4 +8,4 @@ An independent project, not affiliated with or endorsed by The Church of Jesus C
 
 Not medical advice. For food allergies, diabetes, special diets or illness, talk to your mission nurse or mission leaders. Prices are rough estimates with the date they were checked, never exact. Every fact links to the source it came from.
 
-This repository holds the built static site only. Source, tests and tools live in a private repository; publish by copying `apps/mission-kitchen/web/` from a tested commit.
+This repository holds the built static site only.

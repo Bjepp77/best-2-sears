@@ -208,6 +208,7 @@
    "source_url": "https://en.wikipedia.org/wiki/Liberian_cuisine",
    "accessed": "2026-10-29",
    "prep_hazard": "Raw or under-processed cassava can release cyanide. Peel, soak long, squeeze and cook fully.",
+   "hazard_source_url": "https://www.fao.org/4/t0207e/T0207E08.htm",
    "prep_hazard_technique": "cassava-safe"
   },
   {
@@ -262,7 +263,8 @@
    ],
    "source_url": "https://en.wikipedia.org/wiki/Sierra_Leonean_cuisine",
    "accessed": "2026-10-29",
-   "prep_hazard": "Raw cassava leaves can release cyanide. Boil at least 30 minutes before eating.",
+   "prep_hazard": "Raw cassava leaves can release cyanide. Boil them well before eating; longer boiling leaves less.",
+   "hazard_source_url": "https://www.fao.org/4/t0207e/T0207E08.htm",
    "prep_hazard_technique": "cassava-safe"
   },
   {
@@ -1801,7 +1803,7 @@
    "body": {
     "en": "Cook and wash food with water that is safe to drink. Follow your mission's water guidance first."
    },
-   "source_url": "https://www.cdc.gov/healthywater/emergency/making-water-safe.html",
+   "source_url": "https://www.cdc.gov/water-emergency/about/",
    "accessed": "2026-10-29"
   },
   {
@@ -1810,9 +1812,9 @@
     "en": "Make cassava safe to eat"
    },
    "body": {
-    "en": "All parts of the cassava plant can release cyanide, and the peel holds the most. Taste does not tell you how much a root holds. Peel roots, then soak them a long time (a short soak of about 4 hours does not work), squeeze out the water and cook fully. Start root pieces in cold water, not boiling water. Boil cassava leaves at least 30 minutes. Gari is made safe by fermenting, pressing and roasting the mash, so buy it fully roasted and dry."
+    "en": "All parts of the cassava plant can release cyanide, and the peel holds the most. Taste does not tell you how much a root holds. Peel roots, then soak them a long time (a short soak of about 4 hours does not work), squeeze out the water and cook fully. Start root pieces in cold water, not boiling water. Boil cassava leaves well; in FAO tests, leaves boiled 30 minutes kept less cyanide than leaves boiled 15 minutes. Gari is made safe by fermenting, pressing and roasting the mash, so buy it fully roasted and dry."
    },
-   "source_url": "https://www.fao.org/4/t0207e/t0207e08.htm",
+   "source_url": "https://www.fao.org/4/t0207e/T0207E08.htm",
    "accessed": "2026-10-29"
   }
  ],
@@ -1837,7 +1839,7 @@
    "body": {
     "en": "Follow your mission's water guidance first. If you must boil: let cloudy water settle or filter it, bring to a full rolling boil for 1 minute (3 minutes above 6,500 ft / about 2,000 m), cool, store in a clean covered container."
    },
-   "source_url": "https://www.cdc.gov/healthywater/emergency/making-water-safe.html",
+   "source_url": "https://www.cdc.gov/water-emergency/about/",
    "accessed": "2026-10-29"
   },
   {
@@ -1879,7 +1881,7 @@
     "en": "Diarrhoea: ORS and red flags"
    },
    "body": {
-    "en": "Use oral rehydration salts (ORS) packets from a pharmacy or your mission nurse. Tell your mission nurse if you see blood in stool, signs of dehydration (sunken eyes, drinking poorly, very tired), or diarrhoea lasting 14 days or more."
+    "en": "Use oral rehydration salts (ORS) packets from a pharmacy or your mission nurse. Tell your mission nurse if you see blood in stool or signs of dehydration (sunken eyes, drinking poorly, very tired). For how many days is too long, see the red flags card."
    },
    "source_url": "https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease",
    "accessed": "2026-10-29"

@@ -1,4 +1,3 @@
-// Mission Kitchen UI. Plain DOM, no innerHTML with data, no external requests.
 import {
   t, asList, activeMinutes, totalMinutes, isQuick, regionsFor, findRegion, isHighAltitude,
   planWeek, recipeFits, storesFor, marketTip, safetyTip, safetyFor, firstWeekMeals, visiblePrice,
@@ -8,7 +7,7 @@ import {
 const KEY_PLACE = 'mk.place';
 const KEY_KITCHEN = 'mk.kitchen';
 const NO_MATCH = 'No match for your kitchen; see Cook tips';
-const CDC_WATER = 'https://www.cdc.gov/healthywater/emergency/making-water-safe.html';
+const CDC_WATER = 'https://www.cdc.gov/water-emergency/about/';
 const TABS = [
   { id: 'cook', label: 'Cook' },
   { id: 'shop', label: 'Shop' },
@@ -347,10 +346,10 @@ function panelShop() {
           s.cost_rank ? h('span', { class: `badge rank-${s.cost_rank}` }, RANK_LABEL[s.cost_rank] || s.cost_rank) : null,
           p ? h('span', { class: 'price' },
             `${p.currency} ${p.low === p.high || p.high == null ? p.low : `${p.low}-${p.high}`} per ${p.unit}`,
-            p.market ? `, ${p.market}` : '', `, ${fmtMonth(p.observed)}. `, sourceLink(p.source_url, 'Price source')) : null,
-          s.prep_hazard ? h('span', { class: 'note' }, t(s.prep_hazard)) : null,
+            p.market ? `, ${p.market}` : '', `, ${fmtMonth(p.observed)}, rough estimate. `, sourceLink(p.source_url, 'Price source')) : null,
+          s.prep_hazard ? h('span', { class: 'note' }, t(s.prep_hazard), ' ', sourceLink(s.hazard_source_url, 'Safety source')) : null,
           ' ', sourceLink(s.source_url))))]),
-      h('p', { class: 'muted' }, 'Cost labels compare foods within this area only.')),
+      h('p', { class: 'muted' }, 'Prices are rough estimates, never exact. Cost labels compare foods within this area only.')),
   ];
 }
 

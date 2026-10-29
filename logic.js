@@ -1,7 +1,3 @@
-// Pure logic for Mission Kitchen. No DOM, no network, no clock reads: callers pass time in.
-// Tolerates both data shapes in flight: menu slots as string or array, minutes or total_minutes,
-// first_week.market_tip as store index (number or numeric string), store id, or plain text.
-
 export const ALTITUDE_THRESHOLD_M = 1981; // CDC: above 6,500 ft boil 3 minutes
 export const SHORT_PRICE_AGE = { AR: 3, BO: 3, NG: 3, GH: 3, SL: 3, ZW: 3, ET: 3 };
 export const DEFAULT_PRICE_AGE = 12;

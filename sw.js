@@ -1,6 +1,4 @@
-// Mission Kitchen service worker. Shell cache name comes from a content hash stamped by tools/stamp.py.
-// Cluster data is cached by the page under mk-data-<cluster>-<hash> and is never deleted here.
-const SHELL_HASH = 'a2ddede6a107';
+const SHELL_HASH = '05d45c7a082e';
 const SHELL_CACHE = `mk-shell-${SHELL_HASH}`;
 const SHELL = ['./', 'index.html', 'app.js', 'logic.js', 'styles.css', 'config.json', 'manifest.webmanifest', 'data/index.json'];
 

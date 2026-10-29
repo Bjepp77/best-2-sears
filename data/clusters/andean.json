@@ -303,6 +303,7 @@
    "source_url": "https://www.laylita.com/recipes/encebollado-de-pescado-or-tuna-soup/",
    "accessed": "2026-10-29",
    "prep_hazard": "Never eat raw or not fully processed. Peel fully; bitter taste is not a reliable guide to cyanide.",
+   "hazard_source_url": "https://www.fao.org/4/t0207e/T0207E08.htm",
    "prep_hazard_technique": "yuca_safe_prep"
   },
   {
@@ -1903,7 +1904,7 @@
    "body": {
     "en": "Follow your mission's water guidance first. If you must boil: bring clear water to a rolling boil for 1 minute."
    },
-   "source_url": "https://www.cdc.gov/healthywater/emergency/making-water-safe.html",
+   "source_url": "https://www.cdc.gov/water-emergency/about/",
    "accessed": "2026-10-29"
   },
   {
@@ -1914,7 +1915,7 @@
    "body": {
     "en": "Above 6,500 feet (about 2,000 m), boil for 3 minutes. This covers most of the Sierra, the Altiplano and the high valleys."
    },
-   "source_url": "https://www.cdc.gov/healthywater/emergency/making-water-safe.html",
+   "source_url": "https://www.cdc.gov/water-emergency/about/",
    "accessed": "2026-10-29",
    "regions": [
     "pe-highland",
@@ -1930,7 +1931,7 @@
    "body": {
     "en": "Portable filters do not remove all germs, and chemical disinfectants may not kill parasites. When in doubt, use your mission's guidance."
    },
-   "source_url": "https://www.cdc.gov/healthywater/emergency/making-water-safe.html",
+   "source_url": "https://www.cdc.gov/water-emergency/about/",
    "accessed": "2026-10-29"
   },
   {
@@ -1972,7 +1973,7 @@
     "en": "Diarrhea: ORS packets and red flags"
    },
    "body": {
-    "en": "Use oral rehydration salts from a pharmacy packet, mixed as the packet says. Tell your mission nurse if diarrhea lasts 14 days or more, there is blood in the stool, or there are signs of dehydration: very sleepy, sunken eyes, cannot drink, skin that goes back slowly when pinched."
+    "en": "Use oral rehydration salts from a pharmacy packet, mixed as the packet says. Tell your mission nurse if there is blood in the stool or there are signs of dehydration: very sleepy, sunken eyes, cannot drink, skin that goes back slowly when pinched. For how many days is too long, see the red flags card."
    },
    "source_url": "https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease",
    "accessed": "2026-10-29"
