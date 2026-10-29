@@ -1,0 +1,2061 @@
+{
+ "id": "andean",
+ "name": {
+  "en": "Andean South America"
+ },
+ "lang": [
+  "es",
+  "qu",
+  "ay"
+ ],
+ "countries": [
+  {
+   "code": "PE",
+   "name": {
+    "en": "Peru"
+   },
+   "regions": [
+    {
+     "id": "pe-coast",
+     "name": {
+      "en": "Coast (Costa)"
+     },
+     "altitude_high": false
+    },
+    {
+     "id": "pe-highland",
+     "name": {
+      "en": "Highlands (Sierra)"
+     },
+     "altitude_high": true,
+     "elevation_m": 3399,
+     "elevation_source_url": "https://en.wikipedia.org/wiki/Cusco"
+    },
+    {
+     "id": "pe-amazon",
+     "name": {
+      "en": "Amazon (Selva)"
+     },
+     "altitude_high": false
+    }
+   ],
+   "currency": "PEN"
+  },
+  {
+   "code": "BO",
+   "name": {
+    "en": "Bolivia"
+   },
+   "regions": [
+    {
+     "id": "bo-altiplano",
+     "name": {
+      "en": "Altiplano and high valleys"
+     },
+     "altitude_high": true,
+     "elevation_m": 3650,
+     "elevation_source_url": "https://en.wikipedia.org/wiki/La_Paz"
+    },
+    {
+     "id": "bo-lowlands",
+     "name": {
+      "en": "Lowlands and Amazon"
+     },
+     "altitude_high": false
+    }
+   ],
+   "currency": "BOB"
+  },
+  {
+   "code": "EC",
+   "name": {
+    "en": "Ecuador"
+   },
+   "regions": [
+    {
+     "id": "ec-coast",
+     "name": {
+      "en": "Coast (Costa)"
+     },
+     "altitude_high": false
+    },
+    {
+     "id": "ec-sierra",
+     "name": {
+      "en": "Highlands (Sierra)"
+     },
+     "altitude_high": true,
+     "elevation_m": 2850,
+     "elevation_source_url": "https://en.wikipedia.org/wiki/Quito"
+    },
+    {
+     "id": "ec-amazon",
+     "name": {
+      "en": "Amazon (Oriente)"
+     },
+     "altitude_high": false
+    }
+   ],
+   "currency": "USD"
+  }
+ ],
+ "stores": [
+  {
+   "id": "wet_market-pe",
+   "type": "wet_market",
+   "local_names": [
+    "mercado de abastos",
+    "mercado"
+   ],
+   "tip": {
+    "en": "Peru's main source of fresh food. Stalls sell groceries, vegetables, meat and poultry, prepared food, fruit and fish in one building. Most are retail; a few are wholesale."
+   },
+   "regions": [
+    "pe-coast",
+    "pe-highland",
+    "pe-amazon"
+   ],
+   "source_url": "https://andina.pe/agencia/noticia-existen-2612-mercados-abastos-peru-generan-mas-9000-empleos-670746.aspx",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "wet_market-ec",
+   "type": "wet_market",
+   "local_names": [
+    "mercado municipal"
+   ],
+   "tip": {
+    "en": "City markets sell fruit, fish, meat, legumes and dairy, often by the unit, not only by weight. Vendors restock daily, so go in the morning. Example: Los Vergeles in Guayaquil is open 06:00 to 15:30."
+   },
+   "regions": [
+    "ec-coast",
+    "ec-sierra",
+    "ec-amazon"
+   ],
+   "source_url": "https://guayaquil.gob.ec/mercados-municipales-preservan-cercania-comercio-tradicional-barrios/",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "wholesale-ec",
+   "type": "wholesale",
+   "local_names": [
+    "mercado mayorista"
+   ],
+   "tip": {
+    "en": "Wholesale hubs like Mayorista and San Roque in Quito get food trucks daily and serve businesses; San Roque also serves the public. For a pair of missionaries, a nearby mercado is simpler."
+   },
+   "regions": [
+    "ec-sierra"
+   ],
+   "source_url": "https://www.quitoinforma.gob.ec/2026/05/07/mercados-san-roque-y-mayorista-continuan-abasteciendo-de-alimentos-a-quito/",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "neighborhood_shop-ec",
+   "type": "neighborhood_shop",
+   "local_names": [
+    "tienda de barrio",
+    "despensa"
+   ],
+   "tip": {
+    "en": "Corner shops close to home sell food, drinks and household basics. Good for rice, eggs, oil and top-ups between market trips."
+   },
+   "regions": [
+    "ec-coast",
+    "ec-sierra",
+    "ec-amazon"
+   ],
+   "source_url": "https://www.produccion.gob.ec/tiendas-de-barrio-son-aliados-importantes-en-medio-de-emergencia-sanitaria/",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "wet_market-bo",
+   "type": "wet_market",
+   "local_names": [
+    "mercado de abasto",
+    "feria"
+   ],
+   "tip": {
+    "en": "Permanent mercados open about 6-7 am and close by evening. Weekend ferias run about 8 am to 3 pm. Prices for food are usually not bargained. Carry small bills (Bs 10, 20, 50): vendors rarely have change and rural ferias do not take cards."
+   },
+   "regions": [
+    "bo-altiplano",
+    "bo-lowlands"
+   ],
+   "source_url": "https://promobolivia.com/mercados-de-bolivia-guia-comer-comprar-cultura-local/",
+   "accessed": "2026-10-29"
+  }
+ ],
+ "staples": [
+  {
+   "id": "rice",
+   "name": {
+    "en": "Rice"
+   },
+   "local_name": "arroz",
+   "group": "grain",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://larepublica.pe/recetas/149767-como-preparar-lentejas-peruanas-y-arroz-facil-y-practico-paso-a-paso-receta-peruana-gastronomia-peruana-secreto-casero-evat",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "lentils",
+   "name": {
+    "en": "Lentils"
+   },
+   "local_name": "lentejas",
+   "group": "legume",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.laylita.com/recipes/ecuadorian-lentil-stew-menestra/",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "potato",
+   "name": {
+    "en": "Potato"
+   },
+   "local_name": "papa",
+   "group": "vegetable",
+   "regions": [
+    "pe-highland",
+    "bo-altiplano",
+    "ec-sierra"
+   ],
+   "source_url": "https://www.laylita.com/recipes/locro-de-papa-creamy-potato-soup-with-cheese/",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "quinoa",
+   "name": {
+    "en": "Quinoa"
+   },
+   "local_name": "quinua",
+   "group": "grain",
+   "regions": [
+    "pe-highland",
+    "bo-altiplano",
+    "ec-sierra"
+   ],
+   "source_url": "https://www.laylita.com/recipes/quinoa-and-cheese-soup/",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "fava",
+   "name": {
+    "en": "Fava beans"
+   },
+   "local_name": "habas",
+   "group": "legume",
+   "regions": [
+    "pe-highland",
+    "bo-altiplano",
+    "ec-sierra"
+   ],
+   "source_url": "https://www.laylita.com/recipes/fava-bean-soup/",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "peanut",
+   "name": {
+    "en": "Peanuts"
+   },
+   "local_name": "mani",
+   "group": "legume",
+   "regions": [
+    "bo-altiplano",
+    "bo-lowlands"
+   ],
+   "source_url": "https://travelfoodatlas.com/bolivian-sopa-de-mani-recipe",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "green_plantain",
+   "name": {
+    "en": "Green plantain"
+   },
+   "local_name": "platano verde",
+   "group": "fruit",
+   "regions": [
+    "ec-coast",
+    "ec-amazon",
+    "pe-amazon",
+    "pe-coast"
+   ],
+   "source_url": "https://www.laylita.com/recetas/bolon-de-verde/",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "yuca",
+   "name": {
+    "en": "Yuca (cassava)"
+   },
+   "local_name": "yuca",
+   "group": "vegetable",
+   "regions": [
+    "ec-coast",
+    "ec-amazon",
+    "pe-amazon"
+   ],
+   "source_url": "https://www.laylita.com/recipes/encebollado-de-pescado-or-tuna-soup/",
+   "accessed": "2026-10-29",
+   "prep_hazard": "Never eat raw or not fully processed. Peel fully; bitter taste is not a reliable guide to cyanide.",
+   "prep_hazard_technique": "yuca_safe_prep"
+  },
+  {
+   "id": "fish",
+   "name": {
+    "en": "Fresh fish (tuna)"
+   },
+   "local_name": "pescado",
+   "group": "protein",
+   "regions": [
+    "ec-coast",
+    "pe-coast"
+   ],
+   "source_url": "https://www.laylita.com/recipes/encebollado-de-pescado-or-tuna-soup/",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "egg",
+   "name": {
+    "en": "Eggs"
+   },
+   "local_name": "huevos",
+   "group": "protein",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.laylita.com/recipes/ecuadorian-lentil-stew-menestra/",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "cheese",
+   "name": {
+    "en": "Fresh cheese"
+   },
+   "local_name": "queso fresco",
+   "group": "protein",
+   "regions": [
+    "pe-highland",
+    "bo-altiplano",
+    "ec-sierra",
+    "pe-coast",
+    "ec-coast"
+   ],
+   "source_url": "https://www.laylita.com/recipes/locro-de-papa-creamy-potato-soup-with-cheese/",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "onion_tomato",
+   "name": {
+    "en": "Onion and tomato"
+   },
+   "local_name": "cebolla, tomate",
+   "group": "vegetable",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.laylita.com/recipes/ecuadorian-lentil-stew-menestra/",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "hominy",
+   "name": {
+    "en": "Hominy (mote)"
+   },
+   "local_name": "mote",
+   "group": "grain",
+   "regions": [
+    "bo-altiplano",
+    "pe-highland",
+    "ec-sierra"
+   ],
+   "source_url": "https://en.cocina-boliviana.com/recetas/soups/chairo",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "pasta",
+   "name": {
+    "en": "Thin pasta"
+   },
+   "local_name": "fideos",
+   "group": "grain",
+   "regions": [
+    "pe-coast",
+    "pe-highland"
+   ],
+   "source_url": "https://perudelights.com/sopa-criolla-beef-and-angel-hair-soup-a-quick-and-tasty-dinner-ix/",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "carrot",
+   "name": {
+    "en": "Carrot"
+   },
+   "local_name": "zanahoria",
+   "group": "vegetable",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://diariocorreo.pe/gastronomia/dia-mundial-de-la-alimentacion-recetas-saludables-y-de-facil-preparacion-a-base-de-arroz-arvejas-y-lentejas-noticia/",
+   "accessed": "2026-10-29"
+  }
+ ],
+ "recipes": [
+  {
+   "id": "menestra_lentejas",
+   "name": {
+    "en": "Lentil stew with rice"
+   },
+   "local_name": "menestra de lentejas",
+   "meal": "main",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "lentils",
+    "onion_tomato",
+    "rice",
+    "egg"
+   ],
+   "ingredients": [
+    {
+     "en": "1 cup lentils, rinsed (source recipe makes 6-8 servings; scale down)"
+    },
+    {
+     "en": "1 onion, 1 tomato, 2-3 garlic cloves"
+    },
+    {
+     "en": "cumin, achiote or paprika, cilantro"
+    },
+    {
+     "en": "oil, salt, water"
+    },
+    {
+     "en": "rice and a fried egg to serve"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Fry chopped onion, tomato, garlic and cumin in oil about 5 minutes."
+    },
+    {
+     "en": "Add water, bring to a boil, add the lentils."
+    },
+    {
+     "en": "Simmer partly covered until tender, about 45 minutes. At altitude it takes longer."
+    },
+    {
+     "en": "Stir in cilantro. Serve with rice and a fried egg."
+    }
+   ],
+   "regions": [
+    "ec-coast",
+    "ec-sierra",
+    "ec-amazon"
+   ],
+   "source_url": "https://www.laylita.com/recipes/ecuadorian-lentil-stew-menestra/",
+   "accessed": "2026-10-29",
+   "total_minutes": 55,
+   "active_minutes": 55,
+   "allergens": [
+    "egg"
+   ]
+  },
+  {
+   "id": "arroz_moro",
+   "name": {
+    "en": "Rice and lentils"
+   },
+   "local_name": "arroz moro",
+   "meal": "main",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "rice",
+    "lentils",
+    "onion_tomato"
+   ],
+   "ingredients": [
+    {
+     "en": "1 cup rice, 1/2 cup lentils"
+    },
+    {
+     "en": "1 onion, garlic, a little bell pepper"
+    },
+    {
+     "en": "cumin, oregano, oil, salt"
+    },
+    {
+     "en": "2 cups water or broth"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Cook the lentils until tender but firm. Keep some cooking water."
+    },
+    {
+     "en": "Fry onion, garlic and pepper with cumin and oregano about 5 minutes."
+    },
+    {
+     "en": "Stir in rinsed rice 2 minutes, add water and the lentils, bring to a boil."
+    },
+    {
+     "en": "Cover, cook on low 15 to 18 minutes until dry. Rest 5 minutes."
+    }
+   ],
+   "regions": [
+    "ec-coast",
+    "ec-sierra",
+    "ec-amazon"
+   ],
+   "source_url": "https://www.elcomercio.com/sabores/prepara-delicioso-arroz-moro-ecuatoriano-receta-facil/",
+   "accessed": "2026-10-29",
+   "total_minutes": 45,
+   "active_minutes": 45,
+   "allergens": []
+  },
+  {
+   "id": "sopa_mani",
+   "name": {
+    "en": "Peanut soup with potato"
+   },
+   "local_name": "sopa de mani",
+   "meal": "main",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "peanut",
+    "potato",
+    "fava",
+    "onion_tomato"
+   ],
+   "ingredients": [
+    {
+     "en": "1/2 cup peanuts, ground by hand"
+    },
+    {
+     "en": "2 potatoes, 1 onion, 1 tomato"
+    },
+    {
+     "en": "1/4 cup peas, 1/4 cup fava beans"
+    },
+    {
+     "en": "meat or bones for broth (optional here), oregano, cumin, garlic, oil, salt"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Grind the peanuts with a mortar or crush them well."
+    },
+    {
+     "en": "Fry onion with oil. Add water, tomato, garlic, cumin, oregano."
+    },
+    {
+     "en": "Stir in the peanuts and simmer until any meat is tender."
+    },
+    {
+     "en": "Add peas, fava beans and potato. Cook until soft. Serve with parsley."
+    }
+   ],
+   "regions": [
+    "bo-altiplano",
+    "bo-lowlands"
+   ],
+   "source_url": "https://travelfoodatlas.com/bolivian-sopa-de-mani-recipe",
+   "accessed": "2026-10-29",
+   "total_minutes": 70,
+   "active_minutes": 70,
+   "allergens": [
+    "peanut"
+   ]
+  },
+  {
+   "id": "lentejas_arroz_pe",
+   "name": {
+    "en": "Peruvian lentils with rice"
+   },
+   "local_name": "lentejas con arroz",
+   "meal": "main",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "lentils",
+    "rice",
+    "potato",
+    "onion_tomato"
+   ],
+   "ingredients": [
+    {
+     "en": "1 cup lentils, 1 potato"
+    },
+    {
+     "en": "1 onion, garlic, dried oregano, oil, salt"
+    },
+    {
+     "en": "1 cup rice for the side"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Cook lentils covered in water 20 to 30 minutes."
+    },
+    {
+     "en": "Add diced potato for a few minutes more."
+    },
+    {
+     "en": "Fry onion, garlic and oregano, stir into the lentils with salt."
+    },
+    {
+     "en": "Fry garlic, toast rinsed rice, add water and salt, cover on lowest heat about 20 minutes, rest 10."
+    }
+   ],
+   "regions": [
+    "pe-coast",
+    "pe-highland",
+    "pe-amazon"
+   ],
+   "source_url": "https://larepublica.pe/recetas/149767-como-preparar-lentejas-peruanas-y-arroz-facil-y-practico-paso-a-paso-receta-peruana-gastronomia-peruana-secreto-casero-evat",
+   "accessed": "2026-10-29",
+   "total_minutes": 50,
+   "active_minutes": 50,
+   "allergens": []
+  },
+  {
+   "id": "guiso_lentejas",
+   "name": {
+    "en": "Simple lentil stew"
+   },
+   "local_name": "guiso de lentejas",
+   "meal": "main",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "lentils",
+    "potato",
+    "carrot",
+    "onion_tomato"
+   ],
+   "ingredients": [
+    {
+     "en": "1 cup lentils, 1 potato, 1 carrot"
+    },
+    {
+     "en": "1 onion, 2 garlic cloves, paprika, oil, salt"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Cover lentils with water, add sliced carrot, garlic and diced potato, bring to a boil."
+    },
+    {
+     "en": "Fry onion with paprika in a pan, add to the pot."
+    },
+    {
+     "en": "Season and simmer on low about 45 minutes."
+    }
+   ],
+   "regions": [
+    "pe-coast",
+    "pe-highland",
+    "pe-amazon"
+   ],
+   "source_url": "https://diariocorreo.pe/gastronomia/dia-mundial-de-la-alimentacion-recetas-saludables-y-de-facil-preparacion-a-base-de-arroz-arvejas-y-lentejas-noticia/",
+   "accessed": "2026-10-29",
+   "total_minutes": 60,
+   "active_minutes": 60,
+   "allergens": []
+  },
+  {
+   "id": "locro_papa",
+   "name": {
+    "en": "Potato and cheese soup"
+   },
+   "local_name": "locro de papa",
+   "meal": "main",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "potato",
+    "cheese",
+    "onion_tomato"
+   ],
+   "ingredients": [
+    {
+     "en": "4 potatoes, peeled"
+    },
+    {
+     "en": "1 onion, 1 garlic clove, cumin"
+    },
+    {
+     "en": "1 cup milk, 1/2 cup fresh cheese, cilantro"
+    },
+    {
+     "en": "oil, salt, water"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Cook onion, garlic and cumin in oil about 5 minutes."
+    },
+    {
+     "en": "Add potatoes and water, boil until very tender."
+    },
+    {
+     "en": "Mash some potatoes in the pot. Stir in milk, simmer 5 minutes."
+    },
+    {
+     "en": "Add cheese and cilantro. Serve with avocado if you have it."
+    }
+   ],
+   "regions": [
+    "ec-sierra",
+    "pe-highland",
+    "bo-altiplano"
+   ],
+   "source_url": "https://www.laylita.com/recipes/locro-de-papa-creamy-potato-soup-with-cheese/",
+   "accessed": "2026-10-29",
+   "total_minutes": 50,
+   "active_minutes": 50,
+   "allergens": [
+    "milk"
+   ]
+  },
+  {
+   "id": "locro_quinua",
+   "name": {
+    "en": "Quinoa and cheese soup"
+   },
+   "local_name": "locro de quinua",
+   "meal": "main",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "quinoa",
+    "potato",
+    "cheese"
+   ],
+   "ingredients": [
+    {
+     "en": "1/2 cup quinoa, rinsed"
+    },
+    {
+     "en": "2-3 potatoes, 1/4 onion, garlic, cumin"
+    },
+    {
+     "en": "1/2 cup milk, 1 cup fresh cheese, herbs"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Soften onion, garlic and cumin in oil."
+    },
+    {
+     "en": "Add potatoes and water, boil, add quinoa."
+    },
+    {
+     "en": "Simmer 25 to 30 minutes until tender, mash a few potatoes."
+    },
+    {
+     "en": "Stir in milk and cheese, cook 5 minutes, add herbs."
+    }
+   ],
+   "regions": [
+    "ec-sierra",
+    "pe-highland",
+    "bo-altiplano"
+   ],
+   "source_url": "https://www.laylita.com/recipes/quinoa-and-cheese-soup/",
+   "accessed": "2026-10-29",
+   "total_minutes": 50,
+   "active_minutes": 50,
+   "allergens": [
+    "milk"
+   ]
+  },
+  {
+   "id": "bolon_verde",
+   "name": {
+    "en": "Green plantain ball"
+   },
+   "local_name": "bolon de verde",
+   "meal": "breakfast",
+   "serves": 2,
+   "needs": [
+    "two_burners"
+   ],
+   "staples": [
+    "green_plantain",
+    "cheese",
+    "egg"
+   ],
+   "ingredients": [
+    {
+     "en": "2 green plantains, peeled, cut in chunks"
+    },
+    {
+     "en": "butter or oil, cumin, salt"
+    },
+    {
+     "en": "cheese for filling, fried eggs to serve"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Cook plantain chunks in a pot or pan on medium-low 30 to 40 minutes, turning, until very soft."
+    },
+    {
+     "en": "Mash with cumin and salt into a thick dough."
+    },
+    {
+     "en": "Shape balls, press a hole, fill with cheese, close."
+    },
+    {
+     "en": "Optional: fry until golden. Serve with a fried egg."
+    }
+   ],
+   "regions": [
+    "ec-coast",
+    "ec-amazon",
+    "pe-amazon"
+   ],
+   "source_url": "https://www.laylita.com/recetas/bolon-de-verde/",
+   "accessed": "2026-10-29",
+   "total_minutes": 45,
+   "active_minutes": 45,
+   "allergens": [
+    "egg",
+    "milk"
+   ]
+  },
+  {
+   "id": "encebollado",
+   "name": {
+    "en": "Fish and yuca soup"
+   },
+   "local_name": "encebollado",
+   "meal": "main",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "fish",
+    "yuca",
+    "onion_tomato"
+   ],
+   "ingredients": [
+    {
+     "en": "1 lb fresh fish (tuna in source; other fresh fish works per the author)"
+    },
+    {
+     "en": "1/2 lb yuca"
+    },
+    {
+     "en": "1 tomato, 1/2 onion, cumin, cilantro, salt, 4 cups water"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Fry onion, tomato and cumin in oil."
+    },
+    {
+     "en": "Add water and cilantro, boil, add the fish and cook about 15 minutes until done."
+    },
+    {
+     "en": "Lift out the fish, flake it. Boil the yuca in the broth until tender, 30 to 40 minutes."
+    },
+    {
+     "en": "Peel and cut the yuca, return all to the broth. Serve with pickled onion if you have it."
+    }
+   ],
+   "regions": [
+    "ec-coast",
+    "pe-coast"
+   ],
+   "source_url": "https://www.laylita.com/recipes/encebollado-de-pescado-or-tuna-soup/",
+   "accessed": "2026-10-29",
+   "total_minutes": 90,
+   "active_minutes": 90,
+   "allergens": [
+    "fish"
+   ]
+  },
+  {
+   "id": "sopa_criolla",
+   "name": {
+    "en": "Beef and noodle soup"
+   },
+   "local_name": "sopa criolla",
+   "meal": "main",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "pasta",
+    "egg",
+    "onion_tomato"
+   ],
+   "ingredients": [
+    {
+     "en": "1/2 lb ground beef, 1/4 onion, garlic"
+    },
+    {
+     "en": "1 tsp aji panca paste, oregano, 1 tbsp tomato paste"
+    },
+    {
+     "en": "2 oz thin pasta, 1 egg per person"
+    },
+    {
+     "en": "evaporated milk (optional), bread"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Cook onion, garlic and aji panca, add oregano, tomato paste, then the beef."
+    },
+    {
+     "en": "Add 2 cups hot water or stock, cover, simmer 15 minutes. Cook beef through."
+    },
+    {
+     "en": "Add pasta, cook about 3 minutes. Stir in milk off the boil."
+    },
+    {
+     "en": "Top with a fried egg."
+    }
+   ],
+   "regions": [
+    "pe-coast",
+    "pe-highland"
+   ],
+   "source_url": "https://perudelights.com/sopa-criolla-beef-and-angel-hair-soup-a-quick-and-tasty-dinner-ix/",
+   "accessed": "2026-10-29",
+   "total_minutes": 50,
+   "active_minutes": 50,
+   "allergens": [
+    "wheat",
+    "egg",
+    "milk"
+   ]
+  },
+  {
+   "id": "sopa_quinua_blanca",
+   "name": {
+    "en": "Peruvian quinoa soup"
+   },
+   "local_name": "sopa de quinua",
+   "meal": "main",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "quinoa",
+    "potato",
+    "fava",
+    "cheese",
+    "egg"
+   ],
+   "ingredients": [
+    {
+     "en": "1 cup cooked quinoa"
+    },
+    {
+     "en": "1/4 onion, garlic, aji amarillo"
+    },
+    {
+     "en": "1 liter hot water, 1 potato, 1/2 cup fava beans"
+    },
+    {
+     "en": "cubed fresh cheese, 2 eggs, evaporated milk, oregano"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Fry onion, garlic and aji until the base separates."
+    },
+    {
+     "en": "Add quinoa and hot water. When it boils add fava beans and potato."
+    },
+    {
+     "en": "When potato is soft add cheese and milk, drop in eggs one at a time."
+    },
+    {
+     "en": "Rest 5 minutes and serve."
+    }
+   ],
+   "regions": [
+    "pe-highland",
+    "pe-coast",
+    "bo-altiplano"
+   ],
+   "source_url": "https://cookpad.com/pe/recetas/14232041-sopa-de-quinua-blanca",
+   "accessed": "2026-10-29",
+   "total_minutes": 30,
+   "active_minutes": 30,
+   "allergens": [
+    "egg",
+    "milk"
+   ]
+  },
+  {
+   "id": "locro_habas",
+   "name": {
+    "en": "Fava bean soup"
+   },
+   "local_name": "locro de habas",
+   "meal": "main",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "fava",
+    "potato",
+    "cheese",
+    "egg"
+   ],
+   "ingredients": [
+    {
+     "en": "2 cups peeled fresh fava beans"
+    },
+    {
+     "en": "2 potatoes, 1/2 onion, garlic, tomato, cumin"
+    },
+    {
+     "en": "1/4 cup milk, 1 egg, 3/4 cup fresh cheese, cilantro"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Cook onion and garlic, then tomato and cumin."
+    },
+    {
+     "en": "Add potatoes, water and half the beans, simmer about 25 minutes."
+    },
+    {
+     "en": "Mash the potatoes into the soup, add the rest of the beans, cook 5 minutes."
+    },
+    {
+     "en": "Stir in milk with egg, then the cheese. Add cilantro."
+    }
+   ],
+   "regions": [
+    "ec-sierra",
+    "pe-highland",
+    "bo-altiplano"
+   ],
+   "source_url": "https://www.laylita.com/recipes/fava-bean-soup/",
+   "accessed": "2026-10-29",
+   "total_minutes": 60,
+   "active_minutes": 60,
+   "allergens": [
+    "egg",
+    "milk"
+   ]
+  },
+  {
+   "id": "chairo",
+   "name": {
+    "en": "Chairo (Bolivian soup)"
+   },
+   "local_name": "chairo",
+   "meal": "main",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "hominy",
+    "potato",
+    "carrot"
+   ],
+   "ingredients": [
+    {
+     "en": "1/2 cup hominy (mote), soaked overnight"
+    },
+    {
+     "en": "beef shank, soaked overnight"
+    },
+    {
+     "en": "1 potato, carrots, onion"
+    },
+    {
+     "en": "oregano, mint, salt, pepper"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Soak the meat and hominy overnight."
+    },
+    {
+     "en": "Boil the hominy until tender."
+    },
+    {
+     "en": "Cook meat, hominy, potato, carrots, onion and herbs until done."
+    },
+    {
+     "en": "Serve hot in deep bowls."
+    }
+   ],
+   "regions": [
+    "bo-altiplano"
+   ],
+   "source_url": "https://en.cocina-boliviana.com/recetas/soups/chairo",
+   "accessed": "2026-10-29",
+   "total_minutes": 90,
+   "active_minutes": 90,
+   "allergens": [],
+   "soak_hours": 8
+  },
+  {
+   "id": "tacacho",
+   "name": {
+    "en": "Tacacho (plantain ball) with fried cured pork"
+   },
+   "local_name": "tacacho con cecina",
+   "meal": "main",
+   "serves": 2,
+   "needs": [
+    "two_burners"
+   ],
+   "staples": [
+    "green_plantain"
+   ],
+   "ingredients": [
+    {
+     "en": "2 green plantains"
+    },
+    {
+     "en": "lard or oil, a little pork belly for chicharron"
+    },
+    {
+     "en": "cecina (dried pork), salt, lemon, onion, chili for a salad"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Peel and cook the plantains (boil, grill or fry)."
+    },
+    {
+     "en": "Fry pork belly pieces until crisp."
+    },
+    {
+     "en": "Mash plantain with salt, crisp pork and lard, shape into balls."
+    },
+    {
+     "en": "Fry the cecina in a second pan. Serve together."
+    }
+   ],
+   "regions": [
+    "pe-amazon"
+   ],
+   "source_url": "https://en.comida-peruana.com/recetas/main-course/tacacho-with-cecina-and-cocona-salad",
+   "accessed": "2026-10-29",
+   "total_minutes": 60,
+   "active_minutes": 60,
+   "allergens": []
+  },
+  {
+   "id": "arroz_graneado",
+   "name": {
+    "en": "Plain fluffy rice"
+   },
+   "local_name": "arroz graneado",
+   "meal": "light",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "rice"
+   ],
+   "ingredients": [
+    {
+     "en": "1 cup rice, 2 cups water"
+    },
+    {
+     "en": "1 garlic clove, oil, salt"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Rinse the rice. Brown chopped garlic in hot oil."
+    },
+    {
+     "en": "Stir in rice, add water and salt. At the boil lower to minimum, cover."
+    },
+    {
+     "en": "Cook about 20 minutes, fluff with a fork, cover and rest 10 minutes."
+    }
+   ],
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://larepublica.pe/recetas/149767-como-preparar-lentejas-peruanas-y-arroz-facil-y-practico-paso-a-paso-receta-peruana-gastronomia-peruana-secreto-casero-evat",
+   "accessed": "2026-10-29",
+   "total_minutes": 35,
+   "active_minutes": 35,
+   "allergens": []
+  },
+  {
+   "id": "quinua_manzana",
+   "name": {
+    "en": "Quinoa with apple and milk"
+   },
+   "local_name": "quinua con manzana",
+   "meal": "breakfast",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "quinoa"
+   ],
+   "ingredients": [
+    {
+     "en": "1/2 cup quinoa (source makes 4 servings; scale down)"
+    },
+    {
+     "en": "1 apple, grated"
+    },
+    {
+     "en": "1.5 cups water, 1 cup milk"
+    },
+    {
+     "en": "1 cinnamon stick, 1 clove, pinch of salt"
+    },
+    {
+     "en": "sugar or honey, optional"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Rinse the quinoa until the water runs clear."
+    },
+    {
+     "en": "Simmer quinoa with water, cinnamon, clove and salt for 15 minutes."
+    },
+    {
+     "en": "Add the apple and cook 5 minutes."
+    },
+    {
+     "en": "Add milk and sweetener, stir 5 minutes more. Remove spices and serve hot."
+    }
+   ],
+   "regions": [
+    "pe-coast",
+    "pe-highland",
+    "bo-altiplano",
+    "ec-sierra"
+   ],
+   "source_url": "https://recetascocinaperuana.com/desayunos-peruanos/",
+   "accessed": "2026-10-29",
+   "total_minutes": 35,
+   "active_minutes": 35,
+   "allergens": [
+    "milk"
+   ]
+  },
+  {
+   "id": "mote_pillo",
+   "name": {
+    "en": "Hominy scrambled with eggs"
+   },
+   "local_name": "mote pillo",
+   "meal": "breakfast",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "hominy",
+    "egg",
+    "cheese",
+    "onion_tomato"
+   ],
+   "ingredients": [
+    {
+     "en": "2 cups cooked hominy (mote); canned works"
+    },
+    {
+     "en": "1 tbsp butter or oil"
+    },
+    {
+     "en": "1/2 cup diced onion, 1 garlic clove"
+    },
+    {
+     "en": "2 eggs, 2 tbsp milk"
+    },
+    {
+     "en": "salt, chives or cilantro, queso fresco to serve"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Soften onion and garlic in butter about 5 minutes."
+    },
+    {
+     "en": "Stir in the hominy 2 minutes, then the milk until mostly absorbed."
+    },
+    {
+     "en": "Add beaten eggs and stir 3 to 5 minutes until set."
+    },
+    {
+     "en": "Add herbs and salt. Serve with cheese."
+    }
+   ],
+   "regions": [
+    "ec-sierra",
+    "ec-coast",
+    "ec-amazon",
+    "pe-highland",
+    "pe-coast",
+    "bo-altiplano"
+   ],
+   "source_url": "https://www.laylita.com/recipes/mote-pillo-or-hominy-with-eggs/",
+   "accessed": "2026-10-29",
+   "total_minutes": 15,
+   "active_minutes": 15,
+   "allergens": [
+    "egg",
+    "milk"
+   ]
+  },
+  {
+   "id": "tigrillo",
+   "name": {
+    "en": "Green plantain mash with egg and cheese"
+   },
+   "local_name": "tigrillo",
+   "meal": "breakfast",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "green_plantain",
+    "egg",
+    "cheese",
+    "onion_tomato"
+   ],
+   "ingredients": [
+    {
+     "en": "2 large green plantains (source uses 4 for 4 servings)"
+    },
+    {
+     "en": "1 tbsp butter or oil, 2-3 scallions"
+    },
+    {
+     "en": "2 eggs, whisked"
+    },
+    {
+     "en": "1/4 cup cheese, a splash of milk or cooking water"
+    },
+    {
+     "en": "salt, cilantro"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Peel the plantains, cut in chunks, boil about 30 minutes until soft. Keep some cooking water."
+    },
+    {
+     "en": "Mash them. Soften scallion whites in butter, add the mash and a little milk or cooking water."
+    },
+    {
+     "en": "Stir in the eggs and cook about 10 minutes."
+    },
+    {
+     "en": "Stir in cheese, salt and the green scallion tops. Serve right away."
+    }
+   ],
+   "regions": [
+    "ec-coast",
+    "ec-amazon",
+    "pe-amazon"
+   ],
+   "source_url": "https://www.laylita.com/recipes/ecuadorian-tigrillo-con-queso-creamy-green-plantain-mash/",
+   "accessed": "2026-10-29",
+   "total_minutes": 50,
+   "active_minutes": 50,
+   "allergens": [
+    "egg",
+    "milk"
+   ]
+  },
+  {
+   "id": "torrejas_choclo",
+   "name": {
+    "en": "Corn and cheese fritters"
+   },
+   "local_name": "torrejas de choclo",
+   "meal": "light",
+   "serves": 2,
+   "needs": [
+    "burner",
+    "blender"
+   ],
+   "staples": [
+    "hominy",
+    "egg",
+    "cheese"
+   ],
+   "ingredients": [
+    {
+     "en": "1 cup fresh corn kernels"
+    },
+    {
+     "en": "1 egg"
+    },
+    {
+     "en": "1 tbsp cornmeal"
+    },
+    {
+     "en": "2 tbsp cream"
+    },
+    {
+     "en": "1/4 cup cheese, 1 tbsp diced onion, salt"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Blend most of the corn with egg, cream and cornmeal until smooth."
+    },
+    {
+     "en": "Stir in cheese, onion, salt and the remaining whole corn."
+    },
+    {
+     "en": "Spoon small pancakes into a lightly oiled pan on medium heat."
+    },
+    {
+     "en": "Cook until golden on both sides. Serve with a side salad."
+    }
+   ],
+   "regions": [
+    "ec-sierra",
+    "ec-coast",
+    "ec-amazon"
+   ],
+   "source_url": "https://www.laylita.com/recipes/ecuadorian-torrejas-de-choclo-corn-fritters/",
+   "accessed": "2026-10-29",
+   "total_minutes": 25,
+   "active_minutes": 25,
+   "allergens": [
+    "egg",
+    "milk"
+   ]
+  },
+  {
+   "id": "masaco_platano",
+   "name": {
+    "en": "Mashed green plantain with cheese"
+   },
+   "local_name": "masaco de platano",
+   "meal": "breakfast",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "green_plantain",
+    "cheese"
+   ],
+   "ingredients": [
+    {
+     "en": "2 green plantains, peeled, cut in chunks"
+    },
+    {
+     "en": "fresh cheese, crumbled"
+    },
+    {
+     "en": "a little oil or lard, salt"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Boil the plantain chunks until soft, then drain."
+    },
+    {
+     "en": "Mash with salt and the crumbled cheese until the dough holds together."
+    },
+    {
+     "en": "Shape into balls or thick patties."
+    },
+    {
+     "en": "Sear briefly in a little oil or lard on both sides. Serve hot."
+    }
+   ],
+   "regions": [
+    "bo-lowlands"
+   ],
+   "source_url": "https://sunheron.com/blog/cuisine/what-to-eat-in-santa-cruz-bolivia/",
+   "accessed": "2026-10-29",
+   "total_minutes": 35,
+   "active_minutes": 20,
+   "allergens": [
+    "milk"
+   ]
+  }
+ ],
+ "menu": [
+  {
+   "day": 1,
+   "breakfast": [
+    "quinua_manzana",
+    "bolon_verde",
+    "mote_pillo",
+    "tigrillo",
+    "masaco_platano"
+   ],
+   "main": [
+    "lentejas_arroz_pe",
+    "locro_habas",
+    "menestra_lentejas",
+    "sopa_mani",
+    "arroz_moro",
+    "guiso_lentejas",
+    "locro_papa",
+    "locro_quinua",
+    "encebollado",
+    "sopa_criolla",
+    "sopa_quinua_blanca",
+    "chairo",
+    "tacacho"
+   ],
+   "light": [
+    "arroz_graneado",
+    "torrejas_choclo",
+    "menestra_lentejas",
+    "arroz_moro",
+    "sopa_mani",
+    "lentejas_arroz_pe",
+    "guiso_lentejas",
+    "locro_papa",
+    "locro_quinua",
+    "encebollado",
+    "sopa_criolla",
+    "sopa_quinua_blanca",
+    "locro_habas",
+    "chairo",
+    "tacacho"
+   ]
+  },
+  {
+   "day": 2,
+   "breakfast": [
+    "mote_pillo",
+    "tigrillo",
+    "quinua_manzana",
+    "bolon_verde",
+    "masaco_platano"
+   ],
+   "main": [
+    "sopa_quinua_blanca",
+    "guiso_lentejas",
+    "menestra_lentejas",
+    "arroz_moro",
+    "locro_habas",
+    "sopa_mani",
+    "lentejas_arroz_pe",
+    "locro_papa",
+    "locro_quinua",
+    "encebollado",
+    "sopa_criolla",
+    "chairo",
+    "tacacho"
+   ],
+   "light": [
+    "quinua_manzana",
+    "arroz_graneado",
+    "torrejas_choclo",
+    "menestra_lentejas",
+    "arroz_moro",
+    "sopa_mani",
+    "lentejas_arroz_pe",
+    "guiso_lentejas",
+    "locro_papa",
+    "locro_quinua",
+    "encebollado",
+    "sopa_criolla",
+    "sopa_quinua_blanca",
+    "locro_habas",
+    "chairo",
+    "tacacho"
+   ]
+  },
+  {
+   "day": 3,
+   "breakfast": [
+    "quinua_manzana",
+    "bolon_verde",
+    "mote_pillo",
+    "tigrillo",
+    "masaco_platano"
+   ],
+   "main": [
+    "guiso_lentejas",
+    "lentejas_arroz_pe",
+    "arroz_moro",
+    "menestra_lentejas",
+    "sopa_quinua_blanca",
+    "sopa_mani",
+    "locro_papa",
+    "locro_quinua",
+    "encebollado",
+    "sopa_criolla",
+    "locro_habas",
+    "chairo",
+    "tacacho"
+   ],
+   "light": [
+    "arroz_graneado",
+    "menestra_lentejas",
+    "arroz_moro",
+    "sopa_mani",
+    "lentejas_arroz_pe",
+    "guiso_lentejas",
+    "locro_papa",
+    "locro_quinua",
+    "encebollado",
+    "sopa_criolla",
+    "sopa_quinua_blanca",
+    "locro_habas",
+    "chairo",
+    "tacacho",
+    "torrejas_choclo"
+   ]
+  },
+  {
+   "day": 4,
+   "breakfast": [
+    "mote_pillo",
+    "tigrillo",
+    "quinua_manzana",
+    "bolon_verde",
+    "masaco_platano"
+   ],
+   "main": [
+    "lentejas_arroz_pe",
+    "guiso_lentejas",
+    "locro_habas",
+    "arroz_moro",
+    "sopa_mani",
+    "locro_papa",
+    "locro_quinua",
+    "encebollado",
+    "sopa_criolla",
+    "sopa_quinua_blanca",
+    "chairo",
+    "tacacho",
+    "menestra_lentejas"
+   ],
+   "light": [
+    "arroz_graneado",
+    "arroz_moro",
+    "sopa_mani",
+    "lentejas_arroz_pe",
+    "guiso_lentejas",
+    "locro_papa",
+    "locro_quinua",
+    "encebollado",
+    "sopa_criolla",
+    "sopa_quinua_blanca",
+    "locro_habas",
+    "chairo",
+    "tacacho",
+    "torrejas_choclo",
+    "menestra_lentejas"
+   ]
+  },
+  {
+   "day": 5,
+   "breakfast": [
+    "quinua_manzana",
+    "bolon_verde",
+    "mote_pillo",
+    "tigrillo",
+    "masaco_platano"
+   ],
+   "main": [
+    "sopa_quinua_blanca",
+    "lentejas_arroz_pe",
+    "menestra_lentejas",
+    "locro_habas",
+    "guiso_lentejas",
+    "locro_papa",
+    "locro_quinua",
+    "encebollado",
+    "sopa_criolla",
+    "chairo",
+    "tacacho",
+    "arroz_moro",
+    "sopa_mani"
+   ],
+   "light": [
+    "mote_pillo",
+    "arroz_graneado",
+    "sopa_mani",
+    "lentejas_arroz_pe",
+    "guiso_lentejas",
+    "locro_papa",
+    "locro_quinua",
+    "encebollado",
+    "sopa_criolla",
+    "sopa_quinua_blanca",
+    "locro_habas",
+    "chairo",
+    "tacacho",
+    "torrejas_choclo",
+    "menestra_lentejas",
+    "arroz_moro"
+   ]
+  },
+  {
+   "day": 6,
+   "breakfast": [
+    "mote_pillo",
+    "tigrillo",
+    "quinua_manzana",
+    "bolon_verde",
+    "masaco_platano"
+   ],
+   "main": [
+    "guiso_lentejas",
+    "arroz_moro",
+    "sopa_quinua_blanca",
+    "locro_papa",
+    "locro_quinua",
+    "encebollado",
+    "sopa_criolla",
+    "locro_habas",
+    "chairo",
+    "tacacho",
+    "menestra_lentejas",
+    "sopa_mani",
+    "lentejas_arroz_pe"
+   ],
+   "light": [
+    "quinua_manzana",
+    "arroz_graneado",
+    "lentejas_arroz_pe",
+    "guiso_lentejas",
+    "locro_papa",
+    "locro_quinua",
+    "encebollado",
+    "sopa_criolla",
+    "sopa_quinua_blanca",
+    "locro_habas",
+    "chairo",
+    "tacacho",
+    "torrejas_choclo",
+    "menestra_lentejas",
+    "arroz_moro",
+    "sopa_mani"
+   ]
+  },
+  {
+   "day": 7,
+   "breakfast": [
+    "quinua_manzana",
+    "bolon_verde",
+    "mote_pillo",
+    "tigrillo",
+    "masaco_platano"
+   ],
+   "main": [
+    "lentejas_arroz_pe",
+    "locro_habas",
+    "menestra_lentejas",
+    "sopa_mani",
+    "locro_quinua",
+    "encebollado",
+    "sopa_criolla",
+    "sopa_quinua_blanca",
+    "chairo",
+    "tacacho",
+    "arroz_moro",
+    "guiso_lentejas",
+    "locro_papa"
+   ],
+   "light": [
+    "arroz_graneado",
+    "guiso_lentejas",
+    "locro_papa",
+    "locro_quinua",
+    "encebollado",
+    "sopa_criolla",
+    "sopa_quinua_blanca",
+    "locro_habas",
+    "chairo",
+    "tacacho",
+    "torrejas_choclo",
+    "menestra_lentejas",
+    "arroz_moro",
+    "sopa_mani",
+    "lentejas_arroz_pe"
+   ]
+  }
+ ],
+ "techniques": [
+  {
+   "id": "fluffy_rice",
+   "title": {
+    "en": "Fluffy rice in one pot"
+   },
+   "body": {
+    "en": "Use about 1 cup of rice to 2 cups of cold water, or the ratio on the package. Bring to a boil over medium-high heat, then lower the heat and simmer covered until the rice is cooked. Season with salt."
+   },
+   "source_url": "https://extension.umd.edu/resource/cooking-rice",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "refrito",
+   "title": {
+    "en": "Start with a refrito"
+   },
+   "body": {
+    "en": "Many Andean dishes start with an aderezo or refrito: fry finely chopped onion, garlic and ground aji in oil until golden, then add the main ingredient and the water."
+   },
+   "source_url": "https://cdn.www.gob.pe/uploads/document/file/3895978/RECETAS%20OLLAS%20COMUNES%20CUARTA%20SEMANA.pdf",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "altitude_pulses",
+   "title": {
+    "en": "Beans and lentils at altitude"
+   },
+   "body": {
+    "en": "Dried pulses take longer to cook the higher you live. A rule of thumb is about 5 percent more time for each 1,000 feet above 2,000 feet. A pressure cooker offsets this; still adjust the time."
+   },
+   "source_url": "https://extension.colostate.edu/resource/cooking-with-dry-beans-and-other-pulses/",
+   "accessed": "2026-10-29",
+   "regions": [
+    "pe-highland",
+    "bo-altiplano",
+    "ec-sierra"
+   ]
+  },
+  {
+   "id": "soak_pulses",
+   "title": {
+    "en": "Soak dried pulses; skip hard water"
+   },
+   "body": {
+    "en": "Soaking dried pulses shortens cooking. Hard water can keep them from softening."
+   },
+   "source_url": "https://extension.colostate.edu/resource/cooking-with-dry-beans-and-other-pulses/",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "yuca_safe_prep",
+   "title": {
+    "en": "Cook yuca safely"
+   },
+   "body": {
+    "en": "Peel yuca fully, since cyanide is much higher in the peel. Raw or not fully processed yuca can cause poisoning. Bitter taste is not a reliable guide, simple boiling is not always enough, and part of the toxin goes into the cooking water."
+   },
+   "source_url": "https://www.fao.org/4/t0207e/T0207E08.htm",
+   "accessed": "2026-10-29",
+   "regions": [
+    "ec-coast",
+    "ec-amazon",
+    "pe-amazon"
+   ]
+  }
+ ],
+ "safety": [
+  {
+   "id": "red_flags",
+   "title": {
+    "en": "Get help now: red flags"
+   },
+   "body": {
+    "en": "Bloody diarrhea, diarrhea for more than 3 days, a fever over 102 F, vomiting so often you cannot keep liquids down, or signs of dehydration (not urinating much, dry mouth and throat, dizzy when standing): contact your mission nurse now."
+   },
+   "source_url": "https://www.cdc.gov/food-safety/signs-symptoms/index.html",
+   "accessed": "2026-10-29",
+   "urgent": true
+  },
+  {
+   "id": "water_boil",
+   "title": {
+    "en": "Boil water to make it safe"
+   },
+   "body": {
+    "en": "Follow your mission's water guidance first. If you must boil: bring clear water to a rolling boil for 1 minute."
+   },
+   "source_url": "https://www.cdc.gov/healthywater/emergency/making-water-safe.html",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "water_altitude",
+   "title": {
+    "en": "Boiling at high altitude"
+   },
+   "body": {
+    "en": "Above 6,500 feet (about 2,000 m), boil for 3 minutes. This covers most of the Sierra, the Altiplano and the high valleys."
+   },
+   "source_url": "https://www.cdc.gov/healthywater/emergency/making-water-safe.html",
+   "accessed": "2026-10-29",
+   "regions": [
+    "pe-highland",
+    "bo-altiplano",
+    "ec-sierra"
+   ]
+  },
+  {
+   "id": "water_filters",
+   "title": {
+    "en": "Filters and chemicals do not cover everything"
+   },
+   "body": {
+    "en": "Portable filters do not remove all germs, and chemical disinfectants may not kill parasites. When in doubt, use your mission's guidance."
+   },
+   "source_url": "https://www.cdc.gov/healthywater/emergency/making-water-safe.html",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "produce",
+   "title": {
+    "en": "Wash produce under running water"
+   },
+   "body": {
+    "en": "Rinse fresh fruits and vegetables under running water before eating or cooking."
+   },
+   "source_url": "https://www.cdc.gov/food-safety/prevention/index.html",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "leftovers",
+   "title": {
+    "en": "Leftovers without a fridge"
+   },
+   "body": {
+    "en": "Do not leave cooked food out more than 2 hours, or 1 hour in hot weather (above 90 F / 32 C). Reheat leftovers to steaming hot. When in doubt, throw it out."
+   },
+   "source_url": "https://www.cdc.gov/food-safety/prevention/index.html",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "five_keys",
+   "title": {
+    "en": "WHO five keys to safer food"
+   },
+   "body": {
+    "en": "Keep clean. Separate raw and cooked. Cook thoroughly. Keep food at safe temperatures. Use safe water and raw materials."
+   },
+   "source_url": "https://www.who.int/publications/i/item/9789241594639",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "ors",
+   "title": {
+    "en": "Diarrhea: ORS packets and red flags"
+   },
+   "body": {
+    "en": "Use oral rehydration salts from a pharmacy packet, mixed as the packet says. Tell your mission nurse if diarrhea lasts 14 days or more, there is blood in the stool, or there are signs of dehydration: very sleepy, sunken eyes, cannot drink, skin that goes back slowly when pinched."
+   },
+   "source_url": "https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "heat",
+   "title": {
+    "en": "Heat and hydration"
+   },
+   "body": {
+    "en": "Drink plenty of fluids through the day. Light yellow or clear urine usually means enough. Watch for cramps, heavy sweating, dizziness, headache, weakness or nausea; rest in shade."
+   },
+   "source_url": "https://www.cdc.gov/heat-health/about/index.html",
+   "accessed": "2026-10-29",
+   "regions": [
+    "pe-coast",
+    "pe-amazon",
+    "bo-lowlands",
+    "ec-coast",
+    "ec-amazon"
+   ]
+  },
+  {
+   "id": "altitude_illness",
+   "title": {
+    "en": "Altitude sickness"
+   },
+   "body": {
+    "en": "Risk starts at sleeping altitudes of 2,450 m (8,000 ft) and up. Mild altitude sickness feels like a hangover, with headache the main sign. Confusion, poor balance or drowsiness can be signs of high-altitude cerebral edema (HACE). Chest congestion, cough and breathlessness on exertion can be signs of high-altitude pulmonary edema (HAPE). Do not go higher to sleep with symptoms. Descending 300 m (1,000 ft) or more helps; if you get worse, go lower and tell your mission nurse."
+   },
+   "source_url": "https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/high-altitude-travel-and-altitude-illness.html",
+   "accessed": "2026-10-29",
+   "regions": [
+    "pe-highland",
+    "bo-altiplano",
+    "ec-sierra"
+   ]
+  }
+ ],
+ "first_week": [
+  {
+   "regions": [
+    "pe-coast",
+    "pe-amazon"
+   ],
+   "market_tip": "wet_market-pe",
+   "safety_tip": "water_boil"
+  },
+  {
+   "regions": [
+    "pe-highland"
+   ],
+   "market_tip": "wet_market-pe",
+   "safety_tip": "water_altitude"
+  },
+  {
+   "regions": [
+    "bo-lowlands"
+   ],
+   "market_tip": "wet_market-bo",
+   "safety_tip": "water_boil"
+  },
+  {
+   "regions": [
+    "bo-altiplano"
+   ],
+   "market_tip": "wet_market-bo",
+   "safety_tip": "water_altitude"
+  },
+  {
+   "regions": [
+    "ec-coast",
+    "ec-amazon"
+   ],
+   "market_tip": "wet_market-ec",
+   "safety_tip": "water_boil"
+  },
+  {
+   "regions": [
+    "ec-sierra"
+   ],
+   "market_tip": "wet_market-ec",
+   "safety_tip": "water_altitude"
+  }
+ ]
+}

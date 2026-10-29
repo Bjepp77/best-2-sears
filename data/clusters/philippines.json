@@ -1,0 +1,2558 @@
+{
+ "id": "philippines",
+ "name": {
+  "en": "Philippines"
+ },
+ "lang": [
+  "tl",
+  "en"
+ ],
+ "countries": [
+  {
+   "code": "PH",
+   "name": {
+    "en": "Philippines"
+   },
+   "regions": [
+    {
+     "id": "ph-ncr",
+     "name": {
+      "en": "Metro Manila (NCR)"
+     },
+     "altitude_high": false
+    },
+    {
+     "id": "ph-luzon",
+     "name": {
+      "en": "Luzon (outside Metro Manila)"
+     },
+     "altitude_high": false
+    },
+    {
+     "id": "ph-visayas",
+     "name": {
+      "en": "Visayas"
+     },
+     "altitude_high": false
+    },
+    {
+     "id": "ph-mindanao",
+     "name": {
+      "en": "Mindanao"
+     },
+     "altitude_high": false
+    }
+   ]
+  }
+ ],
+ "stores": [
+  {
+   "id": "wet_market",
+   "type": "wet_market",
+   "local_names": [
+    "palengke",
+    "talipapa"
+   ],
+   "tip": {
+    "en": "A palengke is a permanent wet market with rows of stalls under one roof; a talipapa is a smaller, periodic one. It is busiest at dawn. Stall prices are set by each seller, so check two or three stalls."
+   },
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://en.wikipedia.org/wiki/Palengke",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "neighborhood_shop",
+   "type": "neighborhood_shop",
+   "local_names": [
+    "sari-sari store"
+   ],
+   "tip": {
+    "en": "A small family store, often in a home. Good for canned goods, cooking oil, salt and sugar, and you can buy single small units (tingi). It generally does not stock perishables that need a fridge."
+   },
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://en.wikipedia.org/wiki/Sari-sari_store",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "wet_market-2",
+   "type": "wet_market",
+   "local_names": [
+    "Kadiwa"
+   ],
+   "tip": {
+    "en": "Kadiwa is a Department of Agriculture program where farmers and co-ops sell directly to buyers at events and pop-up stores. One report lists highland vegetables and eggs. Ask a local where the next one is."
+   },
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://car.da.gov.ph/?p=7602",
+   "accessed": "2026-10-29"
+  }
+ ],
+ "staples": [
+  {
+   "id": "rice",
+   "name": {
+    "en": "Rice (regular milled, local)"
+   },
+   "local_name": "bigas / kanin",
+   "group": "grain",
+   "cost_rank": "cheap",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.da.gov.ph/wp-content/uploads/2026/10/Weekly-Average-Prices-October-19-25-2026.pdf",
+   "accessed": "2026-10-29",
+   "price": {
+    "low": 45.37,
+    "high": 45.37,
+    "currency": "PHP",
+    "unit": "kg",
+    "market": "NCR (Metro Manila) public markets, DA Bantay Presyo weekly average",
+    "observed": "2026-10",
+    "source_url": "https://www.da.gov.ph/wp-content/uploads/2026/10/Weekly-Average-Prices-October-19-25-2026.pdf",
+    "accessed": "2026-10-29",
+    "country": "PH",
+    "regions": [
+     "ph-ncr"
+    ]
+   },
+   "rank_basis": "derived from sourced prices"
+  },
+  {
+   "id": "mungbean",
+   "name": {
+    "en": "Mung beans"
+   },
+   "local_name": "munggo / monggo",
+   "group": "legume",
+   "cost_rank": "mid",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.da.gov.ph/wp-content/uploads/2026/10/Weekly-Average-Prices-October-19-25-2026.pdf",
+   "accessed": "2026-10-29",
+   "price": {
+    "low": 147.27,
+    "high": 147.27,
+    "currency": "PHP",
+    "unit": "kg",
+    "market": "NCR (Metro Manila) public markets, DA Bantay Presyo weekly average",
+    "observed": "2026-10",
+    "source_url": "https://www.da.gov.ph/wp-content/uploads/2026/10/Weekly-Average-Prices-October-19-25-2026.pdf",
+    "accessed": "2026-10-29",
+    "country": "PH",
+    "regions": [
+     "ph-ncr"
+    ]
+   },
+   "rank_basis": "derived from sourced prices"
+  },
+  {
+   "id": "squash",
+   "name": {
+    "en": "Squash"
+   },
+   "local_name": "kalabasa",
+   "group": "vegetable",
+   "cost_rank": "cheap",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.da.gov.ph/wp-content/uploads/2026/10/Weekly-Average-Prices-October-19-25-2026.pdf",
+   "accessed": "2026-10-29",
+   "price": {
+    "low": 61.82,
+    "high": 61.82,
+    "currency": "PHP",
+    "unit": "kg",
+    "market": "NCR (Metro Manila) public markets, DA Bantay Presyo weekly average",
+    "observed": "2026-10",
+    "source_url": "https://www.da.gov.ph/wp-content/uploads/2026/10/Weekly-Average-Prices-October-19-25-2026.pdf",
+    "accessed": "2026-10-29",
+    "country": "PH",
+    "regions": [
+     "ph-ncr"
+    ]
+   },
+   "rank_basis": "derived from sourced prices"
+  },
+  {
+   "id": "chayote",
+   "name": {
+    "en": "Chayote"
+   },
+   "local_name": "sayote",
+   "group": "vegetable",
+   "cost_rank": "cheap",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.da.gov.ph/wp-content/uploads/2026/10/Weekly-Average-Prices-October-19-25-2026.pdf",
+   "accessed": "2026-10-29",
+   "price": {
+    "low": 58.51,
+    "high": 58.51,
+    "currency": "PHP",
+    "unit": "kg",
+    "market": "NCR (Metro Manila) public markets, DA Bantay Presyo weekly average",
+    "observed": "2026-10",
+    "source_url": "https://www.da.gov.ph/wp-content/uploads/2026/10/Weekly-Average-Prices-October-19-25-2026.pdf",
+    "accessed": "2026-10-29",
+    "country": "PH",
+    "regions": [
+     "ph-ncr"
+    ]
+   },
+   "rank_basis": "derived from sourced prices"
+  },
+  {
+   "id": "eggplant",
+   "name": {
+    "en": "Eggplant"
+   },
+   "local_name": "talong",
+   "group": "vegetable",
+   "cost_rank": "mid",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.da.gov.ph/wp-content/uploads/2026/10/Weekly-Average-Prices-October-19-25-2026.pdf",
+   "accessed": "2026-10-29",
+   "price": {
+    "low": 85.88,
+    "high": 85.88,
+    "currency": "PHP",
+    "unit": "kg",
+    "market": "NCR (Metro Manila) public markets, DA Bantay Presyo weekly average",
+    "observed": "2026-10",
+    "source_url": "https://www.da.gov.ph/wp-content/uploads/2026/10/Weekly-Average-Prices-October-19-25-2026.pdf",
+    "accessed": "2026-10-29",
+    "country": "PH",
+    "regions": [
+     "ph-ncr"
+    ]
+   },
+   "rank_basis": "derived from sourced prices"
+  },
+  {
+   "id": "pechay",
+   "name": {
+    "en": "Native pechay"
+   },
+   "local_name": "pechay",
+   "group": "vegetable",
+   "cost_rank": "mid",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.da.gov.ph/wp-content/uploads/2026/10/Weekly-Average-Prices-October-19-25-2026.pdf",
+   "accessed": "2026-10-29",
+   "price": {
+    "low": 106.56,
+    "high": 106.56,
+    "currency": "PHP",
+    "unit": "kg",
+    "market": "NCR (Metro Manila) public markets, DA Bantay Presyo weekly average",
+    "observed": "2026-10",
+    "source_url": "https://www.da.gov.ph/wp-content/uploads/2026/10/Weekly-Average-Prices-October-19-25-2026.pdf",
+    "accessed": "2026-10-29",
+    "country": "PH",
+    "regions": [
+     "ph-ncr"
+    ]
+   },
+   "rank_basis": "derived from sourced prices"
+  },
+  {
+   "id": "tomato",
+   "name": {
+    "en": "Tomato"
+   },
+   "local_name": "kamatis",
+   "group": "vegetable",
+   "cost_rank": "mid",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.da.gov.ph/wp-content/uploads/2026/10/Weekly-Average-Prices-October-19-25-2026.pdf",
+   "accessed": "2026-10-29",
+   "price": {
+    "low": 104.02,
+    "high": 104.02,
+    "currency": "PHP",
+    "unit": "kg",
+    "market": "NCR (Metro Manila) public markets, DA Bantay Presyo weekly average",
+    "observed": "2026-10",
+    "source_url": "https://www.da.gov.ph/wp-content/uploads/2026/10/Weekly-Average-Prices-October-19-25-2026.pdf",
+    "accessed": "2026-10-29",
+    "country": "PH",
+    "regions": [
+     "ph-ncr"
+    ]
+   },
+   "rank_basis": "derived from sourced prices"
+  },
+  {
+   "id": "ampalaya",
+   "name": {
+    "en": "Bitter melon"
+   },
+   "local_name": "ampalaya",
+   "group": "vegetable",
+   "cost_rank": "mid",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.da.gov.ph/wp-content/uploads/2026/10/Weekly-Average-Prices-October-19-25-2026.pdf",
+   "accessed": "2026-10-29",
+   "price": {
+    "low": 117.74,
+    "high": 117.74,
+    "currency": "PHP",
+    "unit": "kg",
+    "market": "NCR (Metro Manila) public markets, DA Bantay Presyo weekly average",
+    "observed": "2026-10",
+    "source_url": "https://www.da.gov.ph/wp-content/uploads/2026/10/Weekly-Average-Prices-October-19-25-2026.pdf",
+    "accessed": "2026-10-29",
+    "country": "PH",
+    "regions": [
+     "ph-ncr"
+    ]
+   },
+   "rank_basis": "derived from sourced prices"
+  },
+  {
+   "id": "sitao",
+   "name": {
+    "en": "String beans (pole sitao)"
+   },
+   "local_name": "sitaw",
+   "group": "vegetable",
+   "cost_rank": "mid",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.da.gov.ph/wp-content/uploads/2026/10/Weekly-Average-Prices-October-19-25-2026.pdf",
+   "accessed": "2026-10-29",
+   "price": {
+    "low": 128.17,
+    "high": 128.17,
+    "currency": "PHP",
+    "unit": "kg",
+    "market": "NCR (Metro Manila) public markets, DA Bantay Presyo weekly average",
+    "observed": "2026-10",
+    "source_url": "https://www.da.gov.ph/wp-content/uploads/2026/10/Weekly-Average-Prices-October-19-25-2026.pdf",
+    "accessed": "2026-10-29",
+    "country": "PH",
+    "regions": [
+     "ph-ncr"
+    ]
+   },
+   "rank_basis": "derived from sourced prices"
+  },
+  {
+   "id": "onion",
+   "name": {
+    "en": "Red onion (local)"
+   },
+   "local_name": "sibuyas",
+   "group": "vegetable",
+   "cost_rank": "mid",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.da.gov.ph/wp-content/uploads/2026/10/Weekly-Average-Prices-October-19-25-2026.pdf",
+   "accessed": "2026-10-29",
+   "price": {
+    "low": 124.4,
+    "high": 124.4,
+    "currency": "PHP",
+    "unit": "kg",
+    "market": "NCR (Metro Manila) public markets, DA Bantay Presyo weekly average",
+    "observed": "2026-10",
+    "source_url": "https://www.da.gov.ph/wp-content/uploads/2026/10/Weekly-Average-Prices-October-19-25-2026.pdf",
+    "accessed": "2026-10-29",
+    "country": "PH",
+    "regions": [
+     "ph-ncr"
+    ]
+   },
+   "rank_basis": "derived from sourced prices"
+  },
+  {
+   "id": "garlic",
+   "name": {
+    "en": "Garlic (local)"
+   },
+   "local_name": "bawang",
+   "group": "vegetable",
+   "cost_rank": "dear",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.da.gov.ph/wp-content/uploads/2026/10/Weekly-Average-Prices-October-19-25-2026.pdf",
+   "accessed": "2026-10-29",
+   "price": {
+    "low": 372.39,
+    "high": 372.39,
+    "currency": "PHP",
+    "unit": "kg",
+    "market": "NCR (Metro Manila) public markets, DA Bantay Presyo weekly average",
+    "observed": "2026-10",
+    "source_url": "https://www.da.gov.ph/wp-content/uploads/2026/10/Weekly-Average-Prices-October-19-25-2026.pdf",
+    "accessed": "2026-10-29",
+    "country": "PH",
+    "regions": [
+     "ph-ncr"
+    ]
+   },
+   "rank_basis": "derived from sourced prices"
+  },
+  {
+   "id": "calamansi",
+   "name": {
+    "en": "Calamansi"
+   },
+   "local_name": "kalamansi",
+   "group": "fruit",
+   "cost_rank": "mid",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.da.gov.ph/wp-content/uploads/2026/10/Weekly-Average-Prices-October-19-25-2026.pdf",
+   "accessed": "2026-10-29",
+   "price": {
+    "low": 103.41,
+    "high": 103.41,
+    "currency": "PHP",
+    "unit": "kg",
+    "market": "NCR (Metro Manila) public markets, DA Bantay Presyo weekly average",
+    "observed": "2026-10",
+    "source_url": "https://www.da.gov.ph/wp-content/uploads/2026/10/Weekly-Average-Prices-October-19-25-2026.pdf",
+    "accessed": "2026-10-29",
+    "country": "PH",
+    "regions": [
+     "ph-ncr"
+    ]
+   },
+   "rank_basis": "derived from sourced prices"
+  },
+  {
+   "id": "saba",
+   "name": {
+    "en": "Banana, saba"
+   },
+   "local_name": "saging na saba",
+   "group": "fruit",
+   "cost_rank": "cheap",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.da.gov.ph/wp-content/uploads/2026/10/Weekly-Average-Prices-October-19-25-2026.pdf",
+   "accessed": "2026-10-29",
+   "price": {
+    "low": 66.42,
+    "high": 66.42,
+    "currency": "PHP",
+    "unit": "kg",
+    "market": "NCR (Metro Manila) public markets, DA Bantay Presyo weekly average",
+    "observed": "2026-10",
+    "source_url": "https://www.da.gov.ph/wp-content/uploads/2026/10/Weekly-Average-Prices-October-19-25-2026.pdf",
+    "accessed": "2026-10-29",
+    "country": "PH",
+    "regions": [
+     "ph-ncr"
+    ]
+   },
+   "rank_basis": "derived from sourced prices"
+  },
+  {
+   "id": "tilapia",
+   "name": {
+    "en": "Tilapia (medium)"
+   },
+   "local_name": "tilapia",
+   "group": "protein",
+   "cost_rank": "mid",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.da.gov.ph/wp-content/uploads/2026/10/Weekly-Average-Prices-October-19-25-2026.pdf",
+   "accessed": "2026-10-29",
+   "price": {
+    "low": 157.06,
+    "high": 157.06,
+    "currency": "PHP",
+    "unit": "kg",
+    "market": "NCR (Metro Manila) public markets, DA Bantay Presyo weekly average",
+    "observed": "2026-10",
+    "source_url": "https://www.da.gov.ph/wp-content/uploads/2026/10/Weekly-Average-Prices-October-19-25-2026.pdf",
+    "accessed": "2026-10-29",
+    "country": "PH",
+    "regions": [
+     "ph-ncr"
+    ]
+   },
+   "rank_basis": "derived from sourced prices"
+  },
+  {
+   "id": "sardines",
+   "name": {
+    "en": "Fresh sardines (tamban)"
+   },
+   "local_name": "tamban",
+   "group": "protein",
+   "cost_rank": "mid",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.da.gov.ph/wp-content/uploads/2026/10/Weekly-Average-Prices-October-19-25-2026.pdf",
+   "accessed": "2026-10-29",
+   "price": {
+    "low": 177.93,
+    "high": 177.93,
+    "currency": "PHP",
+    "unit": "kg",
+    "market": "NCR (Metro Manila) public markets, DA Bantay Presyo weekly average",
+    "observed": "2026-10",
+    "source_url": "https://www.da.gov.ph/wp-content/uploads/2026/10/Weekly-Average-Prices-October-19-25-2026.pdf",
+    "accessed": "2026-10-29",
+    "country": "PH",
+    "regions": [
+     "ph-ncr"
+    ]
+   },
+   "rank_basis": "derived from sourced prices"
+  },
+  {
+   "id": "bangus",
+   "name": {
+    "en": "Milkfish (bangus), medium"
+   },
+   "local_name": "bangus",
+   "group": "protein",
+   "cost_rank": "dear",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.da.gov.ph/wp-content/uploads/2026/10/Weekly-Average-Prices-October-19-25-2026.pdf",
+   "accessed": "2026-10-29",
+   "price": {
+    "low": 244.99,
+    "high": 244.99,
+    "currency": "PHP",
+    "unit": "kg",
+    "market": "NCR (Metro Manila) public markets, DA Bantay Presyo weekly average",
+    "observed": "2026-10",
+    "source_url": "https://www.da.gov.ph/wp-content/uploads/2026/10/Weekly-Average-Prices-October-19-25-2026.pdf",
+    "accessed": "2026-10-29",
+    "country": "PH",
+    "regions": [
+     "ph-ncr"
+    ]
+   },
+   "rank_basis": "derived from sourced prices"
+  },
+  {
+   "id": "galunggong",
+   "name": {
+    "en": "Round scad (galunggong), local"
+   },
+   "local_name": "galunggong",
+   "group": "protein",
+   "cost_rank": "dear",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.da.gov.ph/wp-content/uploads/2026/10/Weekly-Average-Prices-October-19-25-2026.pdf",
+   "accessed": "2026-10-29",
+   "price": {
+    "low": 297.79,
+    "high": 297.79,
+    "currency": "PHP",
+    "unit": "kg",
+    "market": "NCR (Metro Manila) public markets, DA Bantay Presyo weekly average",
+    "observed": "2026-10",
+    "source_url": "https://www.da.gov.ph/wp-content/uploads/2026/10/Weekly-Average-Prices-October-19-25-2026.pdf",
+    "accessed": "2026-10-29",
+    "country": "PH",
+    "regions": [
+     "ph-ncr"
+    ]
+   },
+   "rank_basis": "derived from sourced prices"
+  },
+  {
+   "id": "egg",
+   "name": {
+    "en": "Chicken egg, white, medium"
+   },
+   "local_name": "itlog",
+   "group": "protein",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.da.gov.ph/wp-content/uploads/2026/10/Weekly-Average-Prices-October-19-25-2026.pdf",
+   "accessed": "2026-10-29",
+   "price": {
+    "low": 8.24,
+    "high": 8.24,
+    "currency": "PHP",
+    "unit": "piece",
+    "market": "NCR (Metro Manila) public markets, DA Bantay Presyo weekly average",
+    "observed": "2026-10",
+    "source_url": "https://www.da.gov.ph/wp-content/uploads/2026/10/Weekly-Average-Prices-October-19-25-2026.pdf",
+    "accessed": "2026-10-29",
+    "country": "PH",
+    "regions": [
+     "ph-ncr"
+    ]
+   }
+  },
+  {
+   "id": "chicken",
+   "name": {
+    "en": "Whole chicken, dressed"
+   },
+   "local_name": "manok",
+   "group": "protein",
+   "cost_rank": "dear",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.da.gov.ph/wp-content/uploads/2026/10/Weekly-Average-Prices-October-19-25-2026.pdf",
+   "accessed": "2026-10-29",
+   "price": {
+    "low": 215.14,
+    "high": 215.14,
+    "currency": "PHP",
+    "unit": "kg",
+    "market": "NCR (Metro Manila) public markets, DA Bantay Presyo weekly average",
+    "observed": "2026-10",
+    "source_url": "https://www.da.gov.ph/wp-content/uploads/2026/10/Weekly-Average-Prices-October-19-25-2026.pdf",
+    "accessed": "2026-10-29",
+    "country": "PH",
+    "regions": [
+     "ph-ncr"
+    ]
+   },
+   "rank_basis": "derived from sourced prices"
+  },
+  {
+   "id": "oil",
+   "name": {
+    "en": "Cooking oil (palm)"
+   },
+   "local_name": "mantika",
+   "group": "fat",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.da.gov.ph/wp-content/uploads/2026/10/Weekly-Average-Prices-October-19-25-2026.pdf",
+   "accessed": "2026-10-29",
+   "price": {
+    "low": 101.85,
+    "high": 101.85,
+    "currency": "PHP",
+    "unit": "L",
+    "market": "NCR (Metro Manila) public markets, DA Bantay Presyo weekly average",
+    "observed": "2026-10",
+    "source_url": "https://www.da.gov.ph/wp-content/uploads/2026/10/Weekly-Average-Prices-October-19-25-2026.pdf",
+    "accessed": "2026-10-29",
+    "country": "PH",
+    "regions": [
+     "ph-ncr"
+    ]
+   }
+  },
+  {
+   "id": "salt",
+   "name": {
+    "en": "Salt (iodized)"
+   },
+   "local_name": "asin",
+   "group": "other",
+   "cost_rank": "cheap",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.da.gov.ph/wp-content/uploads/2026/10/Weekly-Average-Prices-October-19-25-2026.pdf",
+   "accessed": "2026-10-29",
+   "price": {
+    "low": 43.01,
+    "high": 43.01,
+    "currency": "PHP",
+    "unit": "kg",
+    "market": "NCR (Metro Manila) public markets, DA Bantay Presyo weekly average",
+    "observed": "2026-10",
+    "source_url": "https://www.da.gov.ph/wp-content/uploads/2026/10/Weekly-Average-Prices-October-19-25-2026.pdf",
+    "accessed": "2026-10-29",
+    "country": "PH",
+    "regions": [
+     "ph-ncr"
+    ]
+   },
+   "rank_basis": "derived from sourced prices"
+  }
+ ],
+ "recipes": [
+  {
+   "id": "sinangag",
+   "name": {
+    "en": "Garlic fried rice"
+   },
+   "local_name": "sinangag",
+   "meal": "breakfast",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "rice",
+    "garlic",
+    "oil",
+    "salt"
+   ],
+   "ingredients": [
+    {
+     "en": "2 cups cooked rice, ideally chilled overnight"
+    },
+    {
+     "en": "3 cloves garlic, crushed"
+    },
+    {
+     "en": "1/4 tsp salt"
+    },
+    {
+     "en": "1.5 tbsp oil"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Put garlic in the pan with the oil while it is still cool. Cook slowly until golden."
+    },
+    {
+     "en": "Mix the salt into the rice."
+    },
+    {
+     "en": "Add rice to the pan. Stir-fry 3 to 5 minutes."
+    },
+    {
+     "en": "Serve. Add an egg or a fish on the side if you have one."
+    }
+   ],
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://panlasangpinoy.com/sinangag-recipe/",
+   "accessed": "2026-10-29",
+   "total_minutes": 25,
+   "active_minutes": 25,
+   "allergens": []
+  },
+  {
+   "id": "lugaw",
+   "name": {
+    "en": "Rice porridge"
+   },
+   "local_name": "lugaw",
+   "meal": "breakfast",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "rice",
+    "salt"
+   ],
+   "ingredients": [
+    {
+     "en": "1/2 cup rice"
+    },
+    {
+     "en": "2 to 2.5 cups water"
+    },
+    {
+     "en": "1 tsp salt"
+    },
+    {
+     "en": "Toppings you have: green onion, fried garlic, calamansi"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Boil the water. Add the rice."
+    },
+    {
+     "en": "Simmer about 30 minutes, stirring now and then, until thick."
+    },
+    {
+     "en": "Stir in the salt, cook 2 more minutes."
+    },
+    {
+     "en": "Serve hot."
+    }
+   ],
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://panlasangpinoy.com/lugaw/",
+   "accessed": "2026-10-29",
+   "total_minutes": 40,
+   "active_minutes": 40,
+   "allergens": []
+  },
+  {
+   "id": "champorado-tuyo",
+   "name": {
+    "en": "Chocolate rice porridge with fried dried fish"
+   },
+   "local_name": "champorado at tuyo",
+   "meal": "breakfast",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "salt"
+   ],
+   "ingredients": [
+    {
+     "en": "1/2 cup sticky (glutinous) rice"
+    },
+    {
+     "en": "2 to 2.5 cups water"
+    },
+    {
+     "en": "2 tablea (pure cocoa tablets)"
+    },
+    {
+     "en": "3 tbsp sugar"
+    },
+    {
+     "en": "Pinch of salt"
+    },
+    {
+     "en": "3 to 6 pieces tuyo (salted dried fish)"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Boil 2 cups water. Stir in sugar and tablea until dissolved."
+    },
+    {
+     "en": "Add salt and the rice. Return to a boil."
+    },
+    {
+     "en": "Simmer on low until soft and porridge-like, stirring every 2 to 3 minutes. Add water if too thick."
+    },
+    {
+     "en": "Fry the tuyo until crisp. Watch it, it cooks fast."
+    },
+    {
+     "en": "Serve the porridge with the fish."
+    }
+   ],
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://panlasangpinoy.com/champorado/",
+   "accessed": "2026-10-29",
+   "total_minutes": 40,
+   "active_minutes": 40,
+   "allergens": [
+    "fish"
+   ]
+  },
+  {
+   "id": "arroz-caldo",
+   "name": {
+    "en": "Chicken rice porridge"
+   },
+   "local_name": "arroz caldo",
+   "meal": "breakfast",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "rice",
+    "chicken",
+    "garlic",
+    "onion",
+    "oil",
+    "egg"
+   ],
+   "ingredients": [
+    {
+     "en": "1/3 cup rice and 1/3 cup sticky rice"
+    },
+    {
+     "en": "1 lb chicken pieces"
+    },
+    {
+     "en": "4 cloves garlic"
+    },
+    {
+     "en": "1 onion"
+    },
+    {
+     "en": "1 thumb ginger, in strips"
+    },
+    {
+     "en": "3 cups water"
+    },
+    {
+     "en": "1 tbsp fish sauce"
+    },
+    {
+     "en": "2 boiled eggs"
+    },
+    {
+     "en": "Green onion and calamansi to finish"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Fry the garlic in oil until golden. Set it aside for topping."
+    },
+    {
+     "en": "In the same oil, soften onion, add ginger, then brown the chicken. Add fish sauce."
+    },
+    {
+     "en": "Stir in both rices, add water, cover and bring to a boil."
+    },
+    {
+     "en": "Simmer on lowest heat 35 minutes or more, stirring sometimes, until the rice breaks down and it is thick."
+    },
+    {
+     "en": "Top with egg, fried garlic, green onion. Squeeze calamansi on top."
+    }
+   ],
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://panlasangpinoy.com/arroz-caldo/",
+   "accessed": "2026-10-29",
+   "total_minutes": 50,
+   "active_minutes": 50,
+   "allergens": [
+    "egg",
+    "fish"
+   ]
+  },
+  {
+   "id": "monggo-dilis",
+   "name": {
+    "en": "Mung bean stew with dried anchovies"
+   },
+   "local_name": "ginisang monggo with dilis",
+   "meal": "main",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "mungbean",
+    "tomato",
+    "onion",
+    "garlic",
+    "oil"
+   ],
+   "ingredients": [
+    {
+     "en": "2/3 cup mung beans, soaked overnight"
+    },
+    {
+     "en": "2 tbsp dried anchovies (dilis)"
+    },
+    {
+     "en": "1/2 tomato"
+    },
+    {
+     "en": "1/2 onion"
+    },
+    {
+     "en": "2 cloves garlic"
+    },
+    {
+     "en": "1 handful spinach"
+    },
+    {
+     "en": "1 tbsp fish sauce"
+    },
+    {
+     "en": "1.5 cups water"
+    },
+    {
+     "en": "Rice, cooked separately in its own pot"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Soak the beans overnight."
+    },
+    {
+     "en": "Fry garlic, onion, tomato in oil. Add the dilis, cook 1 minute."
+    },
+    {
+     "en": "Add the beans and stir 1 to 2 minutes. Add water, boil, then simmer until the beans are soft and mushy. Add water if it gets dry."
+    },
+    {
+     "en": "Add fish sauce and pepper. Add spinach, cook 3 minutes."
+    },
+    {
+     "en": "Serve over rice."
+    }
+   ],
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://panlasangpinoy.com/ginisang-monggo-with-dilis/",
+   "accessed": "2026-10-29",
+   "total_minutes": 45,
+   "active_minutes": 45,
+   "allergens": [
+    "fish"
+   ],
+   "soak_hours": 8
+  },
+  {
+   "id": "monggo-malunggay",
+   "name": {
+    "en": "Mung bean stew with dilis and malunggay"
+   },
+   "local_name": "monggo guisado with malunggay",
+   "meal": "main",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "mungbean",
+    "tomato",
+    "onion",
+    "garlic",
+    "oil"
+   ],
+   "ingredients": [
+    {
+     "en": "2/3 cup mung beans"
+    },
+    {
+     "en": "1/4 cup dried anchovies (dilis)"
+    },
+    {
+     "en": "1/2 cup malunggay leaves"
+    },
+    {
+     "en": "1/2 onion"
+    },
+    {
+     "en": "1/2 tomato"
+    },
+    {
+     "en": "2 cloves garlic"
+    },
+    {
+     "en": "1 tbsp fish sauce"
+    },
+    {
+     "en": "Rice, cooked separately"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Boil the beans in plenty of water 35 to 40 minutes until soft. Set aside."
+    },
+    {
+     "en": "In a second pot or after emptying the first, fry garlic and onion, add tomato, cook 2 minutes."
+    },
+    {
+     "en": "Add the dilis, then the cooked beans. Stir 2 minutes."
+    },
+    {
+     "en": "Add 1 to 2 cups water. Simmer 5 to 8 minutes."
+    },
+    {
+     "en": "Stir in malunggay, fish sauce and pepper. Cook 1 to 2 minutes. Serve over rice."
+    }
+   ],
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://panlasangpinoy.com/monggo-guisado-with-dilis-and-malunggay-balatong/",
+   "accessed": "2026-10-29",
+   "total_minutes": 75,
+   "active_minutes": 75,
+   "allergens": [
+    "fish"
+   ]
+  },
+  {
+   "id": "monggo-kalabasa",
+   "name": {
+    "en": "Mung beans with squash and malunggay"
+   },
+   "local_name": "ginisang monggo with kalabasa",
+   "meal": "main",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "mungbean",
+    "squash",
+    "tomato",
+    "onion",
+    "garlic",
+    "oil"
+   ],
+   "ingredients": [
+    {
+     "en": "1/2 cup mung beans, soaked overnight"
+    },
+    {
+     "en": "1 cup cubed squash"
+    },
+    {
+     "en": "2 tbsp dried shrimp (hibe)"
+    },
+    {
+     "en": "1/2 cup malunggay or spinach"
+    },
+    {
+     "en": "1 tomato"
+    },
+    {
+     "en": "1/2 onion"
+    },
+    {
+     "en": "2 cloves garlic"
+    },
+    {
+     "en": "1 tbsp fish sauce"
+    },
+    {
+     "en": "Rice, cooked separately"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Soak the beans overnight and drain."
+    },
+    {
+     "en": "Fry garlic until brown, add onion and tomato until soft."
+    },
+    {
+     "en": "Add the dried shrimp, beans, fish sauce and about 2 cups water. Cover and simmer until the beans are very soft."
+    },
+    {
+     "en": "Add the squash and cook until tender."
+    },
+    {
+     "en": "Stir in the greens, cook 1 minute. Serve over rice."
+    }
+   ],
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://panlasangpinoy.com/ginisang-monggo-with-kalabasa/",
+   "accessed": "2026-10-29",
+   "total_minutes": 70,
+   "active_minutes": 70,
+   "allergens": [
+    "fish",
+    "shellfish"
+   ],
+   "soak_hours": 8
+  },
+  {
+   "id": "ginataang-monggo-tofu",
+   "name": {
+    "en": "Mung beans in coconut milk with tofu and malunggay"
+   },
+   "local_name": "ginataang monggo with tokwa",
+   "meal": "main",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "mungbean",
+    "tomato",
+    "onion",
+    "garlic",
+    "oil"
+   ],
+   "ingredients": [
+    {
+     "en": "1/2 cup mung beans"
+    },
+    {
+     "en": "1/2 cup fried tofu, diced"
+    },
+    {
+     "en": "1/2 cup malunggay leaves"
+    },
+    {
+     "en": "1 cup coconut milk"
+    },
+    {
+     "en": "1/2 onion"
+    },
+    {
+     "en": "3 cloves garlic"
+    },
+    {
+     "en": "1/2 tomato, optional"
+    },
+    {
+     "en": "2 cups water"
+    },
+    {
+     "en": "Salt and pepper"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Fry garlic, onion and tomato in oil."
+    },
+    {
+     "en": "Add the beans, stir 2 minutes. Add water and boil. Simmer until mushy, adding water as needed."
+    },
+    {
+     "en": "Stir in the coconut milk, then the tofu. Cook 2 minutes."
+    },
+    {
+     "en": "Add malunggay, season with salt and pepper. Serve with rice."
+    }
+   ],
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://panlasangpinoy.com/ginataang-monggo-with-tofu-and-malunggay/",
+   "accessed": "2026-10-29",
+   "total_minutes": 65,
+   "active_minutes": 65,
+   "allergens": [
+    "soy"
+   ]
+  },
+  {
+   "id": "ginisang-togue",
+   "name": {
+    "en": "Sauteed bean sprouts with tofu"
+   },
+   "local_name": "ginisang togue",
+   "meal": "main",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "tomato",
+    "onion",
+    "garlic",
+    "oil"
+   ],
+   "ingredients": [
+    {
+     "en": "6 oz mung bean sprouts"
+    },
+    {
+     "en": "4 oz firm tofu"
+    },
+    {
+     "en": "1/2 carrot, in strips"
+    },
+    {
+     "en": "1/2 tomato"
+    },
+    {
+     "en": "1/2 onion"
+    },
+    {
+     "en": "2 cloves garlic"
+    },
+    {
+     "en": "Some bell pepper, optional"
+    },
+    {
+     "en": "1 tbsp oyster sauce or fish sauce"
+    },
+    {
+     "en": "Rice, cooked separately"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Fry the tofu in oil until golden. Cube it, set aside."
+    },
+    {
+     "en": "In the same pan, fry garlic, onion and tomato until soft."
+    },
+    {
+     "en": "Add tofu back, then sprouts and carrot. Stir about 1 minute."
+    },
+    {
+     "en": "Add bell pepper 1 minute. Season with oyster or fish sauce and pepper."
+    },
+    {
+     "en": "Serve over rice."
+    }
+   ],
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://panlasangpinoy.com/ginisang-togue-sauteed-mung-bean-sprouts/",
+   "accessed": "2026-10-29",
+   "total_minutes": 30,
+   "active_minutes": 30,
+   "allergens": [
+    "fish",
+    "shellfish",
+    "soy"
+   ]
+  },
+  {
+   "id": "tinola",
+   "name": {
+    "en": "Chicken ginger soup with papaya or chayote"
+   },
+   "local_name": "tinolang manok",
+   "meal": "main",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "chicken",
+    "chayote",
+    "onion",
+    "garlic",
+    "oil"
+   ],
+   "ingredients": [
+    {
+     "en": "1 lb chicken pieces"
+    },
+    {
+     "en": "1/2 green papaya or 1 chayote, wedges"
+    },
+    {
+     "en": "1/2 cup malunggay or chili leaves"
+    },
+    {
+     "en": "1/2 onion"
+    },
+    {
+     "en": "2 cloves garlic"
+    },
+    {
+     "en": "1 thumb ginger, in strips"
+    },
+    {
+     "en": "1 tbsp fish sauce"
+    },
+    {
+     "en": "3 cups water"
+    },
+    {
+     "en": "Rice, cooked separately"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Fry garlic, onion, ginger. Add the chicken, brown about 5 minutes."
+    },
+    {
+     "en": "Add water, boil, cover and simmer about 40 minutes. Skim the scum and oil off the top."
+    },
+    {
+     "en": "Add papaya or chayote, cook 5 minutes."
+    },
+    {
+     "en": "Add the leaves and fish sauce, cook 2 minutes. Serve hot with rice."
+    }
+   ],
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://panlasangpinoy.com/classic-tinolang-manok-recipe/",
+   "accessed": "2026-10-29",
+   "total_minutes": 65,
+   "active_minutes": 65,
+   "allergens": [
+    "fish"
+   ]
+  },
+  {
+   "id": "sinigang-bangus",
+   "name": {
+    "en": "Sour fish soup with vegetables"
+   },
+   "local_name": "sinigang na bangus",
+   "meal": "main",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "bangus",
+    "tomato",
+    "onion",
+    "oil"
+   ],
+   "ingredients": [
+    {
+     "en": "1/2 lb milkfish (bangus) belly"
+    },
+    {
+     "en": "1 tomato, wedged"
+    },
+    {
+     "en": "1/2 onion"
+    },
+    {
+     "en": "3 okra"
+    },
+    {
+     "en": "Some radish (labanos)"
+    },
+    {
+     "en": "1 long green pepper"
+    },
+    {
+     "en": "1 bunch mustard greens or other leafy greens"
+    },
+    {
+     "en": "3 cups water"
+    },
+    {
+     "en": "Sinigang mix or other sour base"
+    },
+    {
+     "en": "1 tbsp fish sauce"
+    },
+    {
+     "en": "Rice, cooked separately"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Boil water. Add tomato and onion, cover, boil 5 minutes."
+    },
+    {
+     "en": "Add the fish, cook 5 to 7 minutes on low-medium."
+    },
+    {
+     "en": "Add radish, okra and green pepper, cook 5 to 8 minutes."
+    },
+    {
+     "en": "Add the sour base and fish sauce, then the greens. Cover, cook 4 minutes. Serve hot."
+    }
+   ],
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://panlasangpinoy.com/sinigang-na-bangus/",
+   "accessed": "2026-10-29",
+   "total_minutes": 35,
+   "active_minutes": 35,
+   "allergens": [
+    "milk",
+    "fish"
+   ]
+  },
+  {
+   "id": "pinakbet",
+   "name": {
+    "en": "Mixed vegetables with shrimp paste"
+   },
+   "local_name": "pinakbet",
+   "meal": "main",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "squash",
+    "eggplant",
+    "ampalaya",
+    "sitao",
+    "tomato",
+    "onion",
+    "garlic",
+    "oil"
+   ],
+   "ingredients": [
+    {
+     "en": "1 cup squash cubes"
+    },
+    {
+     "en": "6 string beans (sitaw), in 2-inch pieces"
+    },
+    {
+     "en": "6 okra"
+    },
+    {
+     "en": "1/2 eggplant, sliced"
+    },
+    {
+     "en": "1/2 ampalaya, sliced"
+    },
+    {
+     "en": "1 tomato"
+    },
+    {
+     "en": "1/2 onion"
+    },
+    {
+     "en": "2 cloves garlic"
+    },
+    {
+     "en": "1 tsp shrimp paste (bagoong alamang)"
+    },
+    {
+     "en": "1 cup water"
+    },
+    {
+     "en": "Fried pork, optional"
+    },
+    {
+     "en": "Rice, cooked separately"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Fry onion and garlic (and ginger if you have it) until soft."
+    },
+    {
+     "en": "Add water, boil. Add tomato and bagoong, cook 3 minutes."
+    },
+    {
+     "en": "Add squash (and sweet potato if used), cook 7 minutes."
+    },
+    {
+     "en": "Add beans, okra, ampalaya and eggplant. Cover and cook 5 minutes."
+    },
+    {
+     "en": "Season with pepper. Serve with rice."
+    }
+   ],
+   "regions": [
+    "ph-ncr",
+    "ph-luzon"
+   ],
+   "source_url": "https://panlasangpinoy.com/pinakbet-tagalog-recipe/",
+   "accessed": "2026-10-29",
+   "total_minutes": 40,
+   "active_minutes": 40,
+   "allergens": [
+    "shellfish"
+   ]
+  },
+  {
+   "id": "ginataang-kalabasa-sitaw",
+   "name": {
+    "en": "Squash and string beans in coconut milk"
+   },
+   "local_name": "ginataang kalabasa at sitaw",
+   "meal": "main",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "squash",
+    "sitao",
+    "onion",
+    "garlic",
+    "oil"
+   ],
+   "ingredients": [
+    {
+     "en": "2 cups squash cubes"
+    },
+    {
+     "en": "9 string beans, in 2-inch pieces"
+    },
+    {
+     "en": "1 oz pork or dried fish, optional"
+    },
+    {
+     "en": "2 cups coconut milk"
+    },
+    {
+     "en": "1/2 onion"
+    },
+    {
+     "en": "3 cloves garlic"
+    },
+    {
+     "en": "1 thumb ginger"
+    },
+    {
+     "en": "Fish sauce and pepper"
+    },
+    {
+     "en": "Rice, cooked separately"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Brown the pork in oil if using. Fry garlic, onion, ginger."
+    },
+    {
+     "en": "Pour in coconut milk. Cover, boil, then simmer 5 minutes."
+    },
+    {
+     "en": "Add squash, cook 5 minutes."
+    },
+    {
+     "en": "Add string beans, cook 5 to 8 minutes so they stay crisp."
+    },
+    {
+     "en": "Season with fish sauce and pepper. Serve with rice."
+    }
+   ],
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://panlasangpinoy.com/ginataang-kalabasa-at-sitaw/",
+   "accessed": "2026-10-29",
+   "total_minutes": 40,
+   "active_minutes": 40,
+   "allergens": [
+    "fish"
+   ]
+  },
+  {
+   "id": "fried-tilapia",
+   "name": {
+    "en": "Fried tilapia"
+   },
+   "local_name": "pritong tilapia",
+   "meal": "main",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "tilapia",
+    "salt",
+    "oil",
+    "tomato"
+   ],
+   "ingredients": [
+    {
+     "en": "1 whole tilapia, cleaned and scaled"
+    },
+    {
+     "en": "1 tsp salt"
+    },
+    {
+     "en": "1/2 cup oil"
+    },
+    {
+     "en": "Sliced tomato and calamansi on the side"
+    },
+    {
+     "en": "Rice, cooked separately"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Rub salt on the fish, inside too."
+    },
+    {
+     "en": "Heat the oil in a wide pan. Lay the fish in."
+    },
+    {
+     "en": "Cover with a small gap for steam. Fry each side 6 to 10 minutes on medium until crisp."
+    },
+    {
+     "en": "Serve with tomato, calamansi and rice."
+    }
+   ],
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://panlasangpinoy.com/filipino-food-fried-fish-tilapia-dish/",
+   "accessed": "2026-10-29",
+   "total_minutes": 20,
+   "active_minutes": 20,
+   "allergens": [
+    "fish"
+   ]
+  },
+  {
+   "id": "ginataang-galunggong",
+   "name": {
+    "en": "Round scad in coconut milk"
+   },
+   "local_name": "ginataang galunggong",
+   "meal": "main",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "galunggong",
+    "onion",
+    "garlic"
+   ],
+   "ingredients": [
+    {
+     "en": "2 round scad (galunggong), cleaned and salted"
+    },
+    {
+     "en": "1.5 cups coconut milk"
+    },
+    {
+     "en": "1/2 onion"
+    },
+    {
+     "en": "1 clove garlic"
+    },
+    {
+     "en": "1 knob ginger"
+    },
+    {
+     "en": "2 long green peppers, optional"
+    },
+    {
+     "en": "1/2 tbsp fish sauce"
+    },
+    {
+     "en": "Rice, cooked separately"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Boil the coconut milk in a wide pot."
+    },
+    {
+     "en": "Add garlic, ginger, onion, fish sauce, pepper. Cover 5 minutes."
+    },
+    {
+     "en": "Lay the fish and peppers in. Cover and simmer on medium about 30 minutes."
+    },
+    {
+     "en": "Uncover and cook down the sauce to a small amount. Serve with rice."
+    }
+   ],
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://panlasangpinoy.com/ginataang-galunggong-recipe/",
+   "accessed": "2026-10-29",
+   "total_minutes": 45,
+   "active_minutes": 45,
+   "allergens": [
+    "fish"
+   ]
+  },
+  {
+   "id": "adobong-kangkong",
+   "name": {
+    "en": "Water spinach adobo"
+   },
+   "local_name": "adobong kangkong",
+   "meal": "light",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "onion",
+    "garlic",
+    "oil"
+   ],
+   "ingredients": [
+    {
+     "en": "1 bunch kangkong, stalks and leaves apart"
+    },
+    {
+     "en": "1/2 onion"
+    },
+    {
+     "en": "4 cloves garlic"
+    },
+    {
+     "en": "2 tbsp soy sauce"
+    },
+    {
+     "en": "1 tbsp vinegar"
+    },
+    {
+     "en": "Up to 1/4 cup water"
+    },
+    {
+     "en": "1.5 tbsp oil"
+    },
+    {
+     "en": "Pepper"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Fry the garlic golden. Keep some for topping."
+    },
+    {
+     "en": "Add onion until soft."
+    },
+    {
+     "en": "Add soy sauce, vinegar, water. Boil."
+    },
+    {
+     "en": "Add stalks, cook 2 minutes. Add leaves, cook 1 minute, cover 1 more."
+    },
+    {
+     "en": "Season with pepper, top with the saved garlic."
+    }
+   ],
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://panlasangpinoy.com/adobong-kangkong/",
+   "accessed": "2026-10-29",
+   "total_minutes": 20,
+   "active_minutes": 20,
+   "allergens": [
+    "soy"
+   ]
+  },
+  {
+   "id": "sayote-sardinas",
+   "name": {
+    "en": "Chayote with canned sardines"
+   },
+   "local_name": "ginisang sayote at sardinas",
+   "meal": "light",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "chayote",
+    "tomato",
+    "onion",
+    "garlic",
+    "oil"
+   ],
+   "ingredients": [
+    {
+     "en": "1 can sardines in tomato sauce (about 5 oz)"
+    },
+    {
+     "en": "1.5 chayote, peeled and sliced"
+    },
+    {
+     "en": "1 small onion"
+    },
+    {
+     "en": "3 cloves garlic"
+    },
+    {
+     "en": "1/2 tomato"
+    },
+    {
+     "en": "1/4 cup water"
+    },
+    {
+     "en": "1.5 tbsp oil"
+    },
+    {
+     "en": "Rice, cooked separately"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Brown the garlic in oil. Add onion and tomato, 1 minute."
+    },
+    {
+     "en": "Add chayote, cook 2 minutes."
+    },
+    {
+     "en": "Fold in the sardines with their sauce, about 30 seconds."
+    },
+    {
+     "en": "Add water, boil, then simmer until the sauce is halved. Serve with rice."
+    }
+   ],
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://panlasangpinoy.com/ginisang-sayote/",
+   "accessed": "2026-10-29",
+   "total_minutes": 17,
+   "active_minutes": 17,
+   "allergens": [
+    "fish"
+   ]
+  },
+  {
+   "id": "ginisang-ampalaya-itlog",
+   "name": {
+    "en": "Bitter melon with egg"
+   },
+   "local_name": "ginisang ampalaya with itlog",
+   "meal": "light",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "ampalaya",
+    "egg",
+    "tomato",
+    "onion",
+    "garlic",
+    "oil"
+   ],
+   "ingredients": [
+    {
+     "en": "1.5 ampalaya, halved, seeds removed, sliced thin"
+    },
+    {
+     "en": "2 eggs, beaten"
+    },
+    {
+     "en": "1 tomato"
+    },
+    {
+     "en": "1 onion"
+    },
+    {
+     "en": "3 cloves garlic"
+    },
+    {
+     "en": "1.5 tbsp oil"
+    },
+    {
+     "en": "Pepper"
+    },
+    {
+     "en": "Rice, cooked separately"
+    }
+   ],
+   "steps": [
+    {
+     "en": "To cut bitterness, soak the slices in warm salted water 5 to 8 minutes, rinse, squeeze gently."
+    },
+    {
+     "en": "Fry garlic, onion, tomato until soft."
+    },
+    {
+     "en": "Add the ampalaya, cook about 1.5 minutes."
+    },
+    {
+     "en": "Pour in the eggs, let sit 20 seconds, stir about 1 minute until just set. Serve with rice."
+    }
+   ],
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://panlasangpinoy.com/healthy-bitter-melon-ginisang-ampalaya-recipe/",
+   "accessed": "2026-10-29",
+   "total_minutes": 18,
+   "active_minutes": 18,
+   "allergens": [
+    "egg"
+   ]
+  },
+  {
+   "id": "adobong-tokwa",
+   "name": {
+    "en": "Tofu in adobo sauce"
+   },
+   "local_name": "adobong tokwa",
+   "meal": "light",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "garlic",
+    "oil",
+    "calamansi"
+   ],
+   "ingredients": [
+    {
+     "en": "5 pieces firm tofu (tokwa), halved"
+    },
+    {
+     "en": "3 cloves garlic"
+    },
+    {
+     "en": "1 chili, optional"
+    },
+    {
+     "en": "2 tbsp soy sauce"
+    },
+    {
+     "en": "2 tbsp vinegar"
+    },
+    {
+     "en": "1/3 cup water"
+    },
+    {
+     "en": "1/2 tbsp sugar"
+    },
+    {
+     "en": "1/2 tbsp cornstarch mixed with 1 tbsp water"
+    },
+    {
+     "en": "Oil for frying"
+    },
+    {
+     "en": "Calamansi to squeeze on the side"
+    },
+    {
+     "en": "Rice, cooked separately"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Drain the tofu a few minutes."
+    },
+    {
+     "en": "Fry in hot oil until golden. Drain."
+    },
+    {
+     "en": "Leave about 2 tbsp oil. Fry garlic and chili 1 minute."
+    },
+    {
+     "en": "Add soy sauce, vinegar, water, sugar, pepper. Boil, do not stir for 3 minutes."
+    },
+    {
+     "en": "Stir in the cornstarch mix until thick. Pour over tofu. Serve with rice and calamansi."
+    }
+   ],
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.panlasangpinoymeatrecipes.com/wprm_print/23785",
+   "accessed": "2026-10-29",
+   "total_minutes": 20,
+   "active_minutes": 20,
+   "allergens": [
+    "soy"
+   ]
+  },
+  {
+   "id": "tortang-talong",
+   "name": {
+    "en": "Eggplant omelet"
+   },
+   "local_name": "tortang talong",
+   "meal": "light",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "eggplant",
+    "egg",
+    "oil",
+    "salt"
+   ],
+   "ingredients": [
+    {
+     "en": "1 Chinese eggplant"
+    },
+    {
+     "en": "1 egg"
+    },
+    {
+     "en": "1/4 tsp salt"
+    },
+    {
+     "en": "Pepper"
+    },
+    {
+     "en": "3 tbsp oil"
+    },
+    {
+     "en": "Rice, cooked separately"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Char the eggplant right on the stove flame, turning, until the skin is black and the flesh nearly soft."
+    },
+    {
+     "en": "Cool, peel, flatten with a fork."
+    },
+    {
+     "en": "Beat the egg with salt and pepper. Dip the eggplant."
+    },
+    {
+     "en": "Fry in the oil until medium brown. Pour the leftover egg on top, flip, brown the other side. Serve with rice."
+    }
+   ],
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://panlasangpinoy.com/basic-tortang-talong-recipe/",
+   "accessed": "2026-10-29",
+   "total_minutes": 15,
+   "active_minutes": 15,
+   "allergens": [
+    "egg"
+   ]
+  }
+ ],
+ "menu": [
+  {
+   "day": 1,
+   "breakfast": [
+    "sinangag",
+    "lugaw",
+    "champorado-tuyo",
+    "arroz-caldo"
+   ],
+   "main": [
+    "monggo-dilis",
+    "monggo-malunggay",
+    "monggo-kalabasa",
+    "ginataang-monggo-tofu",
+    "ginisang-togue",
+    "tinola",
+    "sinigang-bangus",
+    "pinakbet",
+    "ginataang-kalabasa-sitaw",
+    "fried-tilapia",
+    "ginataang-galunggong"
+   ],
+   "light": [
+    "adobong-kangkong",
+    "sayote-sardinas",
+    "ginisang-ampalaya-itlog",
+    "adobong-tokwa",
+    "tortang-talong",
+    "monggo-dilis",
+    "monggo-malunggay",
+    "monggo-kalabasa",
+    "ginataang-monggo-tofu",
+    "ginisang-togue",
+    "tinola",
+    "sinigang-bangus",
+    "pinakbet",
+    "ginataang-kalabasa-sitaw",
+    "fried-tilapia",
+    "ginataang-galunggong"
+   ]
+  },
+  {
+   "day": 2,
+   "breakfast": [
+    "champorado-tuyo",
+    "lugaw",
+    "arroz-caldo",
+    "sinangag"
+   ],
+   "main": [
+    "tinola",
+    "monggo-malunggay",
+    "monggo-kalabasa",
+    "ginataang-monggo-tofu",
+    "ginisang-togue",
+    "sinigang-bangus",
+    "pinakbet",
+    "ginataang-kalabasa-sitaw",
+    "fried-tilapia",
+    "ginataang-galunggong",
+    "monggo-dilis"
+   ],
+   "light": [
+    "adobong-tokwa",
+    "sayote-sardinas",
+    "ginisang-ampalaya-itlog",
+    "tortang-talong",
+    "monggo-dilis",
+    "monggo-malunggay",
+    "monggo-kalabasa",
+    "ginataang-monggo-tofu",
+    "ginisang-togue",
+    "tinola",
+    "sinigang-bangus",
+    "pinakbet",
+    "ginataang-kalabasa-sitaw",
+    "fried-tilapia",
+    "ginataang-galunggong",
+    "adobong-kangkong"
+   ]
+  },
+  {
+   "day": 3,
+   "breakfast": [
+    "lugaw",
+    "champorado-tuyo",
+    "arroz-caldo",
+    "sinangag"
+   ],
+   "main": [
+    "ginataang-monggo-tofu",
+    "monggo-kalabasa",
+    "ginisang-togue",
+    "tinola",
+    "sinigang-bangus",
+    "pinakbet",
+    "ginataang-kalabasa-sitaw",
+    "fried-tilapia",
+    "ginataang-galunggong",
+    "monggo-dilis",
+    "monggo-malunggay"
+   ],
+   "light": [
+    "sayote-sardinas",
+    "ginisang-ampalaya-itlog",
+    "adobong-tokwa",
+    "tortang-talong",
+    "monggo-dilis",
+    "monggo-malunggay",
+    "monggo-kalabasa",
+    "ginataang-monggo-tofu",
+    "ginisang-togue",
+    "tinola",
+    "sinigang-bangus",
+    "pinakbet",
+    "ginataang-kalabasa-sitaw",
+    "fried-tilapia",
+    "ginataang-galunggong",
+    "adobong-kangkong"
+   ]
+  },
+  {
+   "day": 4,
+   "breakfast": [
+    "arroz-caldo",
+    "sinangag",
+    "lugaw",
+    "champorado-tuyo"
+   ],
+   "main": [
+    "ginisang-togue",
+    "ginataang-monggo-tofu",
+    "tinola",
+    "sinigang-bangus",
+    "pinakbet",
+    "ginataang-kalabasa-sitaw",
+    "fried-tilapia",
+    "ginataang-galunggong",
+    "monggo-dilis",
+    "monggo-malunggay",
+    "monggo-kalabasa"
+   ],
+   "light": [
+    "tortang-talong",
+    "adobong-tokwa",
+    "monggo-dilis",
+    "monggo-malunggay",
+    "monggo-kalabasa",
+    "ginataang-monggo-tofu",
+    "ginisang-togue",
+    "tinola",
+    "sinigang-bangus",
+    "pinakbet",
+    "ginataang-kalabasa-sitaw",
+    "fried-tilapia",
+    "ginataang-galunggong",
+    "adobong-kangkong",
+    "sayote-sardinas",
+    "ginisang-ampalaya-itlog"
+   ]
+  },
+  {
+   "day": 5,
+   "breakfast": [
+    "sinangag",
+    "lugaw",
+    "champorado-tuyo",
+    "arroz-caldo"
+   ],
+   "main": [
+    "monggo-kalabasa",
+    "ginisang-togue",
+    "tinola",
+    "sinigang-bangus",
+    "pinakbet",
+    "ginataang-kalabasa-sitaw",
+    "fried-tilapia",
+    "ginataang-galunggong",
+    "monggo-dilis",
+    "monggo-malunggay",
+    "ginataang-monggo-tofu"
+   ],
+   "light": [
+    "ginisang-ampalaya-itlog",
+    "tortang-talong",
+    "monggo-dilis",
+    "monggo-malunggay",
+    "monggo-kalabasa",
+    "ginataang-monggo-tofu",
+    "ginisang-togue",
+    "tinola",
+    "sinigang-bangus",
+    "pinakbet",
+    "ginataang-kalabasa-sitaw",
+    "fried-tilapia",
+    "ginataang-galunggong",
+    "adobong-kangkong",
+    "sayote-sardinas",
+    "adobong-tokwa"
+   ]
+  },
+  {
+   "day": 6,
+   "breakfast": [
+    "champorado-tuyo",
+    "lugaw",
+    "arroz-caldo",
+    "sinangag"
+   ],
+   "main": [
+    "sinigang-bangus",
+    "tinola",
+    "pinakbet",
+    "ginataang-kalabasa-sitaw",
+    "fried-tilapia",
+    "ginataang-galunggong",
+    "monggo-dilis",
+    "monggo-malunggay",
+    "monggo-kalabasa",
+    "ginataang-monggo-tofu",
+    "ginisang-togue"
+   ],
+   "light": [
+    "adobong-tokwa",
+    "monggo-dilis",
+    "monggo-malunggay",
+    "monggo-kalabasa",
+    "ginataang-monggo-tofu",
+    "ginisang-togue",
+    "tinola",
+    "sinigang-bangus",
+    "pinakbet",
+    "ginataang-kalabasa-sitaw",
+    "fried-tilapia",
+    "ginataang-galunggong",
+    "adobong-kangkong",
+    "sayote-sardinas",
+    "ginisang-ampalaya-itlog",
+    "tortang-talong"
+   ]
+  },
+  {
+   "day": 7,
+   "breakfast": [
+    "lugaw",
+    "champorado-tuyo",
+    "arroz-caldo",
+    "sinangag"
+   ],
+   "main": [
+    "monggo-malunggay",
+    "sinigang-bangus",
+    "pinakbet",
+    "ginataang-kalabasa-sitaw",
+    "fried-tilapia",
+    "ginataang-galunggong",
+    "monggo-dilis",
+    "monggo-kalabasa",
+    "ginataang-monggo-tofu",
+    "ginisang-togue",
+    "tinola"
+   ],
+   "light": [
+    "sayote-sardinas",
+    "monggo-malunggay",
+    "monggo-kalabasa",
+    "ginataang-monggo-tofu",
+    "ginisang-togue",
+    "tinola",
+    "sinigang-bangus",
+    "pinakbet",
+    "ginataang-kalabasa-sitaw",
+    "fried-tilapia",
+    "ginataang-galunggong",
+    "adobong-kangkong",
+    "ginisang-ampalaya-itlog",
+    "adobong-tokwa",
+    "tortang-talong",
+    "monggo-dilis"
+   ]
+  }
+ ],
+ "techniques": [
+  {
+   "id": "cook-through",
+   "title": {
+    "en": "Cook until hot all the way through"
+   },
+   "body": {
+    "en": "Color and texture are not reliable signs that food is done. The WHO poster targets 70 C inside for meat and poultry. Keep chicken and fish dishes at a steady simmer until cooked through, with no pink at the bone."
+   },
+   "source_url": "https://www.cdc.gov/food-safety/prevention/index.html",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "separate",
+   "title": {
+    "en": "Keep raw and cooked apart"
+   },
+   "body": {
+    "en": "Keep raw meat, poultry, fish and eggs away from ready-to-eat food. Bag raw fish and meat separately at the market. Use a separate board and knife for raw food, or wash them between uses."
+   },
+   "source_url": "https://www.cdc.gov/food-safety/prevention/index.html",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "plate",
+   "title": {
+    "en": "Build each day from four parts"
+   },
+   "body": {
+    "en": "Aim for a staple (rice), a legume (mung beans, tofu), vegetables or fruit, and some fish, egg or oil. WHO advice for adults is at least 400 g of fruit and vegetables a day, with pulses and whole grains as main carbohydrate sources."
+   },
+   "source_url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "vitamin-c",
+   "title": {
+    "en": "Put vitamin C on the table with beans"
+   },
+   "body": {
+    "en": "Vitamin C helps the body take iron from plant foods such as beans and rice. FAO says each meal should have at least 25 mg of vitamin C. Tomato, calamansi and green vegetables in the same meal as the mung beans do this."
+   },
+   "source_url": "https://www.fao.org/4/y2809e/y2809e0j.htm",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "salt",
+   "title": {
+    "en": "Taste before adding salty sauces"
+   },
+   "body": {
+    "en": "Fish sauce, shrimp paste, dried fish and soy sauce are already salty. WHO advises adults to keep salt under 5 g a day, so taste the dish first and add salty sauce a little at a time."
+   },
+   "source_url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+   "accessed": "2026-10-29"
+  }
+ ],
+ "safety": [
+  {
+   "id": "water",
+   "title": {
+    "en": "Make water safe"
+   },
+   "body": {
+    "en": "Follow your mission's water guidance first. If you must treat water: let cloudy water settle or filter it first, then bring it to a rolling boil for 1 minute (3 minutes above 6,500 feet, about 2,000 m). Cool and keep it in a clean, covered container."
+   },
+   "source_url": "https://www.cdc.gov/healthywater/emergency/making-water-safe.html",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "produce",
+   "title": {
+    "en": "Rinse produce under running water"
+   },
+   "body": {
+    "en": "Rinse fresh fruits and vegetables under running water before eating or cooking. Use safe water for rinsing. Use the same rule for herbs and greens like kangkong and pechay."
+   },
+   "source_url": "https://www.cdc.gov/food-safety/prevention/index.html",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "hands",
+   "title": {
+    "en": "Wash hands often"
+   },
+   "body": {
+    "en": "Wash with soap and clean water for at least 20 seconds before preparing food, before eating, and after using the toilet. If there is no soap and water, use a hand sanitizer with at least 60% alcohol."
+   },
+   "source_url": "https://www.cdc.gov/handwashing/when-how-handwashing.html",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "cook-chill",
+   "title": {
+    "en": "Clean, separate, cook, chill"
+   },
+   "body": {
+    "en": "The four steps: clean hands and surfaces, keep raw apart from ready-to-eat food, cook food fully, and chill perishable food promptly."
+   },
+   "source_url": "https://www.cdc.gov/food-safety/prevention/index.html",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "leftovers",
+   "title": {
+    "en": "Leftovers without a fridge"
+   },
+   "body": {
+    "en": "Do not leave perishable food out more than 2 hours, or 1 hour when it is hotter than 90 F (32 C). Without a fridge, cook amounts you will finish. If you keep any, heat it all the way through again before eating (WHO)."
+   },
+   "source_url": "https://www.cdc.gov/food-safety/prevention/index.html",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "ors-red-flags",
+   "title": {
+    "en": "Diarrhea: ORS and when to tell the nurse"
+   },
+   "body": {
+    "en": "Use oral rehydration salts (ORS) packets, mixed exactly as the packet says with clean water. Do not make your own mix. Tell your mission nurse if you have blood in the stool, signs of dehydration (sunken eyes, drinking poorly, very sleepy), diarrhea for 14 days or longer, or cannot keep fluids down."
+   },
+   "source_url": "https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "heat",
+   "title": {
+    "en": "Heat and hydration"
+   },
+   "body": {
+    "en": "Carry a water bottle and refill it through the day. Pale yellow or clear urine usually means you are drinking enough. Rest in shade and do hard work in the coolest part of the day. Cramps, heavy sweating, dizziness, headache, weakness or nausea can mean overheating."
+   },
+   "source_url": "https://www.cdc.gov/heat-health/about/index.html",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "market-safety",
+   "title": {
+    "en": "At the palengke"
+   },
+   "body": {
+    "en": "WHO's five keys for traditional food markets: keep clean, avoid contamination, keep food products safe, reduce contact with animals, and stay safe and protect yourself. Wash your hands after the market, especially after touching live animals or raw meat."
+   },
+   "source_url": "https://www.who.int/publications/i/item/9789290619956",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "red-flags",
+   "title": {
+    "en": "Red flags: contact your mission nurse now"
+   },
+   "body": {
+    "en": "Contact your mission nurse now if you have any of these: blood in your diarrhea, a high fever (over 102 F, about 39 C), vomiting so often you cannot keep liquids down, or signs of dehydration such as peeing very little, a dry mouth and throat, or feeling dizzy when you stand up."
+   },
+   "source_url": "https://www.cdc.gov/food-safety/signs-symptoms/index.html",
+   "accessed": "2026-10-29",
+   "urgent": true
+  }
+ ],
+ "first_week": {
+  "market_tip": "wet_market",
+  "safety_tip": "water"
+ }
+}

@@ -1,0 +1,1977 @@
+{
+ "id": "mesoamerica",
+ "name": {
+  "en": "Mexico and Central America"
+ },
+ "lang": [
+  "es"
+ ],
+ "countries": [
+  {
+   "code": "MX",
+   "name": {
+    "en": "Mexico"
+   },
+   "regions": [
+    {
+     "id": "mx-north",
+     "name": {
+      "en": "North"
+     },
+     "altitude_high": false
+    },
+    {
+     "id": "mx-central",
+     "name": {
+      "en": "Central (incl. Mexico City)"
+     },
+     "altitude_high": true,
+     "accessed": "2026-10-29",
+     "elevation_m": 2240,
+     "elevation_source_url": "https://mexicocity.cdmx.gob.mx/e/about/about-mexico-city/?lang=en"
+    },
+    {
+     "id": "mx-south",
+     "name": {
+      "en": "South"
+     },
+     "altitude_high": false
+    }
+   ]
+  },
+  {
+   "code": "GT",
+   "name": {
+    "en": "Guatemala"
+   },
+   "regions": [
+    {
+     "id": "gt",
+     "name": {
+      "en": "Guatemala"
+     },
+     "altitude_high": false
+    }
+   ]
+  },
+  {
+   "code": "HN",
+   "name": {
+    "en": "Honduras"
+   },
+   "regions": [
+    {
+     "id": "hn",
+     "name": {
+      "en": "Honduras"
+     },
+     "altitude_high": false
+    }
+   ]
+  },
+  {
+   "code": "SV",
+   "name": {
+    "en": "El Salvador"
+   },
+   "regions": [
+    {
+     "id": "sv",
+     "name": {
+      "en": "El Salvador"
+     },
+     "altitude_high": false
+    }
+   ]
+  }
+ ],
+ "stores": [
+  {
+   "id": "wet_market-mx",
+   "type": "wet_market",
+   "local_names": [
+    "tianguis",
+    "mercado sobre ruedas"
+   ],
+   "tip": {
+    "en": "A tianguis is a traditional street market set up on set days, with fruit, vegetables and other seasonal food. In parts of northern Mexico it is called a mercado sobre ruedas."
+   },
+   "regions": [
+    "mx-north",
+    "mx-central",
+    "mx-south"
+   ],
+   "source_url": "https://es.hispanopedia.com/wiki/Tianguis",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "neighborhood_shop-mx",
+   "type": "neighborhood_shop",
+   "local_names": [
+    "tortilleria"
+   ],
+   "tip": {
+    "en": "Tortillerias sell tortillas. Profeco's April 2026 report put the national average at MXN 24.27/kg in tortillerias against MXN 13.96/kg in supermarkets."
+   },
+   "regions": [
+    "mx-north",
+    "mx-central",
+    "mx-south"
+   ],
+   "source_url": "https://www.gob.mx/profeco/prensa/profeco-reporta-precios-estables-de-canasta-basica-tortilla-y-gasolina?idiom=es",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "supermarket-mx",
+   "type": "supermarket",
+   "local_names": [
+    "supermercado"
+   ],
+   "tip": {
+    "en": "Supermarkets sell tortillas too, and Profeco's April 2026 report found them cheaper per kilo than tortillerias."
+   },
+   "regions": [
+    "mx-north",
+    "mx-central",
+    "mx-south"
+   ],
+   "source_url": "https://www.gob.mx/profeco/prensa/profeco-reporta-precios-estables-de-canasta-basica-tortilla-y-gasolina?idiom=es",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "neighborhood_shop-gt",
+   "type": "neighborhood_shop",
+   "local_names": [
+    "tienda de barrio",
+    "abarroteria"
+   ],
+   "tip": {
+    "en": "Neighborhood shops and abarroterias sell basic goods close to home."
+   },
+   "regions": [
+    "gt"
+   ],
+   "source_url": "https://emisorasunidas.com/2020/05/21/garantizan-abastecimiento-en-tiendas-de-barrio/",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "supermarket-gt",
+   "type": "supermarket",
+   "local_names": [
+    "supermercado"
+   ],
+   "tip": {
+    "en": "Supermarkets are a main food retail channel next to neighborhood shops."
+   },
+   "regions": [
+    "gt"
+   ],
+   "source_url": "https://emisorasunidas.com/2020/05/21/garantizan-abastecimiento-en-tiendas-de-barrio/",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "neighborhood_shop-hn",
+   "type": "neighborhood_shop",
+   "local_names": [
+    "pulperia"
+   ],
+   "tip": {
+    "en": "A pulperia is a small neighborhood store that sells almost anything: snacks, bread, drinks and household items."
+   },
+   "regions": [
+    "hn"
+   ],
+   "source_url": "https://www.iwmf.org/stories-from-the-field/i-am-obsessed-with-bodegas-or-pulperias-as-they/",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "wet_market-sv",
+   "type": "wet_market",
+   "local_names": [
+    "mercado tradicional",
+    "agromercado"
+   ],
+   "tip": {
+    "en": "Salvadorans buy food at traditional markets, supermarkets, government agromercados and, since October 2024, the Soyapango central de abasto (wholesale)."
+   },
+   "regions": [
+    "sv"
+   ],
+   "source_url": "https://www.revistaeyn.com/centroamericaymundo/el-salvador-busca-combatir-alza-de-precios-con-nueva-central-de-abasto-de-alimentos-CG22351322",
+   "accessed": "2026-10-29"
+  }
+ ],
+ "staples": [
+  {
+   "id": "black-beans",
+   "name": {
+    "en": "Black beans"
+   },
+   "local_name": "frijol negro",
+   "group": "legume",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.eluniversal.com.mx/menu/como-hacer-frijoles-de-la-olla/",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "red-beans",
+   "name": {
+    "en": "Red beans"
+   },
+   "local_name": "frijol rojo",
+   "group": "legume",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.directoalpaladar.com/recetas-vegetarianas/baleada-hondurena-esta-receta-base-que-puedes-enriquecer-al-gusto-tal-cual-deliciosa",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "masa-harina",
+   "name": {
+    "en": "Masa harina (corn dough flour)"
+   },
+   "local_name": "masa harina",
+   "group": "grain",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.ikea.com/us/en/rooms/kitchen/how-to/pupusas-revueltas-pub48fdd220",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "corn-tortilla",
+   "name": {
+    "en": "Corn tortillas"
+   },
+   "local_name": "tortillas de maiz",
+   "group": "grain",
+   "regions": [
+    "mx-north",
+    "mx-central",
+    "mx-south"
+   ],
+   "source_url": "https://www.gob.mx/profeco/prensa/profeco-reporta-precios-estables-de-canasta-basica-tortilla-y-gasolina?idiom=es",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "wheat-flour",
+   "name": {
+    "en": "Wheat flour"
+   },
+   "local_name": "harina de trigo",
+   "group": "grain",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.directoalpaladar.com/recetas-vegetarianas/baleada-hondurena-esta-receta-base-que-puedes-enriquecer-al-gusto-tal-cual-deliciosa",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "rice",
+   "name": {
+    "en": "Rice"
+   },
+   "local_name": "arroz",
+   "group": "grain",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.fao.org/giews/countrybrief/country.jsp?code=GTM",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "maize",
+   "name": {
+    "en": "Maize (corn)"
+   },
+   "local_name": "maiz",
+   "group": "grain",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.fao.org/giews/countrybrief/country.jsp?code=HND",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "eggs",
+   "name": {
+    "en": "Eggs"
+   },
+   "local_name": "huevos",
+   "group": "protein",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://mexicanfoodjournal.com/wprm_print/huevo-a-la-mexicana-recipe",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "fresh-cheese",
+   "name": {
+    "en": "Fresh cheese"
+   },
+   "local_name": "queso fresco",
+   "group": "protein",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.directoalpaladar.com/recetas-vegetarianas/calabacitas-mexicanas-guiso-rapido-saludable-calabacin-maiz-tomate",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "cream",
+   "name": {
+    "en": "Cream (crema)"
+   },
+   "local_name": "crema / mantequilla crema",
+   "group": "protein",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.directoalpaladar.com/recetas-vegetarianas/baleada-hondurena-esta-receta-base-que-puedes-enriquecer-al-gusto-tal-cual-deliciosa",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "chorizo",
+   "name": {
+    "en": "Chorizo"
+   },
+   "local_name": "chorizo",
+   "group": "protein",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.elheraldo.hn/cocina/desayunos-hondurenos-para-comenzar-el-dia-MO14832295",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "cooking-fat",
+   "name": {
+    "en": "Lard or oil"
+   },
+   "local_name": "manteca o aceite",
+   "group": "fat",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.eluniversal.com.mx/menu/como-hacer-frijoles-de-la-olla/",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "avocado",
+   "name": {
+    "en": "Avocado"
+   },
+   "local_name": "aguacate",
+   "group": "fruit",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.elheraldo.hn/cocina/desayunos-hondurenos-para-comenzar-el-dia-MO14832295",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "ripe-plantain",
+   "name": {
+    "en": "Ripe plantain"
+   },
+   "local_name": "platano maduro",
+   "group": "fruit",
+   "regions": [
+    "hn"
+   ],
+   "source_url": "https://www.elheraldo.hn/cocina/desayunos-hondurenos-para-comenzar-el-dia-MO14832295",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "cabbage",
+   "name": {
+    "en": "Cabbage"
+   },
+   "local_name": "repollo",
+   "group": "vegetable",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.acozykitchen.com/how-to-make-pupusas",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "carrot",
+   "name": {
+    "en": "Carrot"
+   },
+   "local_name": "zanahoria",
+   "group": "vegetable",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.acozykitchen.com/how-to-make-pupusas",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "zucchini",
+   "name": {
+    "en": "Zucchini"
+   },
+   "local_name": "calabacita",
+   "group": "vegetable",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.directoalpaladar.com/recetas-vegetarianas/calabacitas-mexicanas-guiso-rapido-saludable-calabacin-maiz-tomate",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "tomato",
+   "name": {
+    "en": "Tomato"
+   },
+   "local_name": "jitomate / tomate",
+   "group": "vegetable",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://mexicanfoodjournal.com/wprm_print/huevo-a-la-mexicana-recipe",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "onion",
+   "name": {
+    "en": "Onion"
+   },
+   "local_name": "cebolla",
+   "group": "vegetable",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.eluniversal.com.mx/menu/como-hacer-frijoles-de-la-olla/",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "garlic",
+   "name": {
+    "en": "Garlic"
+   },
+   "local_name": "ajo",
+   "group": "vegetable",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.eluniversal.com.mx/menu/como-hacer-frijoles-de-la-olla/",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "chili",
+   "name": {
+    "en": "Fresh chili (serrano, jalapeno)"
+   },
+   "local_name": "chile serrano / jalapeno",
+   "group": "vegetable",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://mexicanfoodjournal.com/wprm_print/huevo-a-la-mexicana-recipe",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "cilantro",
+   "name": {
+    "en": "Cilantro"
+   },
+   "local_name": "cilantro",
+   "group": "vegetable",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://mexicanfoodjournal.com/wprm_print/huevo-a-la-mexicana-recipe",
+   "accessed": "2026-10-29"
+  }
+ ],
+ "recipes": [
+  {
+   "id": "frijoles-de-la-olla",
+   "name": {
+    "en": "Pot beans"
+   },
+   "local_name": "frijoles de la olla",
+   "meal": "main",
+   "serves": 4,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "black-beans",
+    "onion",
+    "garlic",
+    "cooking-fat"
+   ],
+   "ingredients": [
+    {
+     "en": "500 g black beans, rinsed"
+    },
+    {
+     "en": "3 L water"
+    },
+    {
+     "en": "2 cups chopped onion"
+    },
+    {
+     "en": "2 cloves garlic"
+    },
+    {
+     "en": "3 tbsp lard or oil"
+    },
+    {
+     "en": "Epazote or cilantro"
+    },
+    {
+     "en": "Salt"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Put beans, water, onion, garlic and fat in a big pot. No soaking needed."
+    },
+    {
+     "en": "Cook at medium heat 2 to 3 hours until soft (about 30 to 35 minutes in a pressure cooker). Mostly hands-off."
+    },
+    {
+     "en": "Add salt only at the end, then boil 5 minutes uncovered with the herb."
+    }
+   ],
+   "regions": [
+    "mx-north",
+    "mx-central",
+    "mx-south"
+   ],
+   "source_url": "https://www.eluniversal.com.mx/menu/como-hacer-frijoles-de-la-olla/",
+   "accessed": "2026-10-29",
+   "total_minutes": 150,
+   "active_minutes": 150,
+   "allergens": []
+  },
+  {
+   "id": "pupusas-revueltas",
+   "name": {
+    "en": "Pupusas with cheese and beans"
+   },
+   "local_name": "pupusas revueltas",
+   "meal": "main",
+   "serves": 4,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "masa-harina",
+    "fresh-cheese",
+    "red-beans"
+   ],
+   "ingredients": [
+    {
+     "en": "4 cups masa harina"
+    },
+    {
+     "en": "1 tsp salt"
+    },
+    {
+     "en": "About 3 cups warm water"
+    },
+    {
+     "en": "Filling: cheese and refried beans"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Mix masa, salt and warm water into a soft dough."
+    },
+    {
+     "en": "Press a ball into a cup shape, add 1 to 2 tbsp filling, close and flatten to about 10 cm."
+    },
+    {
+     "en": "Cook on a dry hot griddle or pan 3 to 4 minutes per side. Makes about 10."
+    }
+   ],
+   "regions": [
+    "sv"
+   ],
+   "source_url": "https://www.ikea.com/us/en/rooms/kitchen/how-to/pupusas-revueltas-pub48fdd220",
+   "accessed": "2026-10-29",
+   "total_minutes": 40,
+   "active_minutes": 40,
+   "allergens": [
+    "milk"
+   ]
+  },
+  {
+   "id": "curtido",
+   "name": {
+    "en": "Quick cabbage slaw"
+   },
+   "local_name": "curtido",
+   "meal": "snack",
+   "serves": 4,
+   "needs": [
+    "burner",
+    "fridge"
+   ],
+   "staples": [
+    "cabbage",
+    "carrot"
+   ],
+   "ingredients": [
+    {
+     "en": "Shredded cabbage"
+    },
+    {
+     "en": "1 grated carrot"
+    },
+    {
+     "en": "Oregano"
+    },
+    {
+     "en": "1 cup hot water"
+    },
+    {
+     "en": "1 cup vinegar"
+    },
+    {
+     "en": "1 tsp salt"
+    },
+    {
+     "en": "1 tsp sugar"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Mix cabbage, carrot and oregano in a bowl."
+    },
+    {
+     "en": "Stir hot water, vinegar, salt and sugar together and pour over."
+    },
+    {
+     "en": "Rest 3 to 4 hours in the fridge before serving."
+    }
+   ],
+   "regions": [
+    "sv"
+   ],
+   "source_url": "https://www.acozykitchen.com/how-to-make-pupusas",
+   "accessed": "2026-10-29",
+   "total_minutes": 15,
+   "active_minutes": 15,
+   "allergens": []
+  },
+  {
+   "id": "frijoles-volteados",
+   "name": {
+    "en": "Turned beans"
+   },
+   "local_name": "frijoles volteados",
+   "meal": "light",
+   "serves": 3,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "black-beans",
+    "onion",
+    "garlic",
+    "cooking-fat",
+    "fresh-cheese",
+    "cream"
+   ],
+   "ingredients": [
+    {
+     "en": "Black beans, soaked overnight"
+    },
+    {
+     "en": "8 cups water"
+    },
+    {
+     "en": "1/2 onion"
+    },
+    {
+     "en": "3 cloves garlic"
+    },
+    {
+     "en": "2 to 3 tbsp oil or lard"
+    },
+    {
+     "en": "Fresh cheese and cream to serve"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Simmer soaked beans with water, onion and garlic about 2 hours on low. Mostly hands-off."
+    },
+    {
+     "en": "Add salt in the last 30 minutes."
+    },
+    {
+     "en": "Fry in oil, mashing, 15 to 20 minutes until thick. Serve with cheese and cream."
+    }
+   ],
+   "regions": [
+    "gt"
+   ],
+   "source_url": "https://livinginguatemala.com/es/recetas/frijoles-volteados/",
+   "accessed": "2026-10-29",
+   "total_minutes": 150,
+   "active_minutes": 150,
+   "allergens": [
+    "milk"
+   ],
+   "soak_hours": 8
+  },
+  {
+   "id": "baleadas",
+   "name": {
+    "en": "Honduran flour tortilla with beans"
+   },
+   "local_name": "baleadas",
+   "meal": "breakfast",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "wheat-flour",
+    "red-beans",
+    "fresh-cheese",
+    "cream"
+   ],
+   "ingredients": [
+    {
+     "en": "120 g flour"
+    },
+    {
+     "en": "3 g salt"
+    },
+    {
+     "en": "Pinch baking powder"
+    },
+    {
+     "en": "25 ml oil"
+    },
+    {
+     "en": "About 60 ml warm water"
+    },
+    {
+     "en": "200 g cooked red beans"
+    },
+    {
+     "en": "Chili"
+    },
+    {
+     "en": "Crumbled fresh cheese"
+    },
+    {
+     "en": "Cream"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Mix flour, salt, baking powder, oil and warm water. Rest 30 minutes."
+    },
+    {
+     "en": "Roll thin and cook on a hot dry pan until spotted. Makes 4."
+    },
+    {
+     "en": "Mash the cooked beans in a little oil with chili. Spread on a tortilla, top with cheese and cream, fold."
+    }
+   ],
+   "regions": [
+    "hn"
+   ],
+   "source_url": "https://www.directoalpaladar.com/recetas-vegetarianas/baleada-hondurena-esta-receta-base-que-puedes-enriquecer-al-gusto-tal-cual-deliciosa",
+   "accessed": "2026-10-29",
+   "total_minutes": 35,
+   "active_minutes": 35,
+   "allergens": [
+    "wheat",
+    "milk"
+   ]
+  },
+  {
+   "id": "calabacitas",
+   "name": {
+    "en": "Zucchini with corn and tomato"
+   },
+   "local_name": "calabacitas a la mexicana",
+   "meal": "main",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "zucchini",
+    "onion",
+    "tomato",
+    "garlic",
+    "fresh-cheese",
+    "cilantro",
+    "maize"
+   ],
+   "ingredients": [
+    {
+     "en": "1 zucchini, diced"
+    },
+    {
+     "en": "1/2 onion"
+    },
+    {
+     "en": "1 tomato"
+    },
+    {
+     "en": "100 g corn kernels"
+    },
+    {
+     "en": "2 cloves garlic"
+    },
+    {
+     "en": "Serrano chili, optional"
+    },
+    {
+     "en": "Fresh cheese and cilantro to serve"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Soften onion 3 minutes, add garlic and tomato."
+    },
+    {
+     "en": "Add zucchini and corn, cover and cook about 10 minutes."
+    },
+    {
+     "en": "Top with fresh cheese and cilantro."
+    }
+   ],
+   "regions": [
+    "mx-north",
+    "mx-central",
+    "mx-south"
+   ],
+   "source_url": "https://www.directoalpaladar.com/recetas-vegetarianas/calabacitas-mexicanas-guiso-rapido-saludable-calabacin-maiz-tomate",
+   "accessed": "2026-10-29",
+   "total_minutes": 30,
+   "active_minutes": 30,
+   "allergens": [
+    "milk"
+   ]
+  },
+  {
+   "id": "huevo-a-la-mexicana",
+   "name": {
+    "en": "Eggs with tomato, onion and chili"
+   },
+   "local_name": "huevo a la mexicana",
+   "meal": "breakfast",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "eggs",
+    "tomato",
+    "chili",
+    "onion",
+    "garlic",
+    "cilantro",
+    "cooking-fat",
+    "corn-tortilla"
+   ],
+   "ingredients": [
+    {
+     "en": "4 eggs"
+    },
+    {
+     "en": "2 plum tomatoes"
+    },
+    {
+     "en": "1 serrano chili"
+    },
+    {
+     "en": "1/4 white onion"
+    },
+    {
+     "en": "1 clove garlic"
+    },
+    {
+     "en": "Cilantro"
+    },
+    {
+     "en": "1 tbsp oil"
+    },
+    {
+     "en": "Salt"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Fry chopped onion, chili and garlic in oil, then add tomato."
+    },
+    {
+     "en": "Pour in beaten eggs and stir until set."
+    },
+    {
+     "en": "Serve with refried beans and corn tortillas."
+    }
+   ],
+   "regions": [
+    "mx-north",
+    "mx-central",
+    "mx-south"
+   ],
+   "source_url": "https://mexicanfoodjournal.com/wprm_print/huevo-a-la-mexicana-recipe",
+   "accessed": "2026-10-29",
+   "total_minutes": 15,
+   "active_minutes": 15,
+   "allergens": [
+    "egg"
+   ]
+  },
+  {
+   "id": "chilaquiles-verdes",
+   "name": {
+    "en": "Green chilaquiles"
+   },
+   "local_name": "chilaquiles verdes",
+   "meal": "breakfast",
+   "serves": 3,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "corn-tortilla",
+    "onion",
+    "garlic",
+    "chili",
+    "cilantro",
+    "cooking-fat"
+   ],
+   "ingredients": [
+    {
+     "en": "12 corn tortillas, cut in triangles and fried"
+    },
+    {
+     "en": "2 cups green salsa (bottled is fine)"
+    },
+    {
+     "en": "1/2 onion"
+    },
+    {
+     "en": "2 cloves garlic"
+    },
+    {
+     "en": "1 jalapeno"
+    },
+    {
+     "en": "Cilantro"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Simmer the salsa with onion, garlic and jalapeno."
+    },
+    {
+     "en": "Toss in the fried tortilla triangles until coated."
+    },
+    {
+     "en": "Top with cilantro and serve right away, with beans."
+    }
+   ],
+   "regions": [
+    "mx-north",
+    "mx-central",
+    "mx-south"
+   ],
+   "source_url": "https://www.tiempo.com.mx/cultura/desayuna_este_ricos_chilaquiles_verdes/",
+   "accessed": "2026-10-29",
+   "total_minutes": 25,
+   "active_minutes": 25,
+   "allergens": []
+  },
+  {
+   "id": "desayuno-hondureno",
+   "name": {
+    "en": "Honduran breakfast plate"
+   },
+   "local_name": "desayuno hondureno",
+   "meal": "breakfast",
+   "serves": 2,
+   "needs": [
+    "two_burners"
+   ],
+   "staples": [
+    "eggs",
+    "ripe-plantain",
+    "red-beans",
+    "avocado",
+    "fresh-cheese",
+    "cream",
+    "corn-tortilla"
+   ],
+   "ingredients": [
+    {
+     "en": "Eggs, fried"
+    },
+    {
+     "en": "Ripe plantain, fried"
+    },
+    {
+     "en": "Fried beans"
+    },
+    {
+     "en": "Avocado"
+    },
+    {
+     "en": "Fresh cheese"
+    },
+    {
+     "en": "Cream"
+    },
+    {
+     "en": "Tortillas"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Fry the plantain slices in one pan and the eggs in another."
+    },
+    {
+     "en": "Warm the fried beans and tortillas."
+    },
+    {
+     "en": "Plate everything with avocado, cheese and cream."
+    }
+   ],
+   "regions": [
+    "hn"
+   ],
+   "source_url": "https://www.elheraldo.hn/cocina/desayunos-hondurenos-para-comenzar-el-dia-MO14832295",
+   "accessed": "2026-10-29",
+   "total_minutes": 15,
+   "active_minutes": 15,
+   "allergens": [
+    "egg",
+    "milk"
+   ]
+  },
+  {
+   "id": "burrita",
+   "name": {
+    "en": "Chorizo and egg burrita"
+   },
+   "local_name": "burrita",
+   "meal": "light",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "chorizo",
+    "eggs",
+    "red-beans",
+    "wheat-flour"
+   ],
+   "ingredients": [
+    {
+     "en": "Chorizo"
+    },
+    {
+     "en": "2 eggs"
+    },
+    {
+     "en": "Fried beans"
+    },
+    {
+     "en": "Quesillo (soft cheese)"
+    },
+    {
+     "en": "Tortillas"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Cook the chorizo, add the eggs and scramble."
+    },
+    {
+     "en": "Spoon onto tortillas with beans and cheese and roll."
+    }
+   ],
+   "regions": [
+    "hn"
+   ],
+   "source_url": "https://www.elheraldo.hn/cocina/desayunos-hondurenos-para-comenzar-el-dia-MO14832295",
+   "accessed": "2026-10-29",
+   "total_minutes": 10,
+   "active_minutes": 10,
+   "allergens": [
+    "egg",
+    "milk"
+   ]
+  },
+  {
+   "id": "casamiento",
+   "name": {
+    "en": "Rice and beans together"
+   },
+   "local_name": "casamiento",
+   "meal": "main",
+   "serves": 3,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "rice",
+    "red-beans",
+    "onion",
+    "garlic",
+    "chili",
+    "cooking-fat"
+   ],
+   "ingredients": [
+    {
+     "en": "2 cups cooked rice (day-old is fine)"
+    },
+    {
+     "en": "2 cups cooked beans"
+    },
+    {
+     "en": "1.5 tbsp oil plus a little butter or margarine"
+    },
+    {
+     "en": "2 tbsp chopped onion"
+    },
+    {
+     "en": "1 green chile"
+    },
+    {
+     "en": "1 clove garlic"
+    },
+    {
+     "en": "Grated cheese or cream to serve"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Soften onion and garlic in the fat, then the chile briefly."
+    },
+    {
+     "en": "Stir in the beans, then the rice. Cook about 10 minutes."
+    },
+    {
+     "en": "Remove the chile. For a drier dish, keep cooking on low. Top with cheese or cream."
+    }
+   ],
+   "regions": [
+    "sv"
+   ],
+   "source_url": "https://recetassalvadorenas.com/receta/comida-casera/casamiento-salvadoreno/",
+   "accessed": "2026-10-29",
+   "total_minutes": 15,
+   "active_minutes": 15,
+   "allergens": [
+    "milk"
+   ]
+  },
+  {
+   "id": "quesadillas",
+   "name": {
+    "en": "Cheese quesadillas"
+   },
+   "local_name": "quesadillas de queso",
+   "meal": "light",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "corn-tortilla",
+    "fresh-cheese"
+   ],
+   "ingredients": [
+    {
+     "en": "4 corn tortillas"
+    },
+    {
+     "en": "About 100 g cheese, sliced or grated"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Put a tortilla on a hot pan with cheese and cover with a second tortilla."
+    },
+    {
+     "en": "Heat both sides until the cheese melts and the tortillas toast lightly."
+    }
+   ],
+   "regions": [
+    "mx-north",
+    "mx-central",
+    "mx-south"
+   ],
+   "source_url": "https://www.kidney.org/es/nutricion/recetas/quesadillas-sencillas-de-queso",
+   "accessed": "2026-10-29",
+   "total_minutes": 13,
+   "active_minutes": 13,
+   "allergens": [
+    "milk"
+   ]
+  },
+  {
+   "id": "desayuno-chapin",
+   "name": {
+    "en": "Guatemalan breakfast plate"
+   },
+   "local_name": "desayuno chapin",
+   "meal": "breakfast",
+   "serves": 2,
+   "needs": [
+    "two_burners"
+   ],
+   "staples": [
+    "eggs",
+    "ripe-plantain",
+    "black-beans",
+    "masa-harina",
+    "fresh-cheese",
+    "cream",
+    "cooking-fat"
+   ],
+   "ingredients": [
+    {
+     "en": "1/2 cup (about 120 ml) oil, for frying"
+    },
+    {
+     "en": "1 ripe plantain, sliced 1/2 inch (about 1 cm) thick"
+    },
+    {
+     "en": "1 cup masa harina"
+    },
+    {
+     "en": "1/8 tsp salt"
+    },
+    {
+     "en": "3/4 cup warm water"
+    },
+    {
+     "en": "About 210 g (7.5 oz) canned refried black beans"
+    },
+    {
+     "en": "1 1/2 tbsp water"
+    },
+    {
+     "en": "2 eggs"
+    },
+    {
+     "en": "Queso fresco"
+    },
+    {
+     "en": "Crema"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Fry the plantain slices in hot oil until golden, then drain."
+    },
+    {
+     "en": "Mix the masa harina, salt and warm water into a dough. Press into tortillas and cook on a dry pan."
+    },
+    {
+     "en": "Warm the canned refried black beans with 1 1/2 tbsp water."
+    },
+    {
+     "en": "Scramble the eggs."
+    },
+    {
+     "en": "Plate everything with queso fresco and crema."
+    }
+   ],
+   "regions": [
+    "gt"
+   ],
+   "source_url": "https://tasty.co/recipe/guatemalan-desayuno-chapin",
+   "accessed": "2026-10-29",
+   "total_minutes": 35,
+   "active_minutes": 35,
+   "allergens": [
+    "egg",
+    "milk"
+   ]
+  },
+  {
+   "id": "huevos-entomatados",
+   "name": {
+    "en": "Eggs in tomato sauce"
+   },
+   "local_name": "huevos entomatados",
+   "meal": "breakfast",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "eggs",
+    "tomato",
+    "onion",
+    "chili",
+    "garlic",
+    "cooking-fat"
+   ],
+   "ingredients": [
+    {
+     "en": "2 eggs"
+    },
+    {
+     "en": "1 1/2 tomatoes"
+    },
+    {
+     "en": "1/4 onion"
+    },
+    {
+     "en": "1/2 green chile"
+    },
+    {
+     "en": "1 to 2 cloves garlic"
+    },
+    {
+     "en": "1 tbsp butter or oil"
+    },
+    {
+     "en": "1 pinch oregano"
+    },
+    {
+     "en": "1 pinch salt"
+    },
+    {
+     "en": "1/4 cup water"
+    },
+    {
+     "en": "Tortillas, to serve"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Chop the tomatoes, onion, chile and garlic into small pieces, each separately."
+    },
+    {
+     "en": "Melt the butter in a frying pan. Cook the onion and garlic until soft."
+    },
+    {
+     "en": "Add the tomato and chile and cook until it forms a thick mixture. Season with salt and oregano."
+    },
+    {
+     "en": "Add the water to make a sauce and keep stirring."
+    },
+    {
+     "en": "Make two wells in the sauce and crack an egg into each. Cook about 5 minutes."
+    },
+    {
+     "en": "Lift out the eggs with a spatula and serve hot with tortillas."
+    }
+   ],
+   "regions": [
+    "sv"
+   ],
+   "source_url": "https://www.recetassalvador.com/recetas/entradas/huevos-entomatados",
+   "accessed": "2026-10-29",
+   "total_minutes": 60,
+   "active_minutes": 25,
+   "allergens": [
+    "egg",
+    "milk"
+   ]
+  },
+  {
+   "id": "caldo-de-res",
+   "name": {
+    "en": "Beef and vegetable soup"
+   },
+   "local_name": "caldo de res",
+   "meal": "main",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "maize",
+    "onion",
+    "garlic",
+    "carrot",
+    "cabbage",
+    "zucchini",
+    "cilantro"
+   ],
+   "ingredients": [
+    {
+     "en": "225 g (1/2 lb) beef shank with bone"
+    },
+    {
+     "en": "750 ml (3 cups) water"
+    },
+    {
+     "en": "1 ear fresh corn, cut in pieces"
+    },
+    {
+     "en": "1 small potato, peeled and halved"
+    },
+    {
+     "en": "1/2 chayote (guisquil), peeled and quartered"
+    },
+    {
+     "en": "1/2 carrot, cut in large chunks"
+    },
+    {
+     "en": "1 small cabbage wedge"
+    },
+    {
+     "en": "1/4 cup green beans, trimmed"
+    },
+    {
+     "en": "1/2 small zucchini (guicoy), sliced thick"
+    },
+    {
+     "en": "1/2 small white onion, quartered"
+    },
+    {
+     "en": "1 clove garlic, whole"
+    },
+    {
+     "en": "A few cilantro sprigs"
+    },
+    {
+     "en": "1 mint leaf (hierba buena)"
+    },
+    {
+     "en": "Salt"
+    },
+    {
+     "en": "To serve: lime wedges, rice, tortillas"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Put the beef, water, half the onion and the garlic in a big pot. Bring to a boil, skim the foam, lower the heat, partly cover and simmer 1 hour."
+    },
+    {
+     "en": "Add the corn, potato, carrot and the rest of the onion. Simmer 30 minutes."
+    },
+    {
+     "en": "Add the chayote, green beans and cabbage. Simmer 15 minutes."
+    },
+    {
+     "en": "Add the zucchini, cilantro and mint. Cook 10 minutes."
+    },
+    {
+     "en": "Add salt to taste. Serve in deep bowls with lime, rice and warm tortillas."
+    }
+   ],
+   "regions": [
+    "gt"
+   ],
+   "source_url": "https://livinginguatemala.com/recipes/caldo-de-res/",
+   "accessed": "2026-10-29",
+   "total_minutes": 140,
+   "active_minutes": 30,
+   "allergens": []
+  },
+  {
+   "id": "arroz-con-pollo-hondureno",
+   "name": {
+    "en": "Honduran chicken and rice"
+   },
+   "local_name": "arroz con pollo hondureno",
+   "meal": "main",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "rice",
+    "onion",
+    "garlic",
+    "cooking-fat"
+   ],
+   "ingredients": [
+    {
+     "en": "2 1/2 cups water"
+    },
+    {
+     "en": "1/2 onion"
+    },
+    {
+     "en": "1 clove garlic"
+    },
+    {
+     "en": "1 bay leaf"
+    },
+    {
+     "en": "1 celery stalk with leaves"
+    },
+    {
+     "en": "1 chicken breast"
+    },
+    {
+     "en": "1/2 green bell pepper"
+    },
+    {
+     "en": "1 1/2 tsp vegetable oil"
+    },
+    {
+     "en": "1 1/2 tsp turmeric"
+    },
+    {
+     "en": "225 g (1/2 lb) precooked rice"
+    },
+    {
+     "en": "Salt and pepper"
+    }
+   ],
+   "steps": [
+    {
+     "en": "In a pot, put the water, a quarter of the onion in chunks, half the garlic crushed, the bay leaf, half the celery and the chicken. Cook until it boils and the chicken is fully cooked."
+    },
+    {
+     "en": "Remove the chicken, shred it, strain the broth and set it aside."
+    },
+    {
+     "en": "Finely chop the rest of the garlic, celery and onion and the bell pepper. Heat the oil in a pan and cook the vegetables."
+    },
+    {
+     "en": "Add the rice and turmeric and stir 2 minutes."
+    },
+    {
+     "en": "Add the shredded chicken and enough of the broth to cover the rice (1 to 2 cups). Add salt and pepper."
+    },
+    {
+     "en": "Cook on high until it boils. When the broth starts to reduce, lower the heat and cover. Cook until the rice is cooked and fluffy."
+    }
+   ],
+   "regions": [
+    "hn"
+   ],
+   "source_url": "https://www.elheraldo.hn/cocina/arroz-con-pollo-estilo-hondureno-receta-tradicional-GK31917100",
+   "accessed": "2026-10-29",
+   "total_minutes": 55,
+   "active_minutes": 25,
+   "allergens": []
+  }
+ ],
+ "menu": [
+  {
+   "day": 1,
+   "breakfast": [
+    "huevo-a-la-mexicana",
+    "baleadas",
+    "chilaquiles-verdes",
+    "desayuno-hondureno",
+    "desayuno-chapin",
+    "huevos-entomatados"
+   ],
+   "main": [
+    "frijoles-de-la-olla",
+    "pupusas-revueltas",
+    "calabacitas",
+    "casamiento",
+    "caldo-de-res",
+    "arroz-con-pollo-hondureno"
+   ],
+   "light": [
+    "quesadillas",
+    "frijoles-volteados",
+    "burrita",
+    "frijoles-de-la-olla",
+    "pupusas-revueltas",
+    "calabacitas",
+    "casamiento"
+   ]
+  },
+  {
+   "day": 2,
+   "breakfast": [
+    "baleadas",
+    "huevo-a-la-mexicana",
+    "chilaquiles-verdes",
+    "desayuno-hondureno",
+    "desayuno-chapin",
+    "huevos-entomatados"
+   ],
+   "main": [
+    "calabacitas",
+    "pupusas-revueltas",
+    "casamiento",
+    "frijoles-de-la-olla",
+    "caldo-de-res",
+    "arroz-con-pollo-hondureno"
+   ],
+   "light": [
+    "frijoles-volteados",
+    "burrita",
+    "quesadillas",
+    "frijoles-de-la-olla",
+    "pupusas-revueltas",
+    "calabacitas",
+    "casamiento"
+   ]
+  },
+  {
+   "day": 3,
+   "breakfast": [
+    "desayuno-hondureno",
+    "chilaquiles-verdes",
+    "baleadas",
+    "huevo-a-la-mexicana",
+    "desayuno-chapin",
+    "huevos-entomatados"
+   ],
+   "main": [
+    "pupusas-revueltas",
+    "calabacitas",
+    "casamiento",
+    "frijoles-de-la-olla",
+    "caldo-de-res",
+    "arroz-con-pollo-hondureno"
+   ],
+   "light": [
+    "burrita",
+    "quesadillas",
+    "frijoles-de-la-olla",
+    "pupusas-revueltas",
+    "calabacitas",
+    "casamiento",
+    "frijoles-volteados"
+   ]
+  },
+  {
+   "day": 4,
+   "breakfast": [
+    "chilaquiles-verdes",
+    "desayuno-hondureno",
+    "baleadas",
+    "huevo-a-la-mexicana",
+    "desayuno-chapin",
+    "huevos-entomatados"
+   ],
+   "main": [
+    "casamiento",
+    "frijoles-de-la-olla",
+    "pupusas-revueltas",
+    "calabacitas",
+    "caldo-de-res",
+    "arroz-con-pollo-hondureno"
+   ],
+   "light": [
+    "quesadillas",
+    "frijoles-de-la-olla",
+    "pupusas-revueltas",
+    "calabacitas",
+    "casamiento",
+    "frijoles-volteados",
+    "burrita"
+   ]
+  },
+  {
+   "day": 5,
+   "breakfast": [
+    "huevo-a-la-mexicana",
+    "baleadas",
+    "chilaquiles-verdes",
+    "desayuno-hondureno",
+    "desayuno-chapin",
+    "huevos-entomatados"
+   ],
+   "main": [
+    "frijoles-de-la-olla",
+    "pupusas-revueltas",
+    "calabacitas",
+    "casamiento",
+    "caldo-de-res",
+    "arroz-con-pollo-hondureno"
+   ],
+   "light": [
+    "burrita",
+    "pupusas-revueltas",
+    "calabacitas",
+    "casamiento",
+    "frijoles-volteados",
+    "quesadillas",
+    "frijoles-de-la-olla"
+   ]
+  },
+  {
+   "day": 6,
+   "breakfast": [
+    "baleadas",
+    "huevo-a-la-mexicana",
+    "chilaquiles-verdes",
+    "desayuno-hondureno",
+    "desayuno-chapin",
+    "huevos-entomatados"
+   ],
+   "main": [
+    "pupusas-revueltas",
+    "calabacitas",
+    "casamiento",
+    "frijoles-de-la-olla",
+    "caldo-de-res",
+    "arroz-con-pollo-hondureno"
+   ],
+   "light": [
+    "frijoles-volteados",
+    "calabacitas",
+    "casamiento",
+    "burrita",
+    "quesadillas",
+    "frijoles-de-la-olla",
+    "pupusas-revueltas"
+   ]
+  },
+  {
+   "day": 7,
+   "breakfast": [
+    "desayuno-hondureno",
+    "chilaquiles-verdes",
+    "baleadas",
+    "huevo-a-la-mexicana",
+    "desayuno-chapin",
+    "huevos-entomatados"
+   ],
+   "main": [
+    "calabacitas",
+    "casamiento",
+    "frijoles-de-la-olla",
+    "pupusas-revueltas",
+    "caldo-de-res",
+    "arroz-con-pollo-hondureno"
+   ],
+   "light": [
+    "quesadillas",
+    "casamiento",
+    "frijoles-volteados",
+    "burrita",
+    "frijoles-de-la-olla",
+    "pupusas-revueltas",
+    "calabacitas"
+   ]
+  }
+ ],
+ "techniques": [
+  {
+   "id": "beans-no-soak",
+   "title": {
+    "en": "Soaking and cooking dry beans"
+   },
+   "body": {
+    "en": "Soaking gives beans time to take up water, which shortens cooking. Hard water can stop beans softening. Above 2,000 feet (about 600 m), add 5% to the cooking time for every 1,000 feet (about 300 m); at 7,000 feet it may take 25% longer. A pressure cooker speeds things up, but its times need adjusting."
+   },
+   "source_url": "https://extension.colostate.edu/resource/cooking-with-dry-beans-and-other-pulses/",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "salt-late",
+   "title": {
+    "en": "Salt and acid in beans"
+   },
+   "body": {
+    "en": "Salt shortens cooking time and helps beans keep their shape. Add acidic ingredients such as tomato in large amounts only at the end, once the beans are soft."
+   },
+   "source_url": "https://extension.colostate.edu/resource/cooking-with-dry-beans-and-other-pulses/",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "refry-beans",
+   "title": {
+    "en": "Fry and mash cooked beans"
+   },
+   "body": {
+    "en": "Heat oil in a skillet over medium heat. Add the cooked beans about 1/2 cup at a time and mash with the back of a spoon. If the mix is thick, add about 1 tablespoon of the saved cooking liquid. Keep going until it is the texture you want, then stir in salt."
+   },
+   "source_url": "https://reallifegoodfood.umn.edu/side-dishes/refried-beans",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "masa-shaping",
+   "title": {
+    "en": "Shape pupusas from masa"
+   },
+   "body": {
+    "en": "Mix masa harina with salt, add warm water slowly and stir until it thickens, then knead until smooth. Divide into balls. Flatten a ball in your palm, put a heaping tablespoon of filling in the middle, wrap the dough around it and flatten. Cook in a skillet over medium heat, 4 to 6 minutes per side, until lightly browned."
+   },
+   "source_url": "https://www.umass.edu/agriculture-food-environment/nutrition/publications-resources/recipes/bean-cheese-pupusas",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "beans-vitamin-c",
+   "title": {
+    "en": "Pair beans with vitamin C"
+   },
+   "body": {
+    "en": "Vitamin C eaten at the same meal can improve absorption of iron from plant foods. Add tomato, chili, cilantro or fruit to a bean meal."
+   },
+   "source_url": "https://nutritionsource.hsph.harvard.edu/iron/",
+   "accessed": "2026-10-29"
+  }
+ ],
+ "safety": [
+  {
+   "id": "red-flags",
+   "title": {
+    "en": "Get help now"
+   },
+   "body": {
+    "en": "Contact your mission nurse now if you have bloody diarrhea, a fever over 102F (about 39C), vomiting so often you cannot keep liquids down, or you are passing very little urine."
+   },
+   "source_url": "https://www.cdc.gov/food-safety/signs-symptoms/index.html",
+   "accessed": "2026-10-29",
+   "urgent": true
+  },
+  {
+   "id": "water-boil",
+   "title": {
+    "en": "Make water safe"
+   },
+   "body": {
+    "en": "Follow your mission's water guidance first. If you need to treat water, bring it to a rolling boil for 1 minute. Above 6,500 feet (about 2,000 m), such as Mexico City, boil it for 3 minutes."
+   },
+   "source_url": "https://www.cdc.gov/healthywater/emergency/making-water-safe.html",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "water-altitude",
+   "title": {
+    "en": "Boiling at high altitude"
+   },
+   "body": {
+    "en": "Above 6,500 feet (about 2,000 m), boil for 3 minutes."
+   },
+   "source_url": "https://www.cdc.gov/healthywater/emergency/making-water-safe.html",
+   "accessed": "2026-10-29",
+   "regions": [
+    "mx-central"
+   ]
+  },
+  {
+   "id": "altitude-illness",
+   "title": {
+    "en": "Altitude sickness"
+   },
+   "body": {
+    "en": "Headache with dizziness, tiredness or nausea in the first hours after arriving high up can be altitude sickness. Do not go higher while you have symptoms. If they get worse despite rest, go lower and tell your mission nurse."
+   },
+   "source_url": "https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/high-altitude-travel-and-altitude-illness.html",
+   "accessed": "2026-10-29",
+   "regions": [
+    "mx-central"
+   ]
+  },
+  {
+   "id": "produce-wash",
+   "title": {
+    "en": "Wash produce"
+   },
+   "body": {
+    "en": "Rinse fruit and vegetables under running water before eating or cooking."
+   },
+   "source_url": "https://www.cdc.gov/food-safety/prevention/index.html",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "two-hour",
+   "title": {
+    "en": "The 2-hour rule"
+   },
+   "body": {
+    "en": "Perishable food should not sit out more than 2 hours, or 1 hour if it is hotter than 90F (32C). Reheat leftovers to 165F (74C). A fridge should be 40F (4C) or colder."
+   },
+   "source_url": "https://www.cdc.gov/food-safety/prevention/index.html",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "ors",
+   "title": {
+    "en": "Diarrhoea and dehydration"
+   },
+   "body": {
+    "en": "Oral rehydration salts (ORS) packets treat diarrhoea. Ask your mission nurse for packets; do not mix your own. Tell your mission nurse if it lasts 14 days or more, if there is blood in the stool, or with sunken eyes, being unable to drink, unusual sleepiness, or skin that stays pinched."
+   },
+   "source_url": "https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "heat",
+   "title": {
+    "en": "Heat illness"
+   },
+   "body": {
+    "en": "Heat exhaustion: headache, nausea, dizziness, weakness, thirst, heavy sweating, passing less urine. Get out of the heat, drink liquids in frequent sips, cool down with cold water, and go to a clinic. Confusion, slurred speech, loss of consciousness or seizures can mean heat stroke: call emergency services."
+   },
+   "source_url": "https://www.cdc.gov/niosh/heat-stress/about/illnesses.html",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "five-keys",
+   "title": {
+    "en": "Five keys to safer food"
+   },
+   "body": {
+    "en": "Keep clean. Separate raw and cooked. Cook thoroughly. Keep food at safe temperatures. Use safe water and raw materials."
+   },
+   "source_url": "https://www.who.int/publications/i/item/9789241594639",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "raw-produce",
+   "title": {
+    "en": "Raw produce and cold storage"
+   },
+   "body": {
+    "en": "Raw produce has been linked to illness, and Listeria can grow even in the cold. Wash it, and keep cut produce chilled."
+   },
+   "source_url": "https://www.who.int/news-room/fact-sheets/detail/food-safety",
+   "accessed": "2026-10-29"
+  }
+ ],
+ "first_week": [
+  {
+   "regions": [
+    "mx-north",
+    "mx-south"
+   ],
+   "market_tip": "wet_market-mx",
+   "safety_tip": "water-boil"
+  },
+  {
+   "regions": [
+    "mx-central"
+   ],
+   "market_tip": "wet_market-mx",
+   "safety_tip": "water-altitude"
+  },
+  {
+   "regions": [
+    "gt"
+   ],
+   "market_tip": "neighborhood_shop-gt",
+   "safety_tip": "water-boil"
+  },
+  {
+   "regions": [
+    "hn"
+   ],
+   "market_tip": "neighborhood_shop-hn",
+   "safety_tip": "water-boil"
+  },
+  {
+   "regions": [
+    "sv"
+   ],
+   "market_tip": "wet_market-sv",
+   "safety_tip": "water-boil"
+  }
+ ]
+}

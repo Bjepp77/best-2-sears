@@ -1,0 +1,10 @@
+{
+  "name": "The Best Two Sears",
+  "short_name": "Best Two Sears",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f1e7",
+  "theme_color": "#f6f1e7",
+  "lang": "en"
+}

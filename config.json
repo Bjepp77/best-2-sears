@@ -1,0 +1,11 @@
+{
+  "appName": "The Best Two Sears",
+  "buildDate": "2026-10-29",
+  "hero": "New area? Meals you can cook this week with the market down the street.",
+  "healthLine": "General info, not medical advice. Food allergies, diabetes, special diets, ongoing tiredness, weight changes, or illness lasting more than 2 days: contact your mission nurse.",
+  "waterLine": "Follow your mission's water guidance first.",
+  "disclaimer": "Independent project. Not affiliated with or endorsed by any church or mission.",
+  "approvalLine": "Use only if apps like this are approved for your mission. Ask your mission leaders.",
+  "storageLine": "Your area and kitchen setup are saved only on this phone. The phone may clear the saved area if the app goes unused for a while; just pick it again.",
+  "kitchenDefault": "Recipes assume one pot, one pan, two burners, no fridge."
+}

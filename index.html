@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; manifest-src 'self'; worker-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="theme-color" content="#f6f1e7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1d1a16" media="(prefers-color-scheme: dark)">
+<title>The Best Two Sears</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="styles.css">
+<script type="module" src="app.js"></script>
+</head>
+<body>
+<a class="skip" href="#view">Skip to content</a>
+<header class="top">
+  <a class="brand" href="#/home" id="brand">The Best Two Sears</a>
+  <nav class="top-nav" aria-label="App">
+    <a href="#/pick" id="place-link" class="chip" hidden>Change area</a>
+    <a href="#/about" class="chip">About</a>
+  </nav>
+</header>
+<main id="view" tabindex="-1">
+  <noscript><p class="card">This app needs JavaScript turned on.</p></noscript>
+  <p class="loading">Loading...</p>
+</main>
+<footer class="foot" id="foot">
+  <p id="health-line" class="health"></p>
+  <p id="disclaimer" class="disclaimer"></p>
+</footer>
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+<dialog id="kitchen-sheet" class="sheet" aria-labelledby="kitchen-title">
+  <form method="dialog" id="kitchen-form">
+    <h2 id="kitchen-title">Your kitchen</h2>
+    <p class="muted" id="kitchen-default"></p>
+    <fieldset>
+      <legend>Fridge</legend>
+      <label class="opt"><input type="radio" name="fridge" value="yes"> Yes, works</label>
+      <label class="opt"><input type="radio" name="fridge" value="unreliable"> Yes, but power cuts out</label>
+      <label class="opt"><input type="radio" name="fridge" value="no"> No fridge</label>
+    </fieldset>
+    <fieldset>
+      <legend>Burners</legend>
+      <label class="opt"><input type="radio" name="burners" value="1"> One</label>
+      <label class="opt"><input type="radio" name="burners" value="2"> Two or more</label>
+    </fieldset>
+    <fieldset>
+      <legend>Other things you have</legend>
+      <label class="opt"><input type="checkbox" name="rice_cooker"> Rice cooker</label>
+      <label class="opt"><input type="checkbox" name="pressure_cooker"> Pressure cooker</label>
+      <label class="opt"><input type="checkbox" name="oven"> Oven</label>
+      <label class="opt"><input type="checkbox" name="blender"> Blender</label>
+    </fieldset>
+    <div class="row">
+      <button type="submit" value="save" class="btn primary">Save kitchen</button>
+      <button type="submit" value="cancel" class="btn">Cancel</button>
+    </div>
+  </form>
+</dialog>
+</body>
+</html>

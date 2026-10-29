@@ -1,0 +1,448 @@
+{
+ "version": 1,
+ "clusters": [
+  {
+   "id": "andean",
+   "name": {
+    "en": "Andean South America"
+   },
+   "countries": [
+    {
+     "code": "PE",
+     "name": {
+      "en": "Peru"
+     },
+     "regions": [
+      {
+       "id": "pe-coast",
+       "name": {
+        "en": "Coast (Costa)"
+       }
+      },
+      {
+       "id": "pe-highland",
+       "name": {
+        "en": "Highlands (Sierra)"
+       }
+      },
+      {
+       "id": "pe-amazon",
+       "name": {
+        "en": "Amazon (Selva)"
+       }
+      }
+     ]
+    },
+    {
+     "code": "BO",
+     "name": {
+      "en": "Bolivia"
+     },
+     "regions": [
+      {
+       "id": "bo-altiplano",
+       "name": {
+        "en": "Altiplano and high valleys"
+       }
+      },
+      {
+       "id": "bo-lowlands",
+       "name": {
+        "en": "Lowlands and Amazon"
+       }
+      }
+     ]
+    },
+    {
+     "code": "EC",
+     "name": {
+      "en": "Ecuador"
+     },
+     "regions": [
+      {
+       "id": "ec-coast",
+       "name": {
+        "en": "Coast (Costa)"
+       }
+      },
+      {
+       "id": "ec-sierra",
+       "name": {
+        "en": "Highlands (Sierra)"
+       }
+      },
+      {
+       "id": "ec-amazon",
+       "name": {
+        "en": "Amazon (Oriente)"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "philippines",
+   "name": {
+    "en": "Philippines"
+   },
+   "countries": [
+    {
+     "code": "PH",
+     "name": {
+      "en": "Philippines"
+     },
+     "regions": [
+      {
+       "id": "ph-luzon",
+       "name": {
+        "en": "Luzon (including Metro Manila)"
+       }
+      },
+      {
+       "id": "ph-visayas",
+       "name": {
+        "en": "Visayas"
+       }
+      },
+      {
+       "id": "ph-mindanao",
+       "name": {
+        "en": "Mindanao"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "west-africa",
+   "name": {
+    "en": "Anglophone West Africa"
+   },
+   "countries": [
+    {
+     "code": "NG",
+     "name": {
+      "en": "Nigeria"
+     },
+     "regions": [
+      {
+       "id": "ng-north",
+       "name": {
+        "en": "North (savanna)"
+       }
+      },
+      {
+       "id": "ng-south",
+       "name": {
+        "en": "South (forest and coast)"
+       }
+      }
+     ]
+    },
+    {
+     "code": "GH",
+     "name": {
+      "en": "Ghana"
+     },
+     "regions": [
+      {
+       "id": "gh",
+       "name": {
+        "en": "All Ghana"
+       }
+      }
+     ]
+    },
+    {
+     "code": "SL",
+     "name": {
+      "en": "Sierra Leone"
+     },
+     "regions": [
+      {
+       "id": "sl",
+       "name": {
+        "en": "All Sierra Leone"
+       }
+      }
+     ]
+    },
+    {
+     "code": "LR",
+     "name": {
+      "en": "Liberia"
+     },
+     "regions": [
+      {
+       "id": "lr",
+       "name": {
+        "en": "All Liberia"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mesoamerica",
+   "name": {
+    "en": "Mexico and Central America"
+   },
+   "countries": [
+    {
+     "code": "MX",
+     "name": {
+      "en": "Mexico"
+     },
+     "regions": [
+      {
+       "id": "mx-north",
+       "name": {
+        "en": "North"
+       }
+      },
+      {
+       "id": "mx-central",
+       "name": {
+        "en": "Central (incl. Mexico City)"
+       }
+      },
+      {
+       "id": "mx-south",
+       "name": {
+        "en": "South"
+       }
+      }
+     ]
+    },
+    {
+     "code": "GT",
+     "name": {
+      "en": "Guatemala"
+     },
+     "regions": [
+      {
+       "id": "gt",
+       "name": {
+        "en": "Guatemala"
+       }
+      }
+     ]
+    },
+    {
+     "code": "HN",
+     "name": {
+      "en": "Honduras"
+     },
+     "regions": [
+      {
+       "id": "hn",
+       "name": {
+        "en": "Honduras"
+       }
+      }
+     ]
+    },
+    {
+     "code": "SV",
+     "name": {
+      "en": "El Salvador"
+     },
+     "regions": [
+      {
+       "id": "sv",
+       "name": {
+        "en": "El Salvador"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "not_covered": [
+  {
+   "en": "Argentina"
+  },
+  {
+   "en": "Brazil"
+  },
+  {
+   "en": "Chile"
+  },
+  {
+   "en": "Colombia"
+  },
+  {
+   "en": "Paraguay"
+  },
+  {
+   "en": "Uruguay"
+  },
+  {
+   "en": "Venezuela"
+  },
+  {
+   "en": "Dominican Republic"
+  },
+  {
+   "en": "Haiti"
+  },
+  {
+   "en": "Jamaica"
+  },
+  {
+   "en": "Puerto Rico"
+  },
+  {
+   "en": "Costa Rica"
+  },
+  {
+   "en": "Nicaragua"
+  },
+  {
+   "en": "Panama"
+  },
+  {
+   "en": "United States"
+  },
+  {
+   "en": "Canada"
+  },
+  {
+   "en": "United Kingdom"
+  },
+  {
+   "en": "Ireland"
+  },
+  {
+   "en": "France"
+  },
+  {
+   "en": "Germany"
+  },
+  {
+   "en": "Italy"
+  },
+  {
+   "en": "Spain"
+  },
+  {
+   "en": "Portugal"
+  },
+  {
+   "en": "Poland"
+  },
+  {
+   "en": "Ukraine"
+  },
+  {
+   "en": "Russia"
+  },
+  {
+   "en": "South Africa"
+  },
+  {
+   "en": "Zimbabwe"
+  },
+  {
+   "en": "Kenya"
+  },
+  {
+   "en": "Uganda"
+  },
+  {
+   "en": "Democratic Republic of the Congo"
+  },
+  {
+   "en": "Côte d'Ivoire"
+  },
+  {
+   "en": "Ethiopia"
+  },
+  {
+   "en": "Mozambique"
+  },
+  {
+   "en": "Madagascar"
+  },
+  {
+   "en": "Japan"
+  },
+  {
+   "en": "South Korea"
+  },
+  {
+   "en": "Taiwan"
+  },
+  {
+   "en": "Hong Kong"
+  },
+  {
+   "en": "Mongolia"
+  },
+  {
+   "en": "Thailand"
+  },
+  {
+   "en": "Cambodia"
+  },
+  {
+   "en": "Indonesia"
+  },
+  {
+   "en": "Malaysia"
+  },
+  {
+   "en": "India"
+  },
+  {
+   "en": "Australia"
+  },
+  {
+   "en": "New Zealand"
+  },
+  {
+   "en": "Samoa"
+  },
+  {
+   "en": "Tonga"
+  },
+  {
+   "en": "Fiji"
+  },
+  {
+   "en": "Papua New Guinea"
+  }
+ ],
+ "basics": {
+  "title": {
+   "en": "Basics that work anywhere"
+  },
+  "source_url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+  "source_name": "WHO, Healthy diet fact sheet (26 January 2026)",
+  "accessed": "2026-10-29",
+  "items": [
+   {
+    "en": "Eat fruit and vegetables every day: at least 400 g a day in total. Frozen or canned count too if they have no added sugar or a lot of salt."
+   },
+   {
+    "en": "Make beans, lentils, chickpeas or dried peas a regular part of meals."
+   },
+   {
+    "en": "Pick whole grains when you can: oats, brown rice, maize, millet, wheat."
+   },
+   {
+    "en": "Keep salt under 5 g a day, counting salty sauces like soy and fish sauce."
+   },
+   {
+    "en": "Go easy on sugar and sweet drinks. Even unsweetened juice is high in sugar."
+   },
+   {
+    "en": "Cook with plant oils more than lard or butter. Boil or steam more often than you fry."
+   }
+  ]
+ }
+}

@@ -1,0 +1,1923 @@
+{
+ "id": "west-africa",
+ "name": {
+  "en": "Anglophone West Africa"
+ },
+ "lang": [
+  "en",
+  "ha",
+  "yo",
+  "ig",
+  "tw",
+  "kri"
+ ],
+ "countries": [
+  {
+   "code": "NG",
+   "name": {
+    "en": "Nigeria"
+   },
+   "regions": [
+    {
+     "id": "ng-north",
+     "name": {
+      "en": "North (savanna)"
+     },
+     "altitude_high": false
+    },
+    {
+     "id": "ng-south",
+     "name": {
+      "en": "South (forest and coast)"
+     },
+     "altitude_high": false
+    }
+   ]
+  },
+  {
+   "code": "GH",
+   "name": {
+    "en": "Ghana"
+   },
+   "regions": [
+    {
+     "id": "gh",
+     "name": {
+      "en": "All Ghana"
+     },
+     "altitude_high": false
+    }
+   ]
+  },
+  {
+   "code": "SL",
+   "name": {
+    "en": "Sierra Leone"
+   },
+   "regions": [
+    {
+     "id": "sl",
+     "name": {
+      "en": "All Sierra Leone"
+     },
+     "altitude_high": false
+    }
+   ]
+  },
+  {
+   "code": "LR",
+   "name": {
+    "en": "Liberia"
+   },
+   "regions": [
+    {
+     "id": "lr",
+     "name": {
+      "en": "All Liberia"
+     },
+     "altitude_high": false
+    }
+   ]
+  }
+ ],
+ "currencies": {
+  "NG": "NGN",
+  "GH": "GHS",
+  "SL": "SLE",
+  "LR": "LRD"
+ },
+ "currency_notes": [
+  {
+   "code": "SL",
+   "note": {
+    "en": "Leone was redenominated in 2022. Current code SLE, not SLL."
+   }
+  }
+ ],
+ "stores": [
+  {
+   "id": "wet_market-gh",
+   "type": "wet_market",
+   "local_names": [
+    "market"
+   ],
+   "tip": {
+    "en": "Ghana has a major open street market in every region. Big ones: Makola, Kejetia, Kantamanto. Minor street markets often cost less."
+   },
+   "regions": [
+    "gh"
+   ],
+   "source_url": "https://en.wikipedia.org/wiki/Markets_in_Ghana",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "supermarket-gh",
+   "type": "supermarket",
+   "local_names": [
+    "supermarket",
+    "mall"
+   ],
+   "tip": {
+    "en": "Malls and supermarkets exist in Ghana, with branches in several cities. Useful for packaged goods."
+   },
+   "regions": [
+    "gh"
+   ],
+   "source_url": "https://en.wikipedia.org/wiki/Markets_in_Ghana",
+   "accessed": "2026-10-29"
+  }
+ ],
+ "staples": [
+  {
+   "id": "rice",
+   "name": {
+    "en": "Rice"
+   },
+   "local_name": "rice",
+   "group": "grain",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://en.wikipedia.org/wiki/Sierra_Leonean_cuisine",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "sorghum",
+   "name": {
+    "en": "Sorghum"
+   },
+   "local_name": "guinea corn / dawa",
+   "group": "grain",
+   "regions": [
+    "ng-north",
+    "sl"
+   ],
+   "source_url": "https://en.wikipedia.org/wiki/Nigerian_cuisine",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "millet",
+   "name": {
+    "en": "Millet"
+   },
+   "local_name": "gero / hausa koko grain",
+   "group": "grain",
+   "regions": [
+    "ng-north",
+    "sl"
+   ],
+   "source_url": "https://en.wikipedia.org/wiki/Nigerian_cuisine",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "maize",
+   "name": {
+    "en": "Maize (corn)"
+   },
+   "local_name": "corn",
+   "group": "grain",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://en.wikipedia.org/wiki/Nigerian_cuisine",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "yam",
+   "name": {
+    "en": "Yam"
+   },
+   "local_name": "isu / eewo",
+   "group": "other",
+   "regions": [
+    "ng-south"
+   ],
+   "source_url": "https://en.wikipedia.org/wiki/Nigerian_cuisine",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "cassava_gari",
+   "name": {
+    "en": "Cassava and gari"
+   },
+   "local_name": "garri / gari",
+   "group": "other",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://en.wikipedia.org/wiki/Liberian_cuisine",
+   "accessed": "2026-10-29",
+   "prep_hazard": "Raw or under-processed cassava can release cyanide. Peel, soak long, squeeze and cook fully.",
+   "prep_hazard_technique": "cassava-safe"
+  },
+  {
+   "id": "black_eyed_peas",
+   "name": {
+    "en": "Black-eyed peas and local beans"
+   },
+   "local_name": "ewa / beans",
+   "group": "legume",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://en.wikipedia.org/wiki/Nigerian_cuisine",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "groundnut",
+   "name": {
+    "en": "Groundnuts (peanuts)"
+   },
+   "local_name": "groundnut",
+   "group": "legume",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://en.wikipedia.org/wiki/Sierra_Leonean_cuisine",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "okra",
+   "name": {
+    "en": "Okra"
+   },
+   "local_name": "okro",
+   "group": "vegetable",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://en.wikipedia.org/wiki/Nigerian_cuisine",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "cassava_leaves",
+   "name": {
+    "en": "Cassava leaves"
+   },
+   "local_name": "cassava leaf",
+   "group": "vegetable",
+   "regions": [
+    "sl",
+    "lr"
+   ],
+   "source_url": "https://en.wikipedia.org/wiki/Sierra_Leonean_cuisine",
+   "accessed": "2026-10-29",
+   "prep_hazard": "Raw cassava leaves can release cyanide. Boil at least 30 minutes before eating.",
+   "prep_hazard_technique": "cassava-safe"
+  },
+  {
+   "id": "palm_oil",
+   "name": {
+    "en": "Red palm oil"
+   },
+   "local_name": "palm oil",
+   "group": "fat",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://en.wikipedia.org/wiki/Sierra_Leonean_cuisine",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "fish",
+   "name": {
+    "en": "Fish (fresh, smoked, dried)"
+   },
+   "local_name": "fish",
+   "group": "protein",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://en.wikipedia.org/wiki/Liberian_cuisine",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "plantain",
+   "name": {
+    "en": "Plantain"
+   },
+   "local_name": "plantain",
+   "group": "fruit",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.lovefood.com/recipes/71106/red-red-stew-recipe",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "eggs",
+   "name": {
+    "en": "Eggs"
+   },
+   "local_name": "eggs",
+   "group": "protein",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.myactivekitchen.com/yam-and-egg-sauce/",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "tomato",
+   "name": {
+    "en": "Tomatoes and peppers"
+   },
+   "local_name": "tomato, pepper",
+   "group": "vegetable",
+   "regions": [
+    "*"
+   ],
+   "source_url": "https://www.lovefood.com/recipes/71106/red-red-stew-recipe",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "pumpkin",
+   "name": {
+    "en": "Pumpkin or squash"
+   },
+   "local_name": "pumpkin",
+   "group": "vegetable",
+   "regions": [
+    "ng-north"
+   ],
+   "source_url": "https://www.yummymedley.com/miyan-taushe-nigerian-pumpkin-stew/",
+   "accessed": "2026-10-29"
+  }
+ ],
+ "recipes": [
+  {
+   "id": "waakye",
+   "name": {
+    "en": "Waakye (rice and beans)"
+   },
+   "local_name": "waakye",
+   "meal": "main",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "rice",
+    "black_eyed_peas"
+   ],
+   "ingredients": [
+    {
+     "en": "Beans (red or black-eyed), soaked 3-4 hours"
+    },
+    {
+     "en": "Rice"
+    },
+    {
+     "en": "Baking soda (colour) or sorghum leaves"
+    },
+    {
+     "en": "Salt, water"
+    },
+    {
+     "en": "To serve: pepper sauce, boiled egg"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Soak beans 3-4 hours, drain, boil about 45 minutes."
+    },
+    {
+     "en": "Add baking soda or sorghum leaves for colour (take leaves out after 5 minutes)."
+    },
+    {
+     "en": "Add washed rice and more water. Cook 15-20 minutes, stirring, until the water is gone and rice is soft."
+    },
+    {
+     "en": "Salt. Serve with pepper sauce and a boiled egg."
+    }
+   ],
+   "regions": [
+    "gh"
+   ],
+   "source_url": "https://ricetoday.irri.org/waakye-a-popular-dish-from-ghana-made-with-rice-and-beans/",
+   "accessed": "2026-10-29",
+   "total_minutes": 100,
+   "active_minutes": 100,
+   "allergens": [
+    "egg"
+   ]
+  },
+  {
+   "id": "red-red",
+   "name": {
+    "en": "Red red (bean stew with fried plantain)"
+   },
+   "local_name": "red red",
+   "meal": "main",
+   "serves": 2,
+   "needs": [
+    "two_burners"
+   ],
+   "staples": [
+    "black_eyed_peas",
+    "plantain",
+    "palm_oil",
+    "tomato"
+   ],
+   "ingredients": [
+    {
+     "en": "Black-eyed beans"
+    },
+    {
+     "en": "Palm oil, onion, ginger, hot pepper"
+    },
+    {
+     "en": "Tomatoes, tomato puree, salt"
+    },
+    {
+     "en": "Ripe plantain and oil for frying"
+    },
+    {
+     "en": "A little gari to sprinkle"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Boil dried beans in plenty of water until tender (about 1 hour), drain."
+    },
+    {
+     "en": "Soften onion, ginger and pepper in the oil. Add tomatoes and puree, simmer 45-60 minutes."
+    },
+    {
+     "en": "Add beans, simmer about 30 minutes, stirring."
+    },
+    {
+     "en": "Shallow-fry plantain slices until golden. Serve with a little gari on top."
+    }
+   ],
+   "regions": [
+    "gh"
+   ],
+   "source_url": "https://www.lovefood.com/recipes/71106/red-red-stew-recipe",
+   "accessed": "2026-10-29",
+   "total_minutes": 150,
+   "active_minutes": 150,
+   "allergens": []
+  },
+  {
+   "id": "ewa-riro",
+   "name": {
+    "en": "Ewa riro (stewed beans)"
+   },
+   "local_name": "ewa riro",
+   "meal": "main",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "black_eyed_peas",
+    "palm_oil",
+    "tomato"
+   ],
+   "ingredients": [
+    {
+     "en": "Beans (honey, drum or black-eyed)"
+    },
+    {
+     "en": "Onion, scotch bonnet pepper"
+    },
+    {
+     "en": "Palm oil, bouillon cube, salt"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Pick over and rinse beans. Simmer with chopped onion in about 3 times their volume of water for 1-1.5 hours until soft (pressure cooker is faster, not required)."
+    },
+    {
+     "en": "Chop second onion and pepper very fine. Fry in hot palm oil with seasoning 15-20 minutes."
+    },
+    {
+     "en": "Stir beans and their liquid into the sauce. Simmer about 10 minutes."
+    },
+    {
+     "en": "Eat plain or with garri, yam or plantain."
+    }
+   ],
+   "regions": [
+    "ng-south"
+   ],
+   "source_url": "https://eatwellabi.com/nigerian-beans-porridge-ewa-riro/",
+   "accessed": "2026-10-29",
+   "total_minutes": 90,
+   "active_minutes": 90,
+   "allergens": []
+  },
+  {
+   "id": "hausa-koko",
+   "name": {
+    "en": "Hausa koko (spiced porridge)"
+   },
+   "local_name": "hausa koko",
+   "meal": "breakfast",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "maize",
+    "millet"
+   ],
+   "ingredients": [
+    {
+     "en": "Fermented corn or millet dough"
+    },
+    {
+     "en": "Water"
+    },
+    {
+     "en": "Cloves, ginger, chilli, salt"
+    },
+    {
+     "en": "Sugar, evaporated milk to taste"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Crumble the dough into cold water and stir to a smooth paste."
+    },
+    {
+     "en": "Pour in boiling water, stir hard until it thickens and smooths out."
+    },
+    {
+     "en": "Add spices and salt. Simmer on low about 10 minutes."
+    },
+    {
+     "en": "Sweeten to taste."
+    }
+   ],
+   "regions": [
+    "gh"
+   ],
+   "source_url": "https://fabwoman.ng/hausa-koko-recipe-video-tutorial-fabwoman/",
+   "accessed": "2026-10-29",
+   "total_minutes": 20,
+   "active_minutes": 20,
+   "allergens": [
+    "milk"
+   ]
+  },
+  {
+   "id": "pap",
+   "name": {
+    "en": "Pap (ogi / akamu porridge)"
+   },
+   "local_name": "ogi / akamu",
+   "meal": "breakfast",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "maize",
+    "millet",
+    "sorghum"
+   ],
+   "ingredients": [
+    {
+     "en": "Ogi (pap) paste of corn, millet or sorghum"
+    },
+    {
+     "en": "Water"
+    },
+    {
+     "en": "Sugar or milk if available"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Mix paste with a little cool water until smooth, like thin cream."
+    },
+    {
+     "en": "Boil water. Lower heat and pour the paste in slowly, stirring in one direction."
+    },
+    {
+     "en": "Stir until it turns translucent and thick. Simmer 1-2 minutes."
+    },
+    {
+     "en": "Thin with hot water if stiff. Serve with akara or moi moi if you have them."
+    }
+   ],
+   "regions": [
+    "ng-north",
+    "ng-south"
+   ],
+   "source_url": "https://cheflolaskitchen.com/nigerian-pap/",
+   "accessed": "2026-10-29",
+   "total_minutes": 10,
+   "active_minutes": 10,
+   "allergens": [
+    "milk"
+   ]
+  },
+  {
+   "id": "egg-sauce-yam",
+   "name": {
+    "en": "Egg sauce with boiled yam"
+   },
+   "local_name": "egg sauce and yam",
+   "meal": "breakfast",
+   "serves": 2,
+   "needs": [
+    "two_burners"
+   ],
+   "staples": [
+    "yam",
+    "eggs",
+    "tomato"
+   ],
+   "ingredients": [
+    {
+     "en": "Yam"
+    },
+    {
+     "en": "Eggs"
+    },
+    {
+     "en": "Tomato, onion, pepper"
+    },
+    {
+     "en": "Oil, seasoning cube, salt"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Peel yam, cut in chunks, rinse, boil in salted water until a fork goes in easily."
+    },
+    {
+     "en": "Fry chopped pepper, tomato and onion in oil 4-5 minutes."
+    },
+    {
+     "en": "Add seasoning. Pour in beaten eggs, let set a moment, then scramble."
+    },
+    {
+     "en": "Serve over the yam."
+    }
+   ],
+   "regions": [
+    "ng-south"
+   ],
+   "source_url": "https://www.myactivekitchen.com/yam-and-egg-sauce/",
+   "accessed": "2026-10-29",
+   "total_minutes": 35,
+   "active_minutes": 35,
+   "allergens": [
+    "egg"
+   ]
+  },
+  {
+   "id": "gari-foto",
+   "name": {
+    "en": "Gari foto (gari with eggs and vegetables)"
+   },
+   "local_name": "gari foto",
+   "meal": "breakfast",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "cassava_gari",
+    "eggs",
+    "tomato"
+   ],
+   "ingredients": [
+    {
+     "en": "Gari"
+    },
+    {
+     "en": "Onion, tomato, chilli, ginger"
+    },
+    {
+     "en": "Carrot, green beans, green pepper"
+    },
+    {
+     "en": "Eggs, oil, salt"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Mix salt into a little water. Sprinkle over the gari until damp, not wet."
+    },
+    {
+     "en": "Blanch the diced vegetables in salted water, drain."
+    },
+    {
+     "en": "Soften onion in oil, add ginger, tomato, chilli, cook down."
+    },
+    {
+     "en": "Add vegetables about 5 minutes. Turn off heat, fold in the gari."
+    },
+    {
+     "en": "Top with cooked eggs."
+    }
+   ],
+   "regions": [
+    "gh"
+   ],
+   "source_url": "https://www.aljazeera.com/features/2020/4/19/cooking-in-quarantine-a-ghanaian-chefs-go-to-garifoto",
+   "accessed": "2026-10-29",
+   "total_minutes": 25,
+   "active_minutes": 25,
+   "allergens": [
+    "egg"
+   ]
+  },
+  {
+   "id": "miyan-taushe",
+   "name": {
+    "en": "Miyan taushe (pumpkin and peanut soup)"
+   },
+   "local_name": "miyan taushe",
+   "meal": "main",
+   "serves": 2,
+   "needs": [
+    "burner",
+    "blender"
+   ],
+   "staples": [
+    "pumpkin",
+    "groundnut",
+    "tomato",
+    "palm_oil"
+   ],
+   "ingredients": [
+    {
+     "en": "Meat (goat) or substitute"
+    },
+    {
+     "en": "Pumpkin chunks"
+    },
+    {
+     "en": "Roasted peanuts, ground"
+    },
+    {
+     "en": "Tomato, onion, pepper"
+    },
+    {
+     "en": "Spinach, palm oil, crayfish, salt"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Braise meat with onion and pepper about 30 minutes."
+    },
+    {
+     "en": "Blend tomato, onion and pepper, cook down to a thick paste."
+    },
+    {
+     "en": "Boil pumpkin in the pot about 15 minutes, mash it."
+    },
+    {
+     "en": "Stir in ground peanuts, tomato paste and crayfish for 5 minutes."
+    },
+    {
+     "en": "Add palm oil and greens, cook 10 minutes on low. Serve with tuwo shinkafa or rice."
+    }
+   ],
+   "regions": [
+    "ng-north"
+   ],
+   "source_url": "https://www.yummymedley.com/miyan-taushe-nigerian-pumpkin-stew/",
+   "accessed": "2026-10-29",
+   "total_minutes": 70,
+   "active_minutes": 70,
+   "allergens": [
+    "peanut"
+   ]
+  },
+  {
+   "id": "tuwo-shinkafa",
+   "name": {
+    "en": "Tuwo shinkafa (soft rice swallow)"
+   },
+   "local_name": "tuwo shinkafa",
+   "meal": "light",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "rice"
+   ],
+   "ingredients": [
+    {
+     "en": "Short-grain rice"
+    },
+    {
+     "en": "Water"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Wash rice, cover with water, cook on medium heat."
+    },
+    {
+     "en": "Lower heat as water goes. Add small splashes until the rice is very soft."
+    },
+    {
+     "en": "On lowest heat mash and fold with a wooden spoon to a stiff dough."
+    },
+    {
+     "en": "Scoop into portions with a wet spoon. Eat with any soup."
+    }
+   ],
+   "regions": [
+    "ng-north"
+   ],
+   "source_url": "https://eatwellabi.com/how-to-make-tuwo-shinkafa-hausa-rice-balls/",
+   "accessed": "2026-10-29",
+   "total_minutes": 45,
+   "active_minutes": 45,
+   "allergens": []
+  },
+  {
+   "id": "cassava-leaf-stew",
+   "name": {
+    "en": "Cassava leaf stew over rice"
+   },
+   "local_name": "cassava leaf",
+   "meal": "main",
+   "serves": 2,
+   "needs": [
+    "burner",
+    "blender"
+   ],
+   "staples": [
+    "cassava_leaves",
+    "rice",
+    "palm_oil",
+    "fish",
+    "groundnut"
+   ],
+   "ingredients": [
+    {
+     "en": "Cassava leaves (frozen spinach works)"
+    },
+    {
+     "en": "Meat or smoked fish, dried shrimp"
+    },
+    {
+     "en": "Peanut butter, palm or peanut oil"
+    },
+    {
+     "en": "Onion, hot pepper, salt"
+    },
+    {
+     "en": "Rice to serve"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Season meat with salt and onion, brown, add water and simmer until soft."
+    },
+    {
+     "en": "Blend thawed leaves to a thick paste."
+    },
+    {
+     "en": "Add leaves, smoked fish and the rest of the onion, cook 10 minutes."
+    },
+    {
+     "en": "Add oil, shrimp, peanut butter and pepper, cook 10 minutes more."
+    },
+    {
+     "en": "Serve over rice."
+    }
+   ],
+   "regions": [
+    "sl"
+   ],
+   "source_url": "https://tourismsierraleone.com/stories/traditional-cassava-leaf-soup-recipe/",
+   "accessed": "2026-10-29",
+   "total_minutes": 60,
+   "active_minutes": 60,
+   "allergens": [
+    "peanut",
+    "fish",
+    "shellfish"
+   ]
+  },
+  {
+   "id": "groundnut-stew",
+   "name": {
+    "en": "Groundnut stew with rice"
+   },
+   "local_name": "groundnut stew",
+   "meal": "main",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "groundnut",
+    "rice",
+    "tomato"
+   ],
+   "ingredients": [
+    {
+     "en": "Meat (or vegetables or beans)"
+    },
+    {
+     "en": "Onion, tomato, scotch bonnet"
+    },
+    {
+     "en": "Smooth peanut butter"
+    },
+    {
+     "en": "Rice to serve"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Season meat, brown it, simmer in water until tender, set aside."
+    },
+    {
+     "en": "Soften onion, add tomato and stir."
+    },
+    {
+     "en": "Stir peanut butter into hot water, add to pot."
+    },
+    {
+     "en": "Return meat, simmer 30 minutes on low. Serve with rice."
+    }
+   ],
+   "regions": [
+    "sl"
+   ],
+   "source_url": "https://www.westafricacooks.com/node/36",
+   "accessed": "2026-10-29",
+   "total_minutes": 50,
+   "active_minutes": 50,
+   "allergens": []
+  },
+  {
+   "id": "potato-greens",
+   "name": {
+    "en": "Potato greens over rice"
+   },
+   "local_name": "potato greens",
+   "meal": "main",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "rice",
+    "palm_oil"
+   ],
+   "ingredients": [
+    {
+     "en": "Sweet potato leaves, washed"
+    },
+    {
+     "en": "Onion, hot pepper"
+    },
+    {
+     "en": "Oil, salt, pepper"
+    },
+    {
+     "en": "Cooked meat or fish"
+    },
+    {
+     "en": "Rice to serve"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Soak and rub leaves in water with a little baking soda, wring out."
+    },
+    {
+     "en": "Cook leaves with oil, onion and pepper, stirring often, about 20 minutes."
+    },
+    {
+     "en": "Lower the heat, stir 20 more minutes."
+    },
+    {
+     "en": "Add cooked meat or fish, simmer 15 minutes. Serve over rice."
+    }
+   ],
+   "regions": [
+    "lr"
+   ],
+   "source_url": "https://www-0.kiva.org/blog/a-taste-of-liberia",
+   "accessed": "2026-10-29",
+   "total_minutes": 75,
+   "active_minutes": 75,
+   "allergens": [
+    "fish"
+   ]
+  },
+  {
+   "id": "palm-butter",
+   "name": {
+    "en": "Palm butter soup"
+   },
+   "local_name": "palm butter",
+   "meal": "main",
+   "serves": 2,
+   "needs": [
+    "burner",
+    "blender"
+   ],
+   "staples": [
+    "palm_oil",
+    "fish",
+    "rice"
+   ],
+   "ingredients": [
+    {
+     "en": "Dried fish or meat, dried shrimp"
+    },
+    {
+     "en": "Canned palm nut paste"
+    },
+    {
+     "en": "Pepper, bay leaves, seasoning"
+    },
+    {
+     "en": "Rice, eba or fufu to serve"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Cook cut meat or fish in water with blended pepper and seasoning until done."
+    },
+    {
+     "en": "Add bay leaves."
+    },
+    {
+     "en": "Stir in palm paste, simmer about 20 minutes."
+    },
+    {
+     "en": "Serve with rice or another starch."
+    }
+   ],
+   "regions": [
+    "lr"
+   ],
+   "source_url": "https://shopafricausa.com/blogs/african-food-recipe/how-to-make-liberian-palm-butter-soup",
+   "accessed": "2026-10-29",
+   "total_minutes": 60,
+   "active_minutes": 60,
+   "allergens": [
+    "fish",
+    "shellfish"
+   ]
+  },
+  {
+   "id": "kontomire-stew",
+   "name": {
+    "en": "Kontomire stew (cocoyam leaf)"
+   },
+   "local_name": "kontomire / palava sauce",
+   "meal": "main",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "tomato",
+    "fish",
+    "palm_oil"
+   ],
+   "ingredients": [
+    {
+     "en": "Cocoyam leaves (spinach works)"
+    },
+    {
+     "en": "Salted fish, tomatoes, onion, pepper"
+    },
+    {
+     "en": "Ground melon seeds (agushie), oil, salt"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Cook chopped, washed leaves about 3 minutes, drain."
+    },
+    {
+     "en": "Make a tomato stew, add fish."
+    },
+    {
+     "en": "Mix melon seed with water, stir into stew, cook 5 minutes."
+    },
+    {
+     "en": "Add leaves and a little cooking water, simmer 5 minutes. Eat with rice, yam or plantain."
+    }
+   ],
+   "regions": [
+    "gh"
+   ],
+   "source_url": "https://www.pulse.com.gh/lifestyle/food-travel/diy-recipes-how-to-make-palava-sauce-kontomire-stew/rybthnn.amp",
+   "accessed": "2026-10-29",
+   "total_minutes": 45,
+   "active_minutes": 45,
+   "allergens": [
+    "fish"
+   ]
+  },
+  {
+   "id": "okra-soup-eba",
+   "name": {
+    "en": "Okra soup with eba"
+   },
+   "local_name": "ila / eba",
+   "meal": "main",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "okra",
+    "fish",
+    "palm_oil",
+    "cassava_gari"
+   ],
+   "ingredients": [
+    {
+     "en": "Okra, sliced fine"
+    },
+    {
+     "en": "Meat or smoked fish, crayfish"
+    },
+    {
+     "en": "Palm oil, pepper, onion, seasoning"
+    },
+    {
+     "en": "Gari for eba"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Cook meat with onion and seasoning until tender, keep the stock."
+    },
+    {
+     "en": "Fry pepper in palm oil 5-7 minutes."
+    },
+    {
+     "en": "Add stock, meat, fish and crayfish, simmer 10 minutes."
+    },
+    {
+     "en": "Add okra, cook 5-7 minutes only."
+    },
+    {
+     "en": "Eba: stir gari into hot water in a pot until firm. Serve at once."
+    }
+   ],
+   "regions": [
+    "ng-south"
+   ],
+   "source_url": "https://en.wikibooks.org/wiki/Cookbook:Nigerian_Okra_Soup_(Ila_Asepo)",
+   "accessed": "2026-10-29",
+   "total_minutes": 50,
+   "active_minutes": 50,
+   "allergens": [
+    "fish"
+   ]
+  },
+  {
+   "id": "fish-pepper-soup",
+   "name": {
+    "en": "Fish pepper soup"
+   },
+   "local_name": "pepper soup",
+   "meal": "main",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "fish",
+    "tomato"
+   ],
+   "ingredients": [
+    {
+     "en": "Fresh fish (catfish or similar)"
+    },
+    {
+     "en": "Pepper soup spice, hot pepper"
+    },
+    {
+     "en": "Crayfish, seasoning cube, salt"
+    },
+    {
+     "en": "Limes to clean the fish"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Clean fish with lime or hot water to remove slime."
+    },
+    {
+     "en": "Put in a pot with spice, pepper, seasoning, salt."
+    },
+    {
+     "en": "Cover and cook 35-50 minutes until done."
+    }
+   ],
+   "regions": [
+    "ng-north",
+    "ng-south"
+   ],
+   "source_url": "https://afrifoodnetwork.com/recipes/catfish-peppersoup/",
+   "accessed": "2026-10-29",
+   "total_minutes": 50,
+   "active_minutes": 50,
+   "allergens": [
+    "fish"
+   ]
+  },
+  {
+   "id": "kelewele",
+   "name": {
+    "en": "Kelewele (spiced fried plantain)"
+   },
+   "local_name": "kelewele",
+   "meal": "light",
+   "serves": 2,
+   "needs": [
+    "burner",
+    "blender"
+   ],
+   "staples": [
+    "plantain",
+    "groundnut"
+   ],
+   "ingredients": [
+    {
+     "en": "Ripe but firm plantain"
+    },
+    {
+     "en": "Ginger, garlic, onion, hot pepper"
+    },
+    {
+     "en": "Salt, oil for frying"
+    },
+    {
+     "en": "Roasted peanuts to serve"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Cut peeled plantain into small cubes."
+    },
+    {
+     "en": "Blend spices to a paste, toss plantain in it, rest 5-10 minutes."
+    },
+    {
+     "en": "Fry in batches until golden, drain."
+    },
+    {
+     "en": "Serve warm with roasted peanuts."
+    }
+   ],
+   "regions": [
+    "gh"
+   ],
+   "source_url": "https://weeatatlast.com/kelewele",
+   "accessed": "2026-10-29",
+   "total_minutes": 30,
+   "active_minutes": 30,
+   "allergens": [
+    "peanut"
+   ]
+  },
+  {
+   "id": "jollof",
+   "name": {
+    "en": "Jollof rice"
+   },
+   "local_name": "jollof",
+   "meal": "main",
+   "serves": 2,
+   "needs": [
+    "burner",
+    "blender"
+   ],
+   "staples": [
+    "rice",
+    "tomato"
+   ],
+   "ingredients": [
+    {
+     "en": "Long-grain rice, washed"
+    },
+    {
+     "en": "Tomatoes, red pepper, onion, scotch bonnet"
+    },
+    {
+     "en": "Oil, tomato paste, thyme, curry, bouillon"
+    },
+    {
+     "en": "Water or stock"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Blend tomato, pepper, onion and chilli (oven-roasting the peppers is optional)."
+    },
+    {
+     "en": "Fry the sauce in oil 10 minutes, add paste and seasoning, cook 15 minutes more."
+    },
+    {
+     "en": "Add rinsed rice and water to cover. Cook low, folding now and then, 10-15 minutes."
+    },
+    {
+     "en": "Cook 5-7 minutes more on low, season. Serve with fish, egg or beans."
+    }
+   ],
+   "regions": [
+    "ng-north",
+    "ng-south",
+    "lr"
+   ],
+   "source_url": "https://12tomatoes.com/nigerian-jollof-rice",
+   "accessed": "2026-10-29",
+   "total_minutes": 60,
+   "active_minutes": 60,
+   "allergens": []
+  },
+  {
+   "id": "rice-pap",
+   "name": {
+    "en": "Rice pap (ground rice porridge)"
+   },
+   "local_name": "rice pap",
+   "meal": "breakfast",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "rice"
+   ],
+   "ingredients": [
+    {
+     "en": "Finely ground rice"
+    },
+    {
+     "en": "Water"
+    },
+    {
+     "en": "Lime juice"
+    },
+    {
+     "en": "Sugar to taste"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Set aside a little ground rice. Rub a few drops of water into it to make small balls and let them dry."
+    },
+    {
+     "en": "Mix the rest of the ground rice with some water to a smooth paste."
+    },
+    {
+     "en": "Bring about 2 cups of water to a boil and cook the small balls in it."
+    },
+    {
+     "en": "Stir in the paste and cook, stirring, until thick and the raw taste is gone."
+    },
+    {
+     "en": "Add lime juice and sugar to taste. Serve hot."
+    }
+   ],
+   "regions": [
+    "sl"
+   ],
+   "source_url": "https://www.westafricacooks.com/rice_pap",
+   "accessed": "2026-10-29",
+   "total_minutes": 55,
+   "active_minutes": 35,
+   "allergens": []
+  },
+  {
+   "id": "cocodolo",
+   "name": {
+    "en": "Cocodolo (corn and soy breakfast porridge)"
+   },
+   "local_name": "cocodolo",
+   "meal": "breakfast",
+   "serves": 2,
+   "needs": [
+    "burner"
+   ],
+   "staples": [
+    "maize"
+   ],
+   "ingredients": [
+    {
+     "en": "Cocodolo mix (corn and soy blend)"
+    },
+    {
+     "en": "Water"
+    },
+    {
+     "en": "Butter"
+    },
+    {
+     "en": "Evaporated milk"
+    },
+    {
+     "en": "Sugar to taste"
+    }
+   ],
+   "steps": [
+    {
+     "en": "Bring the water to a boil in a pot over low heat."
+    },
+    {
+     "en": "Add the cocodolo mix and stir hard to break up lumps. Add a little more water if needed."
+    },
+    {
+     "en": "Cook about 15 minutes, stirring all the time so the bottom does not burn."
+    },
+    {
+     "en": "As it thickens, stir in butter, evaporated milk and sugar. Turn off the heat and cool 5 minutes before serving."
+    }
+   ],
+   "regions": [
+    "lr"
+   ],
+   "source_url": "https://www.okrapantry.com/2022/08/25/liberian-cocodolo-breakfast-porridge/",
+   "accessed": "2026-10-29",
+   "total_minutes": 25,
+   "active_minutes": 20,
+   "allergens": [
+    "soy",
+    "milk"
+   ]
+  }
+ ],
+ "menu": [
+  {
+   "day": 1,
+   "breakfast": [
+    "pap",
+    "hausa-koko",
+    "egg-sauce-yam",
+    "gari-foto",
+    "rice-pap",
+    "cocodolo"
+   ],
+   "main": [
+    "waakye",
+    "red-red",
+    "ewa-riro",
+    "miyan-taushe",
+    "cassava-leaf-stew",
+    "groundnut-stew",
+    "potato-greens",
+    "palm-butter",
+    "kontomire-stew",
+    "okra-soup-eba",
+    "fish-pepper-soup",
+    "jollof"
+   ],
+   "light": [
+    "kelewele",
+    "tuwo-shinkafa",
+    "waakye",
+    "red-red",
+    "ewa-riro",
+    "miyan-taushe",
+    "cassava-leaf-stew",
+    "groundnut-stew",
+    "potato-greens",
+    "palm-butter",
+    "kontomire-stew",
+    "okra-soup-eba",
+    "fish-pepper-soup",
+    "jollof"
+   ]
+  },
+  {
+   "day": 2,
+   "breakfast": [
+    "hausa-koko",
+    "pap",
+    "egg-sauce-yam",
+    "gari-foto",
+    "rice-pap",
+    "cocodolo"
+   ],
+   "main": [
+    "red-red",
+    "ewa-riro",
+    "miyan-taushe",
+    "cassava-leaf-stew",
+    "groundnut-stew",
+    "potato-greens",
+    "palm-butter",
+    "kontomire-stew",
+    "okra-soup-eba",
+    "fish-pepper-soup",
+    "jollof",
+    "waakye"
+   ],
+   "light": [
+    "gari-foto",
+    "kelewele",
+    "waakye",
+    "red-red",
+    "ewa-riro",
+    "miyan-taushe",
+    "cassava-leaf-stew",
+    "groundnut-stew",
+    "potato-greens",
+    "palm-butter",
+    "kontomire-stew",
+    "okra-soup-eba",
+    "fish-pepper-soup",
+    "jollof",
+    "tuwo-shinkafa"
+   ]
+  },
+  {
+   "day": 3,
+   "breakfast": [
+    "egg-sauce-yam",
+    "gari-foto",
+    "hausa-koko",
+    "pap",
+    "rice-pap",
+    "cocodolo"
+   ],
+   "main": [
+    "miyan-taushe",
+    "ewa-riro",
+    "cassava-leaf-stew",
+    "groundnut-stew",
+    "potato-greens",
+    "palm-butter",
+    "kontomire-stew",
+    "okra-soup-eba",
+    "fish-pepper-soup",
+    "jollof",
+    "waakye",
+    "red-red"
+   ],
+   "light": [
+    "kelewele",
+    "waakye",
+    "red-red",
+    "ewa-riro",
+    "miyan-taushe",
+    "cassava-leaf-stew",
+    "groundnut-stew",
+    "potato-greens",
+    "palm-butter",
+    "kontomire-stew",
+    "okra-soup-eba",
+    "fish-pepper-soup",
+    "jollof",
+    "tuwo-shinkafa"
+   ]
+  },
+  {
+   "day": 4,
+   "breakfast": [
+    "gari-foto",
+    "hausa-koko",
+    "pap",
+    "egg-sauce-yam",
+    "rice-pap",
+    "cocodolo"
+   ],
+   "main": [
+    "ewa-riro",
+    "miyan-taushe",
+    "cassava-leaf-stew",
+    "groundnut-stew",
+    "potato-greens",
+    "palm-butter",
+    "kontomire-stew",
+    "okra-soup-eba",
+    "fish-pepper-soup",
+    "jollof",
+    "waakye",
+    "red-red"
+   ],
+   "light": [
+    "hausa-koko",
+    "red-red",
+    "ewa-riro",
+    "miyan-taushe",
+    "cassava-leaf-stew",
+    "groundnut-stew",
+    "potato-greens",
+    "palm-butter",
+    "kontomire-stew",
+    "okra-soup-eba",
+    "fish-pepper-soup",
+    "jollof",
+    "tuwo-shinkafa",
+    "kelewele",
+    "waakye"
+   ]
+  },
+  {
+   "day": 5,
+   "breakfast": [
+    "pap",
+    "hausa-koko",
+    "egg-sauce-yam",
+    "gari-foto",
+    "rice-pap",
+    "cocodolo"
+   ],
+   "main": [
+    "cassava-leaf-stew",
+    "groundnut-stew",
+    "potato-greens",
+    "palm-butter",
+    "kontomire-stew",
+    "okra-soup-eba",
+    "fish-pepper-soup",
+    "jollof",
+    "waakye",
+    "red-red",
+    "ewa-riro",
+    "miyan-taushe"
+   ],
+   "light": [
+    "egg-sauce-yam",
+    "ewa-riro",
+    "miyan-taushe",
+    "cassava-leaf-stew",
+    "groundnut-stew",
+    "potato-greens",
+    "palm-butter",
+    "kontomire-stew",
+    "okra-soup-eba",
+    "fish-pepper-soup",
+    "jollof",
+    "tuwo-shinkafa",
+    "kelewele",
+    "waakye",
+    "red-red"
+   ]
+  },
+  {
+   "day": 6,
+   "breakfast": [
+    "hausa-koko",
+    "pap",
+    "egg-sauce-yam",
+    "gari-foto",
+    "rice-pap",
+    "cocodolo"
+   ],
+   "main": [
+    "groundnut-stew",
+    "potato-greens",
+    "palm-butter",
+    "kontomire-stew",
+    "okra-soup-eba",
+    "fish-pepper-soup",
+    "jollof",
+    "waakye",
+    "red-red",
+    "ewa-riro",
+    "miyan-taushe",
+    "cassava-leaf-stew"
+   ],
+   "light": [
+    "kelewele",
+    "miyan-taushe",
+    "cassava-leaf-stew",
+    "groundnut-stew",
+    "potato-greens",
+    "palm-butter",
+    "kontomire-stew",
+    "okra-soup-eba",
+    "fish-pepper-soup",
+    "jollof",
+    "tuwo-shinkafa",
+    "waakye",
+    "red-red",
+    "ewa-riro"
+   ]
+  },
+  {
+   "day": 7,
+   "breakfast": [
+    "egg-sauce-yam",
+    "gari-foto",
+    "hausa-koko",
+    "pap",
+    "rice-pap",
+    "cocodolo"
+   ],
+   "main": [
+    "potato-greens",
+    "palm-butter",
+    "kontomire-stew",
+    "okra-soup-eba",
+    "fish-pepper-soup",
+    "jollof",
+    "waakye",
+    "red-red",
+    "ewa-riro",
+    "miyan-taushe",
+    "cassava-leaf-stew",
+    "groundnut-stew"
+   ],
+   "light": [
+    "pap",
+    "cassava-leaf-stew",
+    "groundnut-stew",
+    "potato-greens",
+    "palm-butter",
+    "kontomire-stew",
+    "okra-soup-eba",
+    "fish-pepper-soup",
+    "jollof",
+    "tuwo-shinkafa",
+    "kelewele",
+    "waakye",
+    "red-red",
+    "ewa-riro",
+    "miyan-taushe"
+   ]
+  }
+ ],
+ "techniques": [
+  {
+   "id": "clean",
+   "title": {
+    "en": "Clean hands and surfaces"
+   },
+   "body": {
+    "en": "Wash hands with soap for at least 20 seconds. Wash knives, boards and counters after each food. Rinse fresh produce under running water."
+   },
+   "source_url": "https://www.cdc.gov/food-safety/prevention/index.html",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "separate",
+   "title": {
+    "en": "Keep raw and cooked apart"
+   },
+   "body": {
+    "en": "Use separate boards and plates for raw meat, fish and eggs, and for food ready to eat. Do not wash raw chicken."
+   },
+   "source_url": "https://www.cdc.gov/food-safety/prevention/index.html",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "cook",
+   "title": {
+    "en": "Cook thoroughly"
+   },
+   "body": {
+    "en": "Cook meat, fish and eggs through. Reheat leftovers and casseroles until steaming hot throughout (a thermometer target is 165 F / 74 C)."
+   },
+   "source_url": "https://www.cdc.gov/food-safety/prevention/index.html",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "keys",
+   "title": {
+    "en": "Five keys to safer food"
+   },
+   "body": {
+    "en": "Keep clean. Separate raw and cooked. Cook thoroughly. Keep food at safe temperatures. Use safe water and raw materials."
+   },
+   "source_url": "https://www.who.int/publications/i/item/9789241594639",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "water-cook",
+   "title": {
+    "en": "Use safe water for cooking"
+   },
+   "body": {
+    "en": "Cook and wash food with water that is safe to drink. Follow your mission's water guidance first."
+   },
+   "source_url": "https://www.cdc.gov/healthywater/emergency/making-water-safe.html",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "cassava-safe",
+   "title": {
+    "en": "Make cassava safe to eat"
+   },
+   "body": {
+    "en": "All parts of the cassava plant can release cyanide, and the peel holds the most. Taste does not tell you how much a root holds. Peel roots, then soak them a long time (a short soak of about 4 hours does not work), squeeze out the water and cook fully. Start root pieces in cold water, not boiling water. Boil cassava leaves at least 30 minutes. Gari is made safe by fermenting, pressing and roasting the mash, so buy it fully roasted and dry."
+   },
+   "source_url": "https://www.fao.org/4/t0207e/t0207e08.htm",
+   "accessed": "2026-10-29"
+  }
+ ],
+ "safety": [
+  {
+   "id": "red-flags",
+   "urgent": true,
+   "title": {
+    "en": "Red flags: contact your mission nurse now"
+   },
+   "body": {
+    "en": "Contact your mission nurse now if you have bloody diarrhoea, a high fever (over 102 F / 38.9 C), vomiting so often you cannot keep liquids down, very little or no urine, a dry mouth and throat, or dizziness when you stand up. Also call if diarrhoea lasts more than 3 days."
+   },
+   "source_url": "https://www.cdc.gov/food-safety/signs-symptoms/index.html",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "water",
+   "title": {
+    "en": "Drinking water"
+   },
+   "body": {
+    "en": "Follow your mission's water guidance first. If you must boil: let cloudy water settle or filter it, bring to a full rolling boil for 1 minute (3 minutes above 6,500 ft / about 2,000 m), cool, store in a clean covered container."
+   },
+   "source_url": "https://www.cdc.gov/healthywater/emergency/making-water-safe.html",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "produce",
+   "title": {
+    "en": "Washing produce"
+   },
+   "body": {
+    "en": "Rinse fresh produce under running safe water. Cut melon and unwashed produce are higher-risk foods."
+   },
+   "source_url": "https://www.cdc.gov/food-safety/prevention/index.html",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "leftovers",
+   "title": {
+    "en": "Leftovers without a fridge"
+   },
+   "body": {
+    "en": "Do not leave cooked food out more than 2 hours (1 hour if hotter than 90 F / 32 C). Cook smaller amounts. Reheat until steaming hot or throw it out."
+   },
+   "source_url": "https://www.cdc.gov/food-safety/prevention/index.html",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "hands",
+   "title": {
+    "en": "Hand washing"
+   },
+   "body": {
+    "en": "Wash hands with soap for at least 20 seconds before cooking and eating, and after touching raw meat or fish."
+   },
+   "source_url": "https://www.cdc.gov/food-safety/prevention/index.html",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "ors",
+   "title": {
+    "en": "Diarrhoea: ORS and red flags"
+   },
+   "body": {
+    "en": "Use oral rehydration salts (ORS) packets from a pharmacy or your mission nurse. Tell your mission nurse if you see blood in stool, signs of dehydration (sunken eyes, drinking poorly, very tired), or diarrhoea lasting 14 days or more."
+   },
+   "source_url": "https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "heat",
+   "title": {
+    "en": "Heat and hydration"
+   },
+   "body": {
+    "en": "Carry water and refill it. Light yellow or clear urine usually means you are drinking enough. Take breaks in shade. Cramps, heavy sweating, dizziness, headache or nausea: rest and cool down, and tell your nurse if it continues."
+   },
+   "source_url": "https://www.cdc.gov/heat-health/about/index.html",
+   "accessed": "2026-10-29"
+  },
+  {
+   "id": "raw",
+   "title": {
+    "en": "Higher-risk foods"
+   },
+   "body": {
+    "en": "Take extra care with raw or undercooked meat, fish and eggs, raw sprouts, cut melon and unpasteurised milk."
+   },
+   "source_url": "https://www.cdc.gov/food-safety/prevention/index.html",
+   "accessed": "2026-10-29"
+  }
+ ],
+ "first_week": [
+  {
+   "regions": [
+    "gh"
+   ],
+   "market_tip": "wet_market-gh",
+   "safety_tip": "water"
+  },
+  {
+   "market_tip": "wet_market-gh",
+   "safety_tip": "water"
+  }
+ ]
+}
