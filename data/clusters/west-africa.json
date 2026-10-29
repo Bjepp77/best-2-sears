@@ -1757,7 +1757,7 @@
     "en": "Clean hands and surfaces"
    },
    "body": {
-    "en": "Wash hands with soap for at least 20 seconds. Wash knives, boards and counters after each food. Rinse fresh produce under running water."
+    "en": "Wash hands with soap for at least 20 seconds. Wash utensils, boards and counters with hot, soapy water after each food. Rinse fresh produce under running water."
    },
    "source_url": "https://www.cdc.gov/food-safety/prevention/index.html",
    "accessed": "2026-10-29"
@@ -1779,7 +1779,7 @@
     "en": "Cook thoroughly"
    },
    "body": {
-    "en": "Cook meat, fish and eggs through. Reheat leftovers and casseroles until steaming hot throughout (a thermometer target is 165 F / 74 C)."
+    "en": "Cook meat, fish and eggs through. Reheat leftovers and casseroles to 165 F (74 C), checked with a food thermometer."
    },
    "source_url": "https://www.cdc.gov/food-safety/prevention/index.html",
    "accessed": "2026-10-29"
@@ -1859,7 +1859,7 @@
     "en": "Leftovers without a fridge"
    },
    "body": {
-    "en": "Do not leave cooked food out more than 2 hours (1 hour if hotter than 90 F / 32 C). Cook smaller amounts. Reheat until steaming hot or throw it out."
+    "en": "Do not leave cooked food out more than 2 hours (1 hour if hotter than 90 F / 32 C). Cook smaller amounts. Reheat leftovers to 165 F (74 C), checked with a food thermometer."
    },
    "source_url": "https://www.cdc.gov/food-safety/prevention/index.html",
    "accessed": "2026-10-29"
@@ -1881,7 +1881,7 @@
     "en": "Diarrhoea: ORS and red flags"
    },
    "body": {
-    "en": "Use oral rehydration salts (ORS) packets from a pharmacy or your mission nurse. Tell your mission nurse if you see blood in stool or signs of dehydration (sunken eyes, drinking poorly, very tired). For how many days is too long, see the red flags card."
+    "en": "Use oral rehydration salts (ORS). Tell your mission nurse if you see blood in stool or signs of dehydration (sunken eyes, drinking poorly, very tired). For how many days is too long, see the red flags card."
    },
    "source_url": "https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease",
    "accessed": "2026-10-29"
@@ -1892,7 +1892,7 @@
     "en": "Heat and hydration"
    },
    "body": {
-    "en": "Carry water and refill it. Light yellow or clear urine usually means you are drinking enough. Take breaks in shade. Cramps, heavy sweating, dizziness, headache or nausea: rest and cool down, and tell your nurse if it continues."
+    "en": "Carry water and refill it. Light yellow or clear urine usually means you are drinking enough. Take breaks in shade. Cramps, heavy sweating, dizziness, headache or nausea: rest and cool down."
    },
    "source_url": "https://www.cdc.gov/heat-health/about/index.html",
    "accessed": "2026-10-29"

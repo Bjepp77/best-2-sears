@@ -2399,7 +2399,7 @@
     "en": "Cook until hot all the way through"
    },
    "body": {
-    "en": "Color and texture are not reliable signs that food is done. The WHO poster targets 70 C inside for meat and poultry. Keep chicken and fish dishes at a steady simmer until cooked through, with no pink at the bone."
+    "en": "Color and texture are not reliable signs that food is done (seafood aside). The only sure check is a food thermometer: chicken should reach 165 F (74 C) inside."
    },
    "source_url": "https://www.cdc.gov/food-safety/prevention/index.html",
    "accessed": "2026-10-29"
@@ -2410,7 +2410,7 @@
     "en": "Keep raw and cooked apart"
    },
    "body": {
-    "en": "Keep raw meat, poultry, fish and eggs away from ready-to-eat food. Bag raw fish and meat separately at the market. Use a separate board and knife for raw food, or wash them between uses."
+    "en": "Keep raw meat, poultry, fish and eggs away from ready-to-eat food. Use one board or plate for raw meat and fish, and wash it with hot, soapy water before using it for other food."
    },
    "source_url": "https://www.cdc.gov/food-safety/prevention/index.html",
    "accessed": "2026-10-29"
@@ -2480,7 +2480,7 @@
    "body": {
     "en": "Wash with soap and clean water for at least 20 seconds before preparing food, before eating, and after using the toilet. If there is no soap and water, use a hand sanitizer with at least 60% alcohol."
    },
-   "source_url": "https://www.cdc.gov/handwashing/when-how-handwashing.html",
+   "source_url": "https://www.cdc.gov/clean-hands/about/index.html",
    "accessed": "2026-10-29"
   },
   {
@@ -2511,7 +2511,7 @@
     "en": "Diarrhea: ORS and when to tell the nurse"
    },
    "body": {
-    "en": "Use oral rehydration salts (ORS) packets, mixed exactly as the packet says with clean water. Do not make your own mix. Tell your mission nurse if you have blood in the stool, signs of dehydration (sunken eyes, drinking poorly, very sleepy), or cannot keep fluids down. For how many days is too long, see the red flags card."
+    "en": "Use oral rehydration salts (ORS), mixed exactly as the packet says with clean water. Tell your mission nurse if you have blood in the stool or signs of dehydration (sunken eyes, drinking poorly, very sleepy). For how many days is too long, see the red flags card."
    },
    "source_url": "https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease",
    "accessed": "2026-10-29"
@@ -2533,7 +2533,7 @@
     "en": "At the palengke"
    },
    "body": {
-    "en": "WHO's five keys for traditional food markets: keep clean, avoid contamination, keep food products safe, reduce contact with animals, and stay safe and protect yourself. Wash your hands after the market, especially after touching live animals or raw meat."
+    "en": "WHO's five keys for traditional food markets: keep clean, avoid contamination, keep food products safe, reduce contact with animals, and stay safe and protect yourself."
    },
    "source_url": "https://www.who.int/publications/i/item/9789290619956",
    "accessed": "2026-10-29"
