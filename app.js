@@ -349,7 +349,7 @@ function panelShop() {
           p ? h('span', { class: 'price' },
             `${p.currency} ${p.low === p.high || p.high == null ? p.low : `${p.low}-${p.high}`} per ${p.unit}`,
             p.market ? `, ${p.market}` : '', `, ${fmtMonth(p.observed)}, rough estimate. `, sourceLink(p.source_url, 'Price source')) : null,
-          s.prep_hazard ? h('span', { class: 'note' }, t(s.prep_hazard), ' ', sourceLink(s.hazard_source_url, 'Safety source')) : null,
+          [s.shop_hazard, s.prep_hazard].filter(Boolean).map((x) => h('span', { class: 'note' }, t(x), ' ', sourceLink(s.hazard_source_url, 'Safety source'))),
           ' ', sourceLink(s.source_url))))]),
       h('p', { class: 'muted' }, 'Prices are rough estimates, never exact. Cost labels compare foods within this area only.')),
   ];
